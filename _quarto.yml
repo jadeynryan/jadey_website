@@ -38,7 +38,7 @@ website:
       - text: the coding cats shop
         icon: bag-heart-fill
         aria-label: the coding cats shop
-        href: shop.qmd
+        href: https://thecodingcats.etsy.com
     tools:
       - icon: github
         aria-label: GitHub
@@ -68,5 +68,6 @@ format:
     highlight-style: a11y
     smooth-scroll: true
     code-link: true
+    link-external-newwindow: true
 
 

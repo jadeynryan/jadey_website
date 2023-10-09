@@ -115,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./shop.html" rel="" target=""><i class="bi bi-bag-heart-fill" role="img" aria-label="the coding cats shop">
+    <a class="nav-link" href="https://thecodingcats.etsy.com" rel="" target=""><i class="bi bi-bag-heart-fill" role="img" aria-label="the coding cats shop">
 </i> 
  <span class="menu-text">the coding cats shop</span></a>
   </li>  
@@ -420,6 +420,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/jadeynryan\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

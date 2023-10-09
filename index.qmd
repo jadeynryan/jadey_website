@@ -24,7 +24,7 @@ htmltools::includeHTML("assets/about-links.html")
 
 Thanks for visiting my website -- I'm happy you're here!
 
-I started a small business to tap into my creativity and combine two of my favorite things: cats and code. I create designs that embody the general theme of cats, programming, and data science. Check out my shop [**the coding cats**](https://thecodingcats.etsy.com)!
+I started a small business to tap into my creativity and combine two of my favorite things: cats and code. I create designs that embody the general theme of cats, programming, and data science. Check out my Etsy shop [**the coding cats**](shop.qmd)!
 
 In my day job, I work as a data scientist for the [Natural Resources and Agricultural Sciences](https://agr.wa.gov/agscience) section within the Washington State Department of Agriculture. I have a background in natural sciences (BS in Biology, BA in Environmental Studies, and MS in Land Resources & Environmental Sciences). My R programming skills were self/community taught in an effort to improve efficiency, accuracy, and reproducibility in data analyses and visualizations.
 

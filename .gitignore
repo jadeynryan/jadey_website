@@ -1,5 +1,6 @@
 .Renviron
 /.quarto/
+/_site/
 .Rproj.user
 .Rhistory
 .Rdata

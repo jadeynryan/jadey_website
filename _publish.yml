@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: b58c2e5b-cf60-4b13-aa25-743b13f3cbf7
+      url: 'https://jadeynryan.com'

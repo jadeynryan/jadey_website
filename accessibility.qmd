@@ -1,0 +1,30 @@
+---
+title: "Accessibility commitment"
+---
+
+Making sure all content I publish on the web is accessible to anyone and everyone is very important to me. While I'm not an expert on web design or accessibility, I am committed to trying my best. 
+
+This accessibility commitment was adapted from [Silvia Canelón's excellent blog](https://silviacanelon.com/accessibility).
+
+## Feedback
+
+I welcome any feedback on the accessibility and inclusivity of my site and content. Please let me know if you encounter any accessibility barriers or areas for improvement and I'll do my best to remedy them.
+
+## Accessibility practices
+
+This site has been designed with the following features in mind:
+
+- A color palette that meets [WCAG 2.1 AA](https://www.w3.org/WAI/WCAG21/quickref/) standards for contrast.
+- Alternative text for all informative images.
+- Readable font faces, specifically to avoid impostor letter shapes and mirroring.
+  - 1iIl should all look different from one another. 
+  - This site primarily uses Merriweather for headings, Atkinson Hyperlegible for body text (developed by the [Braille Institute](https://brailleinstitute.org/freefont)), and Fira Code for code.
+- A table of contents in the sidebars for easier navigation.
+
+## Accessibility tools
+
+-   [Colour Contrast Checker](https://colourcontrast.cc/)
+-   [Viz Palette](https://projects.susielu.com/viz-palette)
+- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
+-   [Microsoft Edge Accessibility Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/accessibility/test-inspect-tool)
+-   [Google Chrome Accessibility Features Reference](https://developer.chrome.com/docs/devtools/accessibility/reference/)

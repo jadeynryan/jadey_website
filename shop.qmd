@@ -1,0 +1,7 @@
+---
+title: "Shop"
+listing:
+  contents: shop/products/*.qmd
+  type: grid
+  image-align: "left"
+---

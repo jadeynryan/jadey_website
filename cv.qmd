@@ -1,0 +1,15 @@
+---
+title: "Curriculum Vitae"
+---
+
+## {{< fa briefcase >}} Professional Experience
+
+## {{< fa user-group >}} Organizations
+
+## {{< fa graduation-cap >}} Education
+
+## {{< fa book >}} Publications
+
+## {{< fa person-chalkboard >}} Presentations
+
+## {{< fa user-gear >}} Skills

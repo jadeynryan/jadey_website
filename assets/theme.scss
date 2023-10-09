@@ -1,0 +1,235 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Merriweather:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
+
+// Colors
+
+// Most colors adopted from https://palx.jxnblk.com/
+// with base color #0b7366
+
+$white:  #fff;
+$gray-0: #f9f9f9;
+$gray-1: #eceeee;
+$gray-2: #dfe1e1;
+$gray-3: #d0d4d3;
+$gray-4: #c0c5c4;
+$gray-5: #aeb4b3;
+$gray-6: #99a1a0;
+$gray-7: #818b8a;
+$gray-8: #626f6d;
+$gray-9: #334240;
+$black:  #000;
+
+// colors
+$teal:        #0b7366;
+$teal-light:  #f6fafa;
+$teal-dark:   #07483f;
+$blue:        #658ea6;
+$blue-dark:   #0a4364;
+$indigo:      #989ec4;
+$indigo-dark: #2b3786;
+$pink:        #c192b0;
+$pink-dark:   #771252;
+$orange:      #a98069;
+$orange-light:#e9dfd9;
+$orange-dark: #6a2d0a;
+$green:       #56984c;
+$green-dark:  #104a07;
+
+$primary:       $teal;
+$secondary:     $orange;
+$success:       $green;
+$info:          $blue;
+$warning:       $indigo;
+$danger:        $indigo-dark;
+$light:         $gray-0;
+$dark:          $gray-9;
+
+// Base document colors
+$navbar-bg: $primary; // navbar
+$navbar-fg: $teal-light; // navbar foreground elements
+$navbar-hl: $white; // highlight color when hovering over navbar links
+$link-color: $orange-dark; // hyperlinks
+
+// Inline code
+$code-bg: $orange-light; // inline code background color
+$code-color: $orange-dark; // inline code text color
+
+// Code blocks
+$code-block-bg: $white; // code block background color
+
+// Contrast
+$min-contrast-ratio:   7;
+
+/*-- scss:rules --*/
+
+h1, h2 {
+  font-weight: 900;
+  font-family: Merriweather, serif;
+  color: $teal-dark;
+}
+
+h3, h4 {
+  font-weight: 700;
+  font-family: Merriweather, serif;
+  color: $teal;
+}
+
+.lead {
+  font-size: 1em;
+}
+
+code {
+  font-family: Fira Code, monospace;
+}
+
+body {
+  font-family: Atkinson Hyperlegible, Nunito, sans-serif;
+  background-color: $gray-2;
+}
+
+// content padding and background
+
+#quarto-document-content {
+  background-color: $gray-0 !important;
+  padding: 1em;
+  border-radius: 15px;
+}
+
+#TOC {
+  background-color: $gray-0 !important;
+  padding: 1em;
+  border-radius: 15px;
+  margin-top: 0.7em;
+}
+
+// about links from quarto trestles
+.about-links {
+  display: flex;
+  justify-content: center;
+}
+
+@media(min-width: 992px) {
+.about-links {
+  flex-direction:row;
+  column-gap: .8em;
+  row-gap: 15px;
+  flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 991.98px) {
+.about-links {
+  flex-direction:column;
+  row-gap: 1em;
+  width: 100%;
+  padding-bottom: 1.5em;
+    }
+}
+
+.about-link {
+  color: $gray-8;
+  text-decoration: none;
+  border: solid 1px;
+}
+
+@media(min-width: 992px) {
+.about-link {
+  font-size:.8em;
+  padding: .25em .5em;
+  border-radius: 4px;
+    }
+}
+
+@media(max-width: 991.98px) {
+.about-link {
+  font-size: 1.1em;
+  padding: .5em .5em;
+  text-align: center;
+  border-radius: 6px;
+  }
+}
+
+.about-link:hover {
+  color: $orange-dark;
+}
+
+.about-link i.bi {
+  margin-right: .15em;
+}
+
+// nav footer
+
+body .nav-footer {
+  border-top: 1px solid $gray-5;
+}
+
+.nav-footer {
+  background-color: $gray-2;
+  color: $gray-9;
+}
+
+.nav-footer a {
+    color: $gray-9;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 991.98px) {
+
+// make nice footer rows
+// from Silvia's blog source code: https://github.com/spcanelon/silvia/blob/main/assets/silvia-theme.scss
+
+  .nav-footer {
+      flex-direction: row;
+    }
+
+  .nav-footer-center {
+    order: 1 !important;
+    flex-basis: 100%;
+    margin: 0 0 -1.2em 0;
+  }
+
+  .nav-footer-right {
+    order: 2 !important;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .nav-footer-left {
+    order: 3 !important;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .navbar .quarto-navbar-tools {
+    text-align: left;
+  }
+}
+
+// images
+
+.headshot {
+  margin-bottom: 1.5em;
+  border-radius: 50%;
+  width: 12em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.figure-img {
+    margin-bottom: 0;
+    line-height: 0;
+    border-radius: 5px;
+}
+
+// specific classes
+
+.center-text {
+  text-align: center;
+}
+
+.img-va-bottom {
+  vertical-align: bottom;
+}

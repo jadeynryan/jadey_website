@@ -1,0 +1,72 @@
+project:
+  type: website
+
+website:
+  title: "Jadey Ryan"
+  site-url: https://jadeynryan.com
+  description: "Jadey Ryan's personal website"
+  favicon: assets/JR-favicon.svg
+  open-graph:
+    locale: en_EN
+    site-name: Jadey Ryan
+  page-navigation: true
+  navbar:
+    pinned: true
+    logo: assets/JR-logo-white.svg
+    logo-alt: "cat with tail shaped as the letter J next to last name initial R"
+    left:
+      - text: About
+        icon: person-circle
+        aria-label: about me
+        href: index.qmd
+      - text: CV
+        icon: file-earmark-text-fill
+        aria-label: cv
+        href: cv.qmd
+      - text: Blog
+        icon: pen-fill
+        aria-label: blog
+        href: blog.qmd
+      - text: Talks
+        aria-label: talks
+        icon: mic-fill
+        href: talks.qmd
+      - text: Projects
+        icon: puzzle-fill
+        aria-label: projects
+        href: projects.qmd
+      - text: the coding cats shop
+        icon: bag-heart-fill
+        aria-label: the coding cats shop
+        href: shop.qmd
+    tools:
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/jadeynryan
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/jadeynryan/
+      - icon: mastodon
+        aria-label: Mastodon
+        href: https://fosstodon.org/@jadeynryan
+  page-footer:
+    border: true
+    left: "&#169; 2023 Jadey Ryan"
+    center: "made with &#x2665; and [Quarto](https://quarto.org)"
+    right:
+      - text: Accessibility
+        aria-label: accessibility
+        href: accessibility.qmd
+      - text: License
+        aria-label: license
+        href: license.qmd
+
+format:
+  html:
+    theme: [flatly, assets/theme.scss]
+    toc: true
+    highlight-style: a11y
+    smooth-scroll: true
+    code-link: true
+
+

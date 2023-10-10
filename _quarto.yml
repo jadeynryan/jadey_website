@@ -1,5 +1,7 @@
 project:
   type: website
+execute:
+  freeze: auto
 
 website:
   title: "Jadey Ryan"

@@ -1,8 +1,62 @@
 ---
 title: "Curriculum Vitae"
+format:
+  html: default
+toc-depth: 4
+anchor-sections: false
 ---
 
 ## {{< fa briefcase >}} Professional Experience
+
+![](assets/img/wsda.png){width="80px" fig-alt="Washington State Department of Agriculture logo"} **Washington State Department of Agriculture**
+
+[Data Scientist]{.h5} [Jan 2022 -- Present]{.cv-date}
+
+-   Collect and process soil and climate data from diverse sources to compile in a statewide soil health database using Kisters WISKI software.
+-   Use R and ArcGIS to develop data products and decision support tools such as Shiny web applications, ArcGIS dashboards, and ArcGIS Experience Builder web applications.
+-   Use GitHub for version control and to promote open access data and code.
+-   Collaborate with the Soil Health team to develop standard operating procedures and a quality assurance project plan to establish a soil health monitoring program.
+-   Coordinate and facilitate meetings with intra- and inter- agency partners and stakeholders.
+
+[Environmental Specialist]{.h5} [Jun 2020 -- Jan 2022]{.cv-date}
+
+In addition to duties as Environmental Technician:
+
+-   Contributed data analysis, writing, and editing to the annual fact sheets and technical report.
+-   Collaborated with the Surface Water Monitoring Program team to improve standard operating procedures and quality assurance project plan.
+-   Provided administrative support for timekeeping, purchasing, and travel.
+
+[Environmental Technician]{.h5} [Jun 2019 -- May 2020]{.cv-date}
+
+-   Calibrated a water quality sonde and prepared chain of custodies and sample labels.
+-   Collected water samples from salmonid-bearing wadable streams for pesticide analysis and measured streamflow using an electromagnetic current meter.
+-   Performed quality assurance checks on data each week after sampling.
+
+![](assets/img/plu.gif){width="60px" fig-alt="Pacific Lutheran University logo"} **Pacific Lutheran University**
+
+[Lab Prep and/or Teaching Assistant]{.h5} [Jan 2017 -- May 2017]{.cv-date}
+
+Genetics, Microbiology, and Molecular Biology:
+
+-   Communicated with professors, lab manager, and peers to plan and implement preparation of organisms, media, reagents, and equipment. 
+-   Guided students through the labs.
+
+![](assets/img/tacoma-water.jpeg){width="80px" fig-alt="Tacoma Water logo"} **Tacoma Water**
+
+[Skilled Occupational Intern]{.h5} [Nov 2015 -- May 2019]{.cv-date}
+
+-   Used XC2 software for data entry, auditing, research, and correction of discrepancies for backflow preventer assembly installation and testing records for the Cross Connection Control program.
+-   Delivered consistent and compassionate customer service when interacting with customers in person, by phone, or by email.
+-   Collected water samples from the primary source (Green River Watershed) and various points within the distribution system for investigative sampling. 
+-   Performed various water quality analyses in the field and lab using turbidimeters, colorimeters, and spectrometers.
+
+![](assets/img/omi.gif){width="60px" fig-alt="Ocean Mammal Institute logo"} **Ocean Mammal Institute**
+
+[Intern]{.h5} [Jan 2017]{.cv-date}
+
+-   Participated in lectures, discussions, and field research to learn about the biology and behavior of humpback whales, politics associated with marine mammal protection, and ecopsychology. 
+-   Applied shore-based data collection methods to research the impact of vessel traffic on Hawaiian Humpback whales by monitoring their behaviors and movements.
+-   Developed and presented a poster of my results at the 23rd Annual Natural Sciences Academic Festival at Pacific Lutheran University.
 
 ## {{< fa user-group >}} Organizations
 

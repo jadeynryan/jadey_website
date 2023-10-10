@@ -1,9 +1,10 @@
 ---
 toc: false
-page-layout: full
+execute: 
+  echo: false
 ---
 
-![](assets/headshot.jpg){.headshot fig-alt="Headshot of smiling asian woman with long dark hair, glasses, and a light blue shirt."}
+![](assets/img/headshot.jpg){.headshot fig-alt="Headshot of smiling asian woman with long dark hair, glasses, and a light blue shirt."}
 
 ::: {.center-text}
 # Jadey Ryan
@@ -12,12 +13,14 @@ page-layout: full
 :::
 
 ::: {.about-links}
-```{r, echo=FALSE}
-htmltools::includeHTML("assets/about-links.html")
+
+```{r}
+htmltools::includeHTML("assets/html/about-links.html")
 ```
+
 :::
 
-## Hi there! ![](assets/JR-logo.svg){.img-va-bottom fig-alt="cat with tail shaped as the letter J next to last name initial R" width="100"}
+## Hi there! ![](assets/img/JR-logo.svg){.img-va-bottom fig-alt="cat with tail shaped as the letter J next to last name initial R" width="100"}
 
 Thanks for visiting my website -- I'm happy you're here!
 
@@ -29,4 +32,4 @@ The core values I live by are **kindness**, **authenticity**, **sustainability**
 
 I am happiest when hanging out with my husband and three snowshoe siamese cats, trying new foods, playing in the beautiful outdoors, automating tedious tasks, and developing data driven decision-support tools.
 
-![](assets/mts.jpeg){fig-alt="Three snowshoe siamese cats laying under a Christmas tree." fig-align="center" width="100%" height="auto"}
+![](assets/img/mts.jpeg){fig-alt="Three snowshoe siamese cats laying under a Christmas tree." fig-align="center" width="100%" height="auto"}

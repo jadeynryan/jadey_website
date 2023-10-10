@@ -7,14 +7,14 @@ website:
   title: "Jadey Ryan"
   site-url: https://jadeynryan.com
   description: "Jadey Ryan's personal website"
-  favicon: assets/JR-favicon.svg
+  favicon: assets/img/JR-favicon.svg
   open-graph:
     locale: en_EN
     site-name: Jadey Ryan
   page-navigation: true
   navbar:
     pinned: true
-    logo: assets/JR-logo-white.svg
+    logo: assets/img/JR-logo-white.svg
     logo-alt: "cat with tail shaped as the letter J next to last name initial R"
     left:
       - text: About
@@ -65,8 +65,9 @@ website:
 
 format:
   html:
-    theme: [flatly, assets/theme.scss]
+    theme: [flatly, assets/scss/theme.scss]
     toc: true
+    page-layout: full
     highlight-style: a11y
     smooth-scroll: true
     code-link: true

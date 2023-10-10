@@ -76,6 +76,12 @@ h3, h4 {
   color: $teal;
 }
 
+h5, h6 {
+  font-weight: 700;
+  font-family: Merriweather, serif;
+  color: $teal;
+}
+
 .lead {
   font-size: 1em;
 }
@@ -101,9 +107,13 @@ body {
   background-color: $gray-0 !important;
   padding: 1em;
   border-radius: 15px;
-  margin-top: 0.7em;
 }
 
+@media(max-width: 991.98px) {
+#TOC {
+  margin-top: 0.7em;
+  }
+}
 // about links from quarto trestles
 .about-links {
   display: flex;
@@ -232,4 +242,9 @@ body .nav-footer {
 
 .img-va-bottom {
   vertical-align: bottom;
+}
+
+.cv-date {
+  float: right;
+  color: $gray-8;
 }

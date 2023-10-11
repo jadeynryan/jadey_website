@@ -8,12 +8,12 @@ anchor-sections: false
 
 ## {{< fa briefcase >}} Professional Experience
 
-![](assets/img/wsda.png){width="80px" fig-alt="Washington State Department of Agriculture logo"} **Washington State Department of Agriculture**
+![](assets/img/wsda.png){width="80px" fig-alt="Washington State Department of Agriculture logo"} [Washington State Department of Agriculture]{.h3}
 
 [Data Scientist]{.h5} [Jan 2022 -- Present]{.cv-date}
 
 -   Collect and process soil and climate data from diverse sources to compile in a statewide soil health database using Kisters WISKI software.
--   Use R and ArcGIS to develop data products and decision support tools such as Shiny web applications, ArcGIS dashboards, and ArcGIS Experience Builder web applications.
+-   Use R, Python, and ArcGIS to develop data products and decision support tools such as Shiny web applications, ArcGIS dashboards, and ArcGIS Experience Builder web applications.
 -   Use GitHub for version control and to promote open access data and code.
 -   Collaborate with the Soil Health team to develop standard operating procedures and a quality assurance project plan to establish a soil health monitoring program.
 -   Coordinate and facilitate meetings with intra- and inter- agency partners and stakeholders.
@@ -32,38 +32,138 @@ In addition to duties as Environmental Technician:
 -   Collected water samples from salmonid-bearing wadable streams for pesticide analysis and measured streamflow using an electromagnetic current meter.
 -   Performed quality assurance checks on data each week after sampling.
 
-![](assets/img/plu.gif){width="60px" fig-alt="Pacific Lutheran University logo"} **Pacific Lutheran University**
+![](assets/img/plu.gif){width="60px" fig-alt="Pacific Lutheran University logo"} [Pacific Lutheran University]{.h3}
 
 [Lab Prep and/or Teaching Assistant]{.h5} [Jan 2017 -- May 2017]{.cv-date}
 
 Genetics, Microbiology, and Molecular Biology:
 
--   Communicated with professors, lab manager, and peers to plan and implement preparation of organisms, media, reagents, and equipment. 
+-   Communicated with professors, lab manager, and peers to plan and implement preparation of organisms, media, reagents, and equipment.
 -   Guided students through the labs.
 
-![](assets/img/tacoma-water.jpeg){width="80px" fig-alt="Tacoma Water logo"} **Tacoma Water**
+![](assets/img/tacoma-water.jpeg){width="80px" fig-alt="Tacoma Water logo"} [Tacoma Water]{.h3}
 
 [Skilled Occupational Intern]{.h5} [Nov 2015 -- May 2019]{.cv-date}
 
 -   Used XC2 software for data entry, auditing, research, and correction of discrepancies for backflow preventer assembly installation and testing records for the Cross Connection Control program.
 -   Delivered consistent and compassionate customer service when interacting with customers in person, by phone, or by email.
--   Collected water samples from the primary source (Green River Watershed) and various points within the distribution system for investigative sampling. 
+-   Collected water samples from the primary source (Green River Watershed) and various points within the distribution system for investigative sampling.
 -   Performed various water quality analyses in the field and lab using turbidimeters, colorimeters, and spectrometers.
+-   Designed and implemented two pilot studies in the Green River Watershed (Water Quality Index and Trace Metals Screening).
 
-![](assets/img/omi.gif){width="60px" fig-alt="Ocean Mammal Institute logo"} **Ocean Mammal Institute**
+![](assets/img/omi.gif){width="60px" fig-alt="Ocean Mammal Institute logo"} [Ocean Mammal Institute]{.h3}
 
 [Intern]{.h5} [Jan 2017]{.cv-date}
 
--   Participated in lectures, discussions, and field research to learn about the biology and behavior of humpback whales, politics associated with marine mammal protection, and ecopsychology. 
+-   Participated in lectures, discussions, and field research to learn about the biology and behavior of humpback whales, politics associated with marine mammal protection, and ecopsychology.
 -   Applied shore-based data collection methods to research the impact of vessel traffic on Hawaiian Humpback whales by monitoring their behaviors and movements.
 -   Developed and presented a poster of my results at the 23rd Annual Natural Sciences Academic Festival at Pacific Lutheran University.
 
-## {{< fa user-group >}} Organizations
-
 ## {{< fa graduation-cap >}} Education
+
+![](assets/img/msu.png){width="80px" fig-alt="Montana State University logo"} [Montana State University]{.h3}
+
+[Master of Science]{.h5} [Sep 2020 -- Aug 2023]{.cv-date}
+
+-   Land Resources and Environmental Sciences
+-   Professional Project: *An Improved Approach to Estimate Wind Erosion in Washington's Columbia Plateau Using Google Earth Engine*
+-   GPA: 4.00/4.00
+-   Graduate Leadership Academy
+
+![](assets/img/plu.gif){width="60px" fig-alt="Pacific Lutheran University logo"} [Pacific Lutheran University]{.h3}
+
+[Bachelor of Science & Bachelor of Arts]{.h5} [Sep 2015 -- May 2019]{.cv-date}
+
+-   B.S. Biology, B.A. Environmental Studies, Minor in Chemistry
+-   Biology Capstone: *Southern Resident Killer Whales: Evidence of Genetic and Reproductive Isolation*
+-   Environmental Studies Capstone: *Saving the Southern Resident Killer Whales: A Co-Management Strategy*
+-   GPA: 3.96/4.00
+-   Activities
+    -   Phi Kappa Phi
+-   Awards and Scholarships
+    -   $550 Funding for Green River Watershed Pilot Studies
+Tacoma Water 
+    -   Certificate of Recognition for Excellence in Inorganic Chemistry
+American Chemical Society
+    -   $60,000 Provost Merit Scholarship 
+Pacific Lutheran University
+
+![](assets/img/tcc.jpeg){width="60px" fig-alt="Tacoma Community College logo"} [Tacoma Community College]{.h3}
+
+[Associate of Science]{.h5} [Sep 2010 -- June 2015]{.cv-date}
+
+-   Biology
+-   [Running Start](https://www.tacomacc.edu/academics-programs/college-high-school/runningstart) student from 2010 through 2012.[^1]
+-   GPA: 3.89/4.00
+-   $5,600 in various merit-based and financial need-based scholarships
+- Activities
+  -   Phi Theta Kappa (Secretary, Vice President, Regional President)
+  -   Latinos Embracing Diversity (Secretary)
+  -   Environmental Club (Active Member)
+
+[^1]: I completed half of my classes at high school and the other half at community college.
+
+## {{< fa user-group >}} Communities and Organizations
+
+![](assets/img/dsh.png){width="60px" fig-alt="Data Science Hangout logo"} [Posit Data Science Hangout](https://posit.co/data-science-hangout/)
+
+![](assets/img/r4ds.jpeg){width="60px" fig-alt="R4DS logo"} [R4DS Learning Community](https://rfordatasci.com/)
+
+![](assets/img/wig.jpeg){width="60px" fig-alt="Women in GovTech logo"} [Women in GovTech](https://women-in-govtech.github.io/)
+
+![](assets/img/rladiesseattle.gif){width="60px" fig-alt="R-Ladies Seattle logo"} [R-Ladies Seattle](https://rladiesseattle.org/)
+
+![](assets/img/seattleuser.webp){width="60px" fig-alt="Seattle useR Group"} [Seattle useR Group](https://www.meetup.com/seattle-user/)
 
 ## {{< fa book >}} Publications
 
+**Ryan, J.N.**, Michel, L., Gelardi, D.G. 2023. Standard Operating Procedure: Soil Health Monitoring in Washington State. Washington State Department of Agriculture, Natural Resources Assessment Section: Olympia, WA. [Publication No. 102-923](https://cms.agr.wa.gov/WSDAKentico/Documents//DO/NRAS/923-NRAS-SoilHealthSOP_WEB.pdf)
+
+Noland, K., Nickelson, A., **Ryan, J.N.**, Drennan, M. 2021. Ambient Monitoring for Pesticides in Washington State Surface Water: 2019 Technical Report. Washington State Department of Agriculture, Natural Resources Assessment Section: Olympia, WA. [Publication No. 102-629](https://cms.agr.wa.gov/WSDAKentico/Documents/Pubs/629-SWMP-TechnicalReport-2019.pdf).
+
+Also co-author for [2018](https://cms.agr.wa.gov/WSDAKentico/Documents/Pubs/629-SWMP-TechnicalReport-2018-REDUCED.pdf) and [2017](https://cms.agr.wa.gov/WSDAKentico/Documents/Pubs/629-SWMP-TechnicalReport-2017.pdf) Technical Reports.
+
+Hancock, J., **Ryan, J.N.** 2021. Pesticide Groundwater Sampling in the Sumas-Blaine Surficial Aquifer. Washington State Department of Agriculture, Natural Resources Assessment Section: Olympia, WA. [Publication No. 103-895](https://cms.agr.wa.gov/WSDAKentico/Documents/Pubs/895-WhatcomSummaryReport-SumasBlaine.pdf).
+
+Tuttle, G., Noland, K., **Ryan, J.N.** 2020. Glyphosate: Ecological Fate and Effects and Human Health Summary. Washington State Department of Agriculture, Natural Resources Assessment Section: Olympia, WA. [Publication No. 809-817](https://agr.wa.gov/getmedia/1a7d9deb-18dd-4604-84fd-da3805750854/871-wsdaglyphosatesummary2020).
+
+**Ryan, J.N.** 2020. Understanding Pesticide Leaching Potential and Protecting Groundwater. Washington State Department of Agriculture, Natural Resources Assessment Section: Olympia, WA. [Publication No. 809-865](https://cms.agr.wa.gov/WSDAKentico/Documents/Pubs/865-NRASLeachingPotentialFactsheet.pdf).
+
+**Ryan, J.N.** 2020. Pesticide Application and Water Quality. Washington State Department of Agriculture, Natural Resources Assessment Section: Olympia, WA. [Publication No. 102-850](https://cms.agr.wa.gov/WSDAKentico/Documents/850-NRAS-PesticideApplication-WaterQuality-FINAL.pdf).
+
+**Ryan, J.N.** 2020. Understanding Pesticide Product Labels. Washington State Department of Agriculture, Natural Resources Assessment Section: Olympia, WA. [Publication No. 102-849](https://cms.agr.wa.gov/WSDAKentico/Documents/Pubs/849-NRAS-Interpreting-Labels.pdf).
+
 ## {{< fa person-chalkboard >}} Presentations
 
+Posit
+
+Cascadia
+
+WADE
+
+R-Ladies Seattle
+
+WAGISA
+
+**Ryan, J.N.** 2021. Organophosphate insecticide mixtures in Washington surface waters. Virtual North American 42nd Annual Meeting, Society of Environmental Toxicology and Chemistry.
+
+**Ryan, J.N.** 2021. Organophosphate insecticide mixtures in Washington surface waters. Virtual Annual Water Resources Conference, American Water Resources Association.
+
 ## {{< fa user-gear >}} Skills
+
+[Software and Programming]{.h5}
+
+-   Proficient in R, Microsoft Office, ArcGIS (Pro, Dashboards, and Experience). 
+-   Developing in Python, Arcade, SQL, WISKI.
+-   Utilizing resources (e.g. internet, program/package documentation, colleagues) to quickly understand a problem and find/implement the solution. 
+
+[Research and Field Work]{.h5}
+
+-   Conducting literature reviews
+-   Soil sampling using step probes, soil probes with slide hammers, and bulk density samplers.
+-   Collecting and analyzing water quality data using Hach colorimeters and turbidimeters, YSI ProDSS multiparameter meters, HOBO data loggers, and OTT MF Pro streamflow meter.
+
+[Collaboration and Communication]{.h5}
+
+-   Coordinating and facilitating meetings with intra- and inter-agency partners.
+-   Writing, editing, and reviewing data communication products for technical, policy, and general public audiences.

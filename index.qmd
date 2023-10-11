@@ -24,12 +24,14 @@ htmltools::includeHTML("assets/html/about-links.html")
 
 Thanks for visiting my website -- I'm happy you're here!
 
-I started a small business to tap into my creativity and combine two of my favorite things: cats and code. I create designs that embody the general theme of cats, programming, and data science. Check out my Etsy shop [**the coding cats**](shop.qmd)!
-
-In my day job, I work as a data scientist for the [Natural Resources and Agricultural Sciences](https://agr.wa.gov/agscience) section within the Washington State Department of Agriculture. I have a background in natural sciences (BS in Biology, BA in Environmental Studies, and MS in Land Resources & Environmental Sciences). My R programming skills were self/community taught in an effort to improve efficiency, accuracy, and reproducibility in data analyses and visualizations.
+I work as a data scientist for the [Natural Resources and Agricultural Sciences](https://agr.wa.gov/agscience) section within the Washington State Department of Agriculture. I have a background in natural sciences (BS in Biology, BA in Environmental Studies, and MS in Land Resources & Environmental Sciences). My R programming skills were self/community taught in an effort to improve efficiency, accuracy, and reproducibility in data analyses and visualizations.
 
 The core values I live by are **kindness**, **authenticity**, **sustainability**, and **inclusivity**. I feel particularly fulfilled working in the environmental data science space and meeting so many amazing folks in the R and open-source community.
 
-I am happiest when hanging out with my husband and three snowshoe siamese cats, trying new foods, playing in the beautiful outdoors, automating tedious tasks, and developing data driven decision-support tools.
+Persuaded by several folks who had positive reactions to my [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR?utm_source=share&utm_medium=member_desktop) I made for `posit::conf(2023)`, I started a small business! I am excited to tap into my creativity and combine some of my favorite things in designs that embody cats, programming, and data science. `Coming soon`: check out my Etsy shop [**the coding cats**](shop.qmd)!
+
+Professionally, I am happiest automating tedious tasks and developing data driven decision-support tools. 
+
+Personally, I am happiest hanging out with my husband and three snowshoe siamese cats, trying new foods, and playing in the beautiful outdoors.
 
 ![](assets/img/mts.jpeg){fig-alt="Three snowshoe siamese cats laying under a Christmas tree." fig-align="center" width="100%" height="auto"}

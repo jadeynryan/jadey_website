@@ -1,7 +1,6 @@
 ---
 toc: false
-execute: 
-  echo: false
+anchor-sections: false
 ---
 
 ![](assets/img/headshot.jpg){.headshot fig-alt="Headshot of smiling asian woman with long dark hair, glasses, and a light blue shirt."}
@@ -12,13 +11,23 @@ execute:
 🐱cat-obsessed environmental data scientist 👩🏻‍💻
 :::
 
-::: {.about-links}
+:::: {.d-flex .gap-2 .justify-content-center}
 
-```{r}
-htmltools::includeHTML("assets/html/about-links.html")
-```
+<a href="https://github.com/jadeynryan" class="btn btn-outline-secondary" rel="" target="">
+  <i class="bi bi-github"></i>
+   GitHub
+</a> 
 
-:::
+  <a href="https://www.linkedin.com/in/jadeynryan/" class="btn btn-outline-secondary" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     LinkedIn
+  </a>
+  
+  <a href="https://fosstodon.org/@jadeynryan" class="btn btn-outline-secondary" rel="" target="">
+    <i class="bi bi-mastodon"></i>
+     Mastodon
+  </a>
+::::
 
 ## Hi there! ![](assets/img/JR-logo.svg){.img-va-bottom fig-alt="cat with tail shaped as the letter J next to last name initial R" width="100"}
 

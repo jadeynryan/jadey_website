@@ -38,7 +38,7 @@ $green:       #56984c;
 $green-dark:  #104a07;
 
 $primary:       $teal;
-$secondary:     $orange;
+$secondary:     $orange-dark;
 $success:       $green;
 $info:          $blue;
 $warning:       $indigo;
@@ -118,60 +118,6 @@ body {
 #TOC {
   margin-top: 0.7em;
   }
-}
-// about links from quarto trestles
-.about-links {
-  display: flex;
-  justify-content: center;
-}
-
-@media(min-width: 992px) {
-.about-links {
-  flex-direction:row;
-  column-gap: .8em;
-  row-gap: 15px;
-  flex-wrap: wrap;
-    }
-}
-
-@media(max-width: 991.98px) {
-.about-links {
-  flex-direction:column;
-  row-gap: 1em;
-  width: 100%;
-  padding-bottom: 1.5em;
-    }
-}
-
-.about-link {
-  color: $gray-8;
-  text-decoration: none;
-  border: solid 1px;
-}
-
-@media(min-width: 992px) {
-.about-link {
-  font-size:.8em;
-  padding: .25em .5em;
-  border-radius: 4px;
-    }
-}
-
-@media(max-width: 991.98px) {
-.about-link {
-  font-size: 1.1em;
-  padding: .5em .5em;
-  text-align: center;
-  border-radius: 6px;
-  }
-}
-
-.about-link:hover {
-  color: $orange-dark;
-}
-
-.about-link i.bi {
-  margin-right: .15em;
 }
 
 // nav footer

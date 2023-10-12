@@ -2,13 +2,20 @@
 title: "Curriculum Vitae"
 format:
   html: default
-toc-depth: 4
 anchor-sections: false
 ---
 
 ## {{< fa briefcase >}} Professional Experience
 
-![](assets/img/wsda.png){width="80px" fig-alt="Washington State Department of Agriculture logo"} [Washington State Department of Agriculture]{.h3}
+
+:::: {.d-inline-flex style="align-items:baseline"}
+::: {.p-2}
+![](assets/img/wsda.png){width="80px" fig-alt="Washington State Department of Agriculture logo"} 
+:::
+::: {.h3}
+Washington State Department of Agriculture
+:::
+::::
 
 [Data Scientist]{.h5} [Jan 2022 -- Present]{.cv-date}
 
@@ -32,7 +39,14 @@ In addition to duties as Environmental Technician:
 -   Collected water samples from salmonid-bearing wadable streams for pesticide analysis and measured streamflow using an electromagnetic current meter.
 -   Performed quality assurance checks on data each week after sampling.
 
-![](assets/img/plu.gif){width="60px" fig-alt="Pacific Lutheran University logo"} [Pacific Lutheran University]{.h3}
+:::: {.d-inline-flex style="align-items:baseline"}
+::: {.p-2}
+![](assets/img/plu.gif){width="60px" fig-alt="Pacific Lutheran University logo"} 
+:::
+::: {.h3}
+Pacific Lutheran University
+:::
+::::
 
 [Lab Prep and/or Teaching Assistant]{.h5} [Jan 2017 -- May 2017]{.cv-date}
 
@@ -41,8 +55,14 @@ Genetics, Microbiology, and Molecular Biology:
 -   Communicated with professors, lab manager, and peers to plan and implement preparation of organisms, media, reagents, and equipment.
 -   Guided students through the labs.
 
-![](assets/img/tacoma-water.jpeg){width="80px" fig-alt="Tacoma Water logo"} [Tacoma Water]{.h3}
-
+:::: {.d-inline-flex style="align-items:baseline"}
+::: {.p-2}
+![](assets/img/tacoma-water.jpeg){width="80px" fig-alt="Tacoma Water logo"}
+:::
+::: {.h3}
+Tacoma Water
+:::
+::::
 [Skilled Occupational Intern]{.h5} [Nov 2015 -- May 2019]{.cv-date}
 
 -   Used XC2 software for data entry, auditing, research, and correction of discrepancies for backflow preventer assembly installation and testing records for the Cross Connection Control program.
@@ -51,7 +71,14 @@ Genetics, Microbiology, and Molecular Biology:
 -   Performed various water quality analyses in the field and lab using turbidimeters, colorimeters, and spectrometers.
 -   Designed and implemented two pilot studies in the Green River Watershed (Water Quality Index and Trace Metals Screening).
 
-![](assets/img/omi.gif){width="60px" fig-alt="Ocean Mammal Institute logo"} [Ocean Mammal Institute]{.h3}
+:::: {.d-inline-flex style="align-items:baseline"}
+::: {.p-2}
+![](assets/img/omi.gif){width="60px" fig-alt="Ocean Mammal Institute logo"}
+:::
+::: {.h3}
+Ocean Mammal Institute
+:::
+::::
 
 [Intern]{.h5} [Jan 2017]{.cv-date}
 
@@ -61,7 +88,14 @@ Genetics, Microbiology, and Molecular Biology:
 
 ## {{< fa graduation-cap >}} Education
 
-![](assets/img/msu.png){width="80px" fig-alt="Montana State University logo"} [Montana State University]{.h3}
+:::: {.d-inline-flex style="align-items:baseline"}
+::: {.p-2}
+![](assets/img/msu.png){width="80px" fig-alt="Montana State University logo"}
+:::
+::: {.h3}
+Montana State University
+:::
+::::
 
 [Master of Science]{.h5} [Sep 2020 -- Aug 2023]{.cv-date}
 
@@ -70,7 +104,14 @@ Genetics, Microbiology, and Molecular Biology:
 -   GPA: 4.00/4.00
 -   Graduate Leadership Academy
 
-![](assets/img/plu.gif){width="60px" fig-alt="Pacific Lutheran University logo"} [Pacific Lutheran University]{.h3}
+:::: {.d-inline-flex style="align-items:baseline"}
+::: {.p-2}
+![](assets/img/plu.gif){width="60px" fig-alt="Pacific Lutheran University logo"}
+:::
+::: {.h3}
+Pacific Lutheran University
+:::
+::::
 
 [Bachelor of Science & Bachelor of Arts]{.h5} [Sep 2015 -- May 2019]{.cv-date}
 
@@ -81,25 +122,29 @@ Genetics, Microbiology, and Molecular Biology:
 -   Activities
     -   Phi Kappa Phi
 -   Awards and Scholarships
-    -   $550 Funding for Green River Watershed Pilot Studies
-Tacoma Water 
-    -   Certificate of Recognition for Excellence in Inorganic Chemistry
-American Chemical Society
-    -   $60,000 Provost Merit Scholarship 
-Pacific Lutheran University
+    -   \$550 Funding for Green River Watershed Pilot Studies Tacoma Water
+    -   Certificate of Recognition for Excellence in Inorganic Chemistry American Chemical Society
+    -   \$60,000 Provost Merit Scholarship Pacific Lutheran University
 
-![](assets/img/tcc.jpeg){width="60px" fig-alt="Tacoma Community College logo"} [Tacoma Community College]{.h3}
+:::: {.d-inline-flex style="align-items:baseline"}
+::: {.p-2}
+![](assets/img/tcc.jpeg){width="60px" fig-alt="Tacoma Community College logo"}
+:::
+::: {.h3}
+Tacoma Community College
+:::
+::::
 
 [Associate of Science]{.h5} [Sep 2010 -- June 2015]{.cv-date}
 
 -   Biology
 -   [Running Start](https://www.tacomacc.edu/academics-programs/college-high-school/runningstart) student from 2010 through 2012.[^1]
 -   GPA: 3.89/4.00
--   $5,600 in various merit-based and financial need-based scholarships
-- Activities
-  -   Phi Theta Kappa (Secretary, Vice President, Regional President)
-  -   Latinos Embracing Diversity (Secretary)
-  -   Environmental Club (Active Member)
+-   \$5,600 in various merit-based and financial need-based scholarships
+-   Activities
+    -   Phi Theta Kappa (Secretary, Vice President, Regional President)
+    -   Latinos Embracing Diversity (Secretary)
+    -   Environmental Club (Active Member)
 
 [^1]: I completed half of my classes at high school and the other half at community college.
 
@@ -153,9 +198,9 @@ WAGISA
 
 [Software and Programming]{.h5}
 
--   Proficient in R, Microsoft Office, ArcGIS (Pro, Dashboards, and Experience). 
+-   Proficient in R, Microsoft Office, ArcGIS (Pro, Dashboards, and Experience).
 -   Developing in Python, Arcade, SQL, WISKI.
--   Utilizing resources (e.g. internet, program/package documentation, colleagues) to quickly understand a problem and find/implement the solution. 
+-   Utilizing resources (e.g. internet, program/package documentation, colleagues) to quickly understand a problem and find/implement the solution.
 
 [Research and Field Work]{.h5}
 

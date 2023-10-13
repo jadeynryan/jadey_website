@@ -1,33 +1,31 @@
 ---
+title: "Jadey Ryan"
+subtitle: "🐱 cat-obsessed environmental data scientist 🌱"
+image: assets/img/headshot.jpg
+image-alt: "Headshot of smiling asian woman with glasses and long dark hair."
+about:
+  id: hero-heading
+  template: jolla
+  image-width: 10em
+  links:
+    - icon: github
+      text: GitHub
+      aria-label: GitHub
+      href: https://github.com/jadeynryan
+    - icon: linkedin
+      text: LinkedIn
+      aria-label: LinkedIn
+      href: https://www.linkedin.com/in/jadeynryan/
+    - icon: mastodon
+      text: Mastodon
+      aria-label: Mastodon
+      href: https://fosstodon.org/@jadeynryan
 toc: false
 anchor-sections: false
 ---
 
-![](assets/img/headshot.jpg){.headshot fig-alt="Headshot of smiling asian woman with long dark hair, glasses, and a light blue shirt."}
-
-::: {.center-text}
-# Jadey Ryan
-
-🐱cat-obsessed environmental data scientist 👩🏻‍💻
+::: {#hero-heading}
 :::
-
-:::: {.d-flex .gap-2 .justify-content-center}
-
-<a href="https://github.com/jadeynryan" class="btn btn-outline-secondary" rel="" target="">
-  <i class="bi bi-github"></i>
-   GitHub
-</a> 
-
-  <a href="https://www.linkedin.com/in/jadeynryan/" class="btn btn-outline-secondary" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     LinkedIn
-  </a>
-  
-  <a href="https://fosstodon.org/@jadeynryan" class="btn btn-outline-secondary" rel="" target="">
-    <i class="bi bi-mastodon"></i>
-     Mastodon
-  </a>
-::::
 
 ## Hi there! ![](assets/img/JR-logo.svg){.img-va-bottom fig-alt="cat with tail shaped as the letter J next to last name initial R" width="100"}
 

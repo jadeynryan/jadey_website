@@ -20,9 +20,10 @@ Washington State Department of Agriculture
 [Data Scientist]{.h5} [Jan 2022 -- Present]{.cv-date}
 
 -   Collect and process soil and climate data from diverse sources to compile in a statewide soil health database using Kisters WISKI software.
--   Use R, Python, and ArcGIS to develop data products and decision support tools such as Shiny web applications, ArcGIS dashboards, and ArcGIS Experience Builder web applications.
+-   Use R, Python, and ArcGIS to develop data collection and decision support tools such as R Shiny web applications and ArcGIS field maps, dashboards, and Experience Builder web applications.
 -   Use GitHub for version control and to promote open access data and code.
 -   Collaborate with the Soil Health team to develop standard operating procedures and a quality assurance project plan to establish a soil health monitoring program.
+-   Create training videos for R packages and ArcGIS spatial data collection tools that I developed.
 -   Coordinate and facilitate meetings with intra- and inter- agency partners and stakeholders.
 
 [Environmental Specialist]{.h5} [Jun 2020 -- Jan 2022]{.cv-date}
@@ -180,25 +181,28 @@ Tuttle, G., Noland, K., **Ryan, J.N.** 2020. Glyphosate: Ecological Fate and Eff
 
 ## {{< fa person-chalkboard >}} Presentations
 
-Posit
+Parameterized Quarto reports improve understanding of soil health. posit::conf(2023). Chicago, IL. September 20, 2023.
 
-Cascadia
+Shiny optimization of climate benefits from a statewide agricultural grant program. Cascadia R Conf. Seattle, WA. August 19, 2023.
 
-WADE
+Washington's Soil Health Initiative and Climate Smart Estimator. Washington Association of District Employees Conference. Leavenworth, WA. June 13, 2023.
 
-R-Ladies Seattle
+Web Scraping & Mapping {orcas} Encounters. R-Ladies Seattle: R in the Outdoors Meetup. Seattle, WA. April 20, 2023.
 
-WAGISA
+Web Scraping & Mapping {orcas} Encounters. Seattle useR Group Meetup. Seattle, WA. April 20, 2023.
 
-**Ryan, J.N.** 2021. Organophosphate insecticide mixtures in Washington surface waters. Virtual North American 42nd Annual Meeting, Society of Environmental Toxicology and Chemistry.
+Washington Climate Smart Estimator (WaCSE): Using ArcGIS Dashboards and Experience Builder. Washington GIS Association Conference. Virtual. May 25, 2022.
 
-**Ryan, J.N.** 2021. Organophosphate insecticide mixtures in Washington surface waters. Virtual Annual Water Resources Conference, American Water Resources Association.
+Organophosphate insecticide mixtures in Washington surface waters. Annual Water Resources Conference, American Water Resources Association. Virtual. November 9, 2021.
+
+Organophosphate insecticide mixtures in Washington surface waters. North American 42nd Annual Meeting, Society of Environmental Toxicology and Chemistry. Virtual.November 14, 2021.
+
 
 ## {{< fa user-gear >}} Skills
 
 [Software and Programming]{.h5}
 
--   Proficient in R, Microsoft Office, ArcGIS (Pro, Dashboards, and Experience).
+-   Proficient in R, Microsoft Office, ArcGIS (Pro, Field Maps, Dashboards, and Experience).
 -   Developing in Python, Arcade, SQL, WISKI.
 -   Utilizing resources (e.g. internet, program/package documentation, colleagues) to quickly understand a problem and find/implement the solution.
 

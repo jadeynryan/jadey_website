@@ -1,12 +1,14 @@
 ---
 title: "Talks"
-toc: true
 listing:
   contents: talks
-  type: grid
-  date-format: "YYYY-MM-DD"
-  filter-ui: true
-  sort-ui: true
-  image-align: "left"
+  type: default
+  image-align: left
+  fields: 
+    - title
+    - description
+    - date
+    - image
+    - categories
   sort: "date desc"
 ---

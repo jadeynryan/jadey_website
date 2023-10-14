@@ -1,0 +1,32 @@
+---
+title: "Washington Soil Health Initative and Climate Smart Estimator"
+description: "WADE 2023"
+date: "2023-6-13"
+image: featured.png
+image-alt: "Slide with image of about 50 soils of varying colors and textures and text saying we need diverse solutions for diverse soils."
+slug: "2023-washi-wade"
+categories:
+  - agriculture
+  - soil health
+  - climate
+---
+
+<a href="2023_WADE_WaSHI_WaCSE_JR.pdf" download="2023_WADE_WaSHI_WaCSE_JR.pdf" class="listing-btns">{{< fa display >}} Slides<a> <a href="https://youtu.be/PKOQitlLjXI?si=v3tVpDIP3F8xHMtR" class="listing-btns">{{< fa play-circle >}} Recording<a>
+
+### Event
+
+Washington Association of District Employees (WADE) conference
+
+Leavenworth, WA
+
+### Abstract
+
+[Washington Soil Health Initiative](https://washingtonsoilhealthinitiative.com/) overview and updates.
+
+How to get the most of the [Sustainable Farms and Fields](https://www.scc.wa.gov/programs/sustainable-farms-fields) Washington Climate Smart Estimator (WaCSE) tool.
+
+Talk duration: 30 minutes
+
+### Slides
+
+<iframe class="slide-deck" src="2023_WADE_WaSHI_WaCSE_JR.pdf"></iframe>

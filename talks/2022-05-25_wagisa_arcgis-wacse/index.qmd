@@ -1,0 +1,36 @@
+---
+title: "Washington Climate Smart Estimator: Using ArcGIS Dashboards and Experience Builder"
+description: "WAGISA 2022"
+date: "2022-05-25"
+image: featured.png
+image-alt: "Slide describing the development workflow using ArcGIS tools"
+slug: "2022-arcgis-wacse"
+categories:
+  - ArcGIS
+  - agriculture
+  - climate
+---
+
+<a href="2022_WaCSE_WAGISA_JRyan.pdf" download="2022_WaCSE_WAGISA_JRyan.pdf" class="listing-btns">{{< fa display >}} Slides<a> <a href="https://youtu.be/ksLOo6BHbqg?si=EiVyXtfNJzfapo70" class="listing-btns">{{< fa play-circle >}} Recording<a>
+
+### Event
+
+Washington GIS Association (WAGISA) conference
+
+Virtual
+
+### Abstract
+
+Washington’s [Sustainable Farms and Fields](https://www.scc.wa.gov/programs/sustainable-farms-fields) (SFF) program provides financial incentives to growers who implement climate-smart practices that sequester soil carbon or reduce greenhouse gas emissions. The climate change mitigation potential of different on-farm practices depends on many site-specific factors such as geography, climate, soil type, and management history. 
+
+To maximize the climate change mitigation potential of the SFF program, and to optimize the use of every dollar, a decision support tool is required. This presentation demonstrates how two existing spatial datasets (NRCS’ COMET-Planner and WSDA’s Agricultural Land Use) can be integrated into a decision support tool using ArcGIS Dashboards and Experience Builder. This tool, called the Washington Climate Smart Estimator (WaCSE), allows users to compare the climate benefits of different agricultural practices across different counties in Washington. 
+
+By utilizing the intuitive user interface of ArcGIS Dashboards, WaCSE enables swift, science-based estimates of climate benefits, while remaining accessible for audiences of varied technical backgrounds.
+
+[See the old app built with ArcGIS](https://experience.arcgis.com/experience/1982f8e8d9fb4be196b83502f9e6bc28/).
+
+Talk duration: 30 minutes
+
+### Slides
+
+<iframe class="slide-deck" src="2022_WaCSE_WAGISA_JRyan.pdf"></iframe>

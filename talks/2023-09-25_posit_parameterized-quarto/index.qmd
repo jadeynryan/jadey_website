@@ -1,0 +1,38 @@
+---
+title: "Parameterized Quarto reports improve understanding of soil health"
+description: "posit::conf(2023)"
+date: "2023-09-25"
+image: "featured.png"
+image-alt: "A slide titled What are parameterized reports? with a diagram depicting a template report file as a function, parameters as the input, and five reports for different years as the output."
+slug: "2023-quarto-params"
+categories:
+  - R
+  - Quarto
+  - parameterized reports
+  - agriculture
+  - soil health
+---
+
+<a href="https://jadeynryan.github.io/2023_posit-parameterized-quarto/" class="listing-btns">{{< fa display >}} Slides<a> <a href="https://github.com/jadeynryan/2023_posit-parameterized-quarto" class="listing-btns">{{< fa brands github >}} Source Code<a>
+
+### Event
+
+posit::conf(2023)
+
+Chicago, IL
+
+### Abstract
+
+Soil sampling data are notoriously challenging to tidy and effectively communicate to farmers. We used functional programming with the tidyverse to reproducibly streamline data cleaning and summarization. To improve project outreach, we developed a Quarto project to dynamically create interactive HTML reports and printable PDFs. Custom to every farmer, reports include project goals, measured parameter descriptions, summary statistics, maps, tables, and graphs.
+
+Our case study presents a workflow for data preparation and parameterized reporting, with best practices for effective data visualization, interpretation, and accessibility.
+
+See an [example HTML report](https://rawcdn.githack.com/WA-Department-of-Agriculture/soils/944448976992604a12dafbf47258327be0e5ab98/inst/example_reports/example_producer_report.html).
+
+Learn more about the [Washington Soil Health Initiative State of the Soils Assessment](https://washingtonsoilhealthinitiative.com/state-of-the-soils/).
+
+Talk duration: 20 minutes
+
+### Slides
+
+<iframe class="slide-deck" src="https://jadeynryan.github.io/2023_posit-parameterized-quarto/"></iframe>

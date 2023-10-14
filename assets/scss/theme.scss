@@ -66,13 +66,14 @@ $min-contrast-ratio:   7;
 /*-- scss:rules --*/
 
 h1, h2 {
-  font-weight: 900;
+  font-size: 1.3em;
+  font-weight: 700;
   font-family: Merriweather, serif;
   color: $teal-dark;
 }
 
 h3, h4 {
-  font-weight: 700;
+  font-weight: 600;
   font-family: Merriweather, serif;
   color: $teal;
 }
@@ -83,7 +84,7 @@ h3 {
 
 h5, h6 {
   font-size: 1.1em;
-  font-weight: 700;
+  font-weight: 500;
   font-family: Merriweather, serif;
   color: $orange-dark;
 }
@@ -91,6 +92,10 @@ h5, h6 {
 p.subtitle.lead {
   font-size: 1em;
   text-align: center;
+}
+
+#title-block-header.quarto-title-block.default .description {
+  margin-top: 1em;
 }
 
 code {
@@ -123,6 +128,10 @@ div.quarto-about-jolla .about-sep {
 
 div.quarto-about-jolla .about-link {
   color: $secondary;
+  font-size: 1em;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
 }
 
 div.quarto-about-jolla .about-link:hover {
@@ -228,4 +237,37 @@ body .nav-footer {
 .cv-date {
   float: right;
   color: $gray-8;
+}
+
+// listings
+
+div.quarto-post .listing-categories .listing-category, .quarto-category, .listing-btns {
+  opacity: 0.8 !important;
+  color: $secondary;
+  border-color: $secondary;
+  text-align: center;
+  border-style: solid;
+  text-decoration: none;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+div.quarto-post .listing-categories .listing-category:hover, .quarto-category:hover, .listing-btns:hover {
+  background-color: $secondary;
+  color: $white;
+}
+
+.listing-btns {
+  opacity: 1 !important;
+  padding: 0.5em;
+  border-radius: 6px;
+}
+
+.slide-deck {
+  width: 100%;
+  aspect-ratio: 1.5;
+
+  border-style: solid;
+  border-width: 1px;
 }

@@ -1,0 +1,33 @@
+---
+title: "Shiny optimization of climate benefits from a statewide agricultural grant program"
+description: "Cascadia R Conf"
+date: "2023-08-19"
+image: featured.png
+image-alt: "Slide with image and tractor and no-till drill and text that says Washington's Sustainable Farms and Fields Program incentivitizes climate-smart practices"
+slug: "2023-shiny-wacse"
+categories:
+  - R
+  - shiny
+  - agriculture
+  - climate
+---
+
+<a href="https://jadeynryan.github.io/2023_cascadia-wacse/" class="listing-btns">{{< fa display >}} Slides<a> <a href="https://github.com/jadeynryan/2023_cascadia-wacse" class="listing-btns">{{< fa brands github >}} Source Code<a> <a href="https://youtu.be/Kt_qxEOOlrc?si=cAigx1n0YXuisw04" class="listing-btns">{{< fa play-circle >}} Recording<a>
+
+### Event
+
+Cascadia R Conf 2023
+
+Seattle, WA
+
+### Abstract
+
+Washington’s [Sustainable Farms and Fields](https://www.scc.wa.gov/programs/sustainable-farms-fields) program provides grants to growers to increase soil carbon or reduce greenhouse gas (GHG) emissions on their farms. To optimize the climate benefits of the program, we developed the Washington Climate Smart Estimator {WaCSE} using R and Shiny.
+
+Integrating national climate models and datasets, this intuitive, regionally specific user interface allows farmers and policymakers to compare the climate benefits of different agricultural practices across Washington’s diverse counties and farm sizes. Users can explore GHG estimates in interactive tables and plots, download results in spreadsheets and figures, and generate PDF reports. In this talk, we present the development process of {WaCSE} and discuss the lessons we learned from creating our first ever Shiny app.
+
+Talk duration: 15 minutes
+
+### Slides
+
+<iframe class="slide-deck" src="https://jadeynryan.github.io/2023_cascadia-wacse/"></iframe>

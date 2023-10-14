@@ -195,7 +195,7 @@ Washington Climate Smart Estimator (WaCSE): Using ArcGIS Dashboards and Experien
 
 Organophosphate insecticide mixtures in Washington surface waters. Annual Water Resources Conference, American Water Resources Association. Virtual. November 9, 2021.
 
-Organophosphate insecticide mixtures in Washington surface waters. North American 42nd Annual Meeting, Society of Environmental Toxicology and Chemistry. Virtual.November 14, 2021.
+Organophosphate insecticide mixtures in Washington surface waters. North American 42nd Annual Meeting, Society of Environmental Toxicology and Chemistry. Virtual. November 14, 2021.
 
 
 ## {{< fa user-gear >}} Skills

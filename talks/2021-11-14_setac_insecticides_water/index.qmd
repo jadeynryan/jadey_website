@@ -1,0 +1,29 @@
+---
+title: "Aquatic Risk Assessment: Organophosphate insecticide mixtures in Washington surface waters"
+description: "SETAC 2021"
+date: "2021-11-14"
+image: featured.png
+image-alt: "Slide with map of monitoring sites in Washington, image of Coho fry, and list of threatened or endangered salmonid species.."
+slug: "2021-setac-insecticides"
+categories:
+  - agriculture
+  - water quality
+---
+
+<a href="2021_SETAC_CDM MixtureRA.pdf" download="2021_SETAC_CDM MixtureRA.pdf" class="listing-btns">{{< fa display >}} Slides<a>
+
+### Event
+
+Society of Environmental Toxicology and Chemistry (SETAC) North America 42nd Annual Meeting
+
+Virtual
+
+### Abstract
+
+Ecological risk assessments often do not consider potential additive, synergistic, or antagonistic effects from mixtures of chemicals and instead typically base risk on a single chemical. In the last decade, more tools and models have been developed to consider the interactive effects of chemicals within a mixture when conducting risk assessments. Therefore, this study uses actual environmental concentrations measured in 2018 and 2019 from the Washington State Department of Agriculture’s Surface Water Monitoring Program. Aquatic risk from exposure was assessed from chlorpyrifos, diazinon, and malathion (as individual chemicals and as binary and ternary mixtures) using the concentration addition model. These pesticides were selected because they have a common mechanism of toxicity, are frequently detected in surface waters in Washington, and were recently evaluated in a biological opinion by the National Marine Fisheries Service. All detected concentrations of chlorpyrifos and malathion, assessed as individual chemicals, exceeded the predicted no effect concentration, indicating potential for adverse effects on aquatic life. Further, risk quotients for all binary and ternary mixtures were greater than one, also indicative of potential for adverse effects on aquatic life. In all samples containing a mixture, the maximum cumulative ratio suggested that a single insecticide contributed >50% of the overall toxicity of each mixture. Based on the individual and mixture risk quotients, chlorpyrifos and malathion were the primary drivers of the toxicity of each mixture.
+
+Talk duration: 12 minutes
+
+### Slides
+
+<iframe class="slide-deck" src="2021_SETAC_CDM MixtureRA.pdf"></iframe>

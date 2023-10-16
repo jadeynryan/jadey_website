@@ -2,7 +2,7 @@
 title: "Washington Climate Smart Estimator: Using ArcGIS Dashboards and Experience Builder"
 description: "WAGISA 2022"
 date: "2022-05-25"
-image: featured.png
+image: featured.webp
 image-alt: "Slide describing the development workflow using ArcGIS tools"
 slug: "2022-arcgis-wacse"
 categories:
@@ -11,7 +11,10 @@ categories:
   - climate
 ---
 
-<a href="2022_WaCSE_WAGISA_JRyan.pdf" download="2022_WaCSE_WAGISA_JRyan.pdf" class="listing-btns">{{< fa display >}} Slides<a> <a href="https://youtu.be/ksLOo6BHbqg?si=EiVyXtfNJzfapo70" class="listing-btns">{{< fa play-circle >}} Recording<a>
+<span class="talk-btn-group">
+<a href="2022_WaCSE_WAGISA_JRyan.pdf" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Slides</a> 
+<a href="https://youtu.be/ksLOo6BHbqg?si=EiVyXtfNJzfapo70" class="btn" role="button">{{< fa play-circle >}} Recording</a>
+</span>
 
 ### Event
 
@@ -33,4 +36,4 @@ Talk duration: 30 minutes
 
 ### Slides
 
-<iframe class="slide-deck" src="2022_WaCSE_WAGISA_JRyan.pdf"></iframe>
+<object class="slides" data="2022_WaCSE_WAGISA_JRyan.pdf"><p>Oops! Your browser doesn't seem to support PDFs.</p><p><a href="2022_WaCSE_WAGISA_JRyan.pdf">Try downloading instead.</a></p></object>

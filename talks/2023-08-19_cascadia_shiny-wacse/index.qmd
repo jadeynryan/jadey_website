@@ -2,7 +2,7 @@
 title: "Shiny optimization of climate benefits from a statewide agricultural grant program"
 description: "Cascadia R Conf"
 date: "2023-08-19"
-image: featured.png
+image: featured.webp
 image-alt: "Slide with image and tractor and no-till drill and text that says Washington's Sustainable Farms and Fields Program incentivitizes climate-smart practices"
 slug: "2023-shiny-wacse"
 categories:
@@ -11,8 +11,11 @@ categories:
   - agriculture
   - climate
 ---
-
-<a href="https://jadeynryan.github.io/2023_cascadia-wacse/" class="listing-btns">{{< fa display >}} Slides<a> <a href="https://github.com/jadeynryan/2023_cascadia-wacse" class="listing-btns">{{< fa brands github >}} Source Code<a> <a href="https://youtu.be/Kt_qxEOOlrc?si=cAigx1n0YXuisw04" class="listing-btns">{{< fa play-circle >}} Recording<a>
+<span class="talk-btn-group">
+<a href="https://jadeynryan.github.io/2023_cascadia-wacse/" class="btn" role="button">{{< fa display >}} Slides</a>
+<a href="https://github.com/jadeynryan/2023_cascadia-wacse" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://youtu.be/Kt_qxEOOlrc?si=cAigx1n0YXuisw04" class="btn" role="button">{{< fa play-circle >}} Video</a>
+</span>
 
 ### Event
 
@@ -30,4 +33,4 @@ Talk duration: 15 minutes
 
 ### Slides
 
-<iframe class="slide-deck" src="https://jadeynryan.github.io/2023_cascadia-wacse/"></iframe>
+<iframe class="slides" src="https://jadeynryan.github.io/2023_cascadia-wacse/"></iframe>

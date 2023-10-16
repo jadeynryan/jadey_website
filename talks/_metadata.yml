@@ -2,3 +2,6 @@
 
 # prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
+
+execute:
+  echo: false

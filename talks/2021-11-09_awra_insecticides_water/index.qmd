@@ -2,7 +2,7 @@
 title: "Aquatic Risk Assessment: Organophosphate insecticide mixtures in Washington surface waters"
 description: "AWRA 2021"
 date: "2021-11-09"
-image: featured.png
+image: featured.webp
 image-alt: "Slide with many images of collecting water quality and streamflow measurements."
 slug: "2021-awra-insecticides"
 categories:
@@ -10,7 +10,7 @@ categories:
   - water quality
 ---
 
-<a href="2021_AWRA_CDM Mixture RA_JR.pdf" download="2021_AWRA_CDM Mixture RA_JR.pdf" class="listing-btns">{{< fa display >}} Slides<a>
+<a href="2021_AWRA_CDM_Mixture_RA_JR.pdf" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Slides</a>
 
 ### Event
 
@@ -26,4 +26,4 @@ Talk duration: 20 minutes
 
 ### Slides
 
-<iframe class="slide-deck" src="2021_AWRA_CDM Mixture RA_JR.pdf"></iframe>
+<object class="slides" data="2021_AWRA_CDM_Mixture_RA_JR.pdf"><p>Oops! Your browser doesn't seem to support PDFs.</p><p><a href="2021_AWRA_CDM_Mixture_RA_JR.pdf">Try downloading instead.</a></p></object>

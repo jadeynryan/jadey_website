@@ -2,7 +2,7 @@
 title: "Aquatic Risk Assessment: Organophosphate insecticide mixtures in Washington surface waters"
 description: "SETAC 2021"
 date: "2021-11-14"
-image: featured.png
+image: featured.webp
 image-alt: "Slide with map of monitoring sites in Washington, image of Coho fry, and list of threatened or endangered salmonid species.."
 slug: "2021-setac-insecticides"
 categories:
@@ -10,7 +10,7 @@ categories:
   - water quality
 ---
 
-<a href="2021_SETAC_CDM MixtureRA.pdf" download="2021_SETAC_CDM MixtureRA.pdf" class="listing-btns">{{< fa display >}} Slides<a>
+<a href="2021_SETAC_CDM_MixtureRA.pdf" class="btn" role="button" target="_blank">{{< fa display >}} Slides<a>
 
 ### Event
 
@@ -26,4 +26,4 @@ Talk duration: 12 minutes
 
 ### Slides
 
-<iframe class="slide-deck" src="2021_SETAC_CDM MixtureRA.pdf"></iframe>
+<object class="slides" data="2021_SETAC_CDM_MixtureRA.pdf"><p>Oops! Your browser doesn't seem to support PDFs.</p><p><a href="2021_SETAC_CDM_MixtureRA.pdf">Try downloading instead.</a></p></object>

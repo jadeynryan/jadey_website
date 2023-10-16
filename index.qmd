@@ -1,4 +1,5 @@
 ---
+pagetitle: "Jadey Ryan | About"
 title: "Jadey Ryan"
 subtitle: "🐱 cat-obsessed environmental data scientist 🌱"
 image: assets/img/headshot.jpg

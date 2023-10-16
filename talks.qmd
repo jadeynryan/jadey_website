@@ -10,5 +10,7 @@ listing:
     - date
     - image
     - categories
+  categories: true
   sort: "date desc"
+  page-size: 5
 ---

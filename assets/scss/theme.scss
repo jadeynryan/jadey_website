@@ -25,26 +25,14 @@ $black:  #000;
 $teal:        #0b7366;
 $teal-light:  #f6fafa;
 $teal-dark:   #07483f;
-$blue:        #658ea6;
-$blue-dark:   #0a4364;
-$indigo:      #989ec4;
-$indigo-dark: #2b3786;
-$pink:        #c192b0;
-$pink-dark:   #771252;
 $orange:      #a98069;
 $orange-light:#e9dfd9;
 $orange-dark: #6a2d0a;
-$green:       #56984c;
-$green-dark:  #104a07;
 
 $primary:       $teal;
 $secondary:     $orange-dark;
-$success:       $green;
-$info:          $blue;
-$warning:       $indigo;
-$danger:        $indigo-dark;
-$light:         $gray-0;
-$light-accent:  $gray-2;
+$light:         $teal-light;
+$light-accent:  $gray-3;
 $dark:          $gray-9;
 
 // Base document colors
@@ -86,7 +74,7 @@ h5, h6 {
   font-size: 1.1em;
   font-weight: 500;
   font-family: Merriweather, serif;
-  color: $orange-dark;
+  color: $secondary;
 }
 
 p.subtitle.lead {
@@ -104,21 +92,10 @@ code {
 
 body {
   font-family: Atkinson Hyperlegible, Nunito, sans-serif;
-  background-color: $light-accent;
+  background-color: $light;
 }
 
 // about section
-
-.quarto-about-jolla {
-  background-color: $light !important;
-  padding: 1em;
-  border-radius: 15px;
-  margin-top: 1em !important;
-}
-
-div.quarto-about-jolla .about-image {
-  margin-top: 10px;
-}
 
 // remove about separator
 div.quarto-about-jolla .about-sep {
@@ -139,34 +116,14 @@ div.quarto-about-jolla .about-link:hover {
   color: $white;
 }
 
-// content padding and background
-
-#quarto-document-content {
-  background-color: $light !important;
-  padding: 1em;
-  border-radius: 15px;
-}
-
-#TOC {
-  background-color: $light !important;
-  padding: 1em;
-  border-radius: 15px;
-}
-
-@media(max-width: 991.98px) {
-#TOC {
-  margin-top: 0.7em;
-  }
-}
-
 // nav footer
 
 body .nav-footer {
-  border-top: 1px solid $gray-5;
+  border-top: 1px solid $dark;
 }
 
 .nav-footer {
-  background-color: $light-accent;
+  background-color: $light;
   color: $dark;
 }
 
@@ -187,7 +144,7 @@ body .nav-footer {
   .nav-footer-center {
     order: 1 !important;
     flex-basis: 100%;
-    margin: 0 0 -1.2em 0;
+    margin: 0 0 -2em 0;
   }
 
   .nav-footer-right {
@@ -213,6 +170,7 @@ body .nav-footer {
   background-color: $light;
   padding-top: 1em;
   margin-top: 1em;
+  margin-bottom: -3em;
   z-index: 998;
 }
 
@@ -239,9 +197,9 @@ body .nav-footer {
   color: $gray-8;
 }
 
-// listings
+// listing buttons
 
-div.quarto-post .listing-categories .listing-category, .quarto-category, .listing-btns {
+div.quarto-post .listing-categories .listing-category, .quarto-category, .btn {
   opacity: 0.8 !important;
   color: $secondary;
   border-color: $secondary;
@@ -253,21 +211,43 @@ div.quarto-post .listing-categories .listing-category, .quarto-category, .listin
   transition-timing-function: ease-in-out;
 }
 
-div.quarto-post .listing-categories .listing-category:hover, .quarto-category:hover, .listing-btns:hover {
-  background-color: $secondary;
-  color: $white;
-}
-
-.listing-btns {
+.btn {
   opacity: 1 !important;
   padding: 0.5em;
   border-radius: 6px;
 }
+div.quarto-post .listing-categories .listing-category:hover, .quarto-category:hover, .btn:hover {
+  background-color: $secondary;
+  color: $white;
+}
 
-.slide-deck {
+.talk-btn-group {
+  display: inline-flex;
+  gap: 1em;
+}
+
+// page buttons
+
+.page-link {
+  background-color: $orange-light;
+  color: $secondary;
+}
+
+.page-link:hover {
+  background-color: $secondary;
+  color: white;
+}
+
+.page-item.active .page-link {
+  background-color: $secondary;
+}
+
+// slide iframes
+
+.slides {
   width: 100%;
-  aspect-ratio: 1.5;
-
+  height: auto;
+  aspect-ratio: 16 / 9;
   border-style: solid;
   border-width: 1px;
 }

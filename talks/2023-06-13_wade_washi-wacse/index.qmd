@@ -2,7 +2,7 @@
 title: "Washington Soil Health Initative and Climate Smart Estimator"
 description: "WADE 2023"
 date: "2023-6-13"
-image: featured.png
+image: featured.webp
 image-alt: "Slide with image of about 50 soils of varying colors and textures and text saying we need diverse solutions for diverse soils."
 slug: "2023-washi-wade"
 categories:
@@ -11,7 +11,9 @@ categories:
   - climate
 ---
 
-<a href="2023_WADE_WaSHI_WaCSE_JR.pdf" download="2023_WADE_WaSHI_WaCSE_JR.pdf" class="listing-btns">{{< fa display >}} Slides<a> <a href="https://youtu.be/PKOQitlLjXI?si=v3tVpDIP3F8xHMtR" class="listing-btns">{{< fa play-circle >}} Recording<a>
+<span class="talk-btn-group">
+<a href="2023_WADE_WaSHI_WaCSE_JR.pdf" target="_blank" class="btn" role="button">{{< fa display >}} Slides</a> <a href="https://youtu.be/PKOQitlLjXI?si=v3tVpDIP3F8xHMtR" class="btn" role="button">{{< fa play-circle >}} Video</a>
+</span>
 
 ### Event
 
@@ -29,4 +31,4 @@ Talk duration: 30 minutes
 
 ### Slides
 
-<iframe class="slide-deck" src="2023_WADE_WaSHI_WaCSE_JR.pdf"></iframe>
+<object class="slides" data="2023_WADE_WaSHI_WaCSE_JR.pdf"><p>Oops! Your browser doesn't seem to support PDFs.</p><p><a href="2023_WADE_WaSHI_WaCSE_JR.pdf">Try downloading instead.</a></p></object>

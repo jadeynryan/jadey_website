@@ -1,17 +1,22 @@
 project:
   type: website
+
 execute:
   freeze: auto
 
+title-meta: "Jadey Ryan"
+description-meta: "Jadey's personal website for her portfolio, blog, and shop. Explore for R coding, cats, and environmental data science content."
+
 website:
   title: "Jadey Ryan"
+  description: "Jadey's personal website for her portfolio, blog, and shop. Explore for R coding, cats, and environmental data science content."
   site-url: https://jadeynryan.com
-  description: "Jadey Ryan's personal website"
   favicon: assets/img/JR-favicon.svg
   open-graph:
     locale: en_EN
     site-name: Jadey Ryan
   page-navigation: true
+
   navbar:
     pinned: true
     logo: assets/img/JR-logo-white.svg
@@ -51,10 +56,11 @@ website:
       - icon: mastodon
         aria-label: Mastodon
         href: https://fosstodon.org/@jadeynryan
+
   page-footer:
     border: true
     left: "&#169; 2023 Jadey Ryan"
-    center: "made with &#x2665; and [Quarto](https://quarto.org)"
+    center: "made with {{< fa heart title='love' aria-hidden='true'>}} & [Quarto](https://quarto.org)"
     right:
       - text: Accessibility
         aria-label: accessibility
@@ -67,6 +73,7 @@ format:
   html:
     theme: [flatly, assets/scss/theme.scss]
     toc: true
+    pagetitle: "Jadey Ryan | {{< meta title >}}"
     page-layout: full
     highlight-style: a11y
     smooth-scroll: true

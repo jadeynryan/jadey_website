@@ -2,7 +2,7 @@
 title: "Web Scraping & Mapping {orcas} Encounters"
 description: "R-Ladies & useR Group Seattle Meetups"
 date: "2023-04-20"
-image: featured.png
+image: featured.webp
 image-alt: "Slide with heading: Mapping with orcas icons and leaflet map."
 slug: "2023-orcas"
 categories:
@@ -11,7 +11,9 @@ categories:
   - leaflet
 ---
 
-<a href="https://jadeynryan.github.io/orcas/" class="listing-btns">{{< fa display >}} Slides<a> <a href="https://github.com/jadeynryan/orcas" class="listing-btns">{{< fa brands github >}} Source Code<a> 
+<span class="talk-btn-group">
+<a href="https://jadeynryan.github.io/orcas/" class="btn" role="button">{{< fa display >}} Slides</a> <a href="https://github.com/jadeynryan/orcas" class="btn" role="button">{{< fa brands github >}} Code</a> 
+</span>
 
 ### Event
 
@@ -29,4 +31,4 @@ Talk duration: 15 minutes
 
 ### Slides
 
-<iframe class="slide-deck" src="https://jadeynryan.github.io/orcas/"></iframe>
+<iframe class="slides" src="https://jadeynryan.github.io/orcas/"></iframe>

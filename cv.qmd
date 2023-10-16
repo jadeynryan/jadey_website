@@ -103,7 +103,8 @@ Montana State University
 -   Land Resources and Environmental Sciences
 -   Professional Project: *An Improved Approach to Estimate Wind Erosion in Washington's Columbia Plateau Using Google Earth Engine*
 -   GPA: 4.00/4.00
--   Graduate Leadership Academy
+-   Activities
+    -   [Graduate Leadership Academy](https://www.montana.edu/gradschool/professionaldevelopment/gradcat/grad-leadership-academy.html)
 
 :::: {.d-inline-flex style="align-items:baseline"}
 ::: {.p-2}
@@ -123,9 +124,9 @@ Pacific Lutheran University
 -   Activities
     -   Phi Kappa Phi
 -   Awards and Scholarships
-    -   \$550 Funding for Green River Watershed Pilot Studies Tacoma Water
+    -   \$550 Funding for Green River Watershed Pilot Studies
     -   Certificate of Recognition for Excellence in Inorganic Chemistry American Chemical Society
-    -   \$60,000 Provost Merit Scholarship Pacific Lutheran University
+    -   \$60,000 Provost Merit Scholarship
 
 :::: {.d-inline-flex style="align-items:baseline"}
 ::: {.p-2}
@@ -151,15 +152,15 @@ Tacoma Community College
 
 ## {{< fa user-group >}} Communities and Organizations
 
-![](assets/img/dsh.png){width="60px" fig-alt="Data Science Hangout logo"} [Posit Data Science Hangout](https://posit.co/data-science-hangout/)
+![](assets/img/dsh.png){width="60px" fig-alt="Data Science Hangout logo" style="padding-right:1em"} [Posit Data Science Hangout](https://posit.co/data-science-hangout/)
 
-![](assets/img/r4ds.jpeg){width="60px" fig-alt="R4DS logo"} [R4DS Learning Community](https://rfordatasci.com/)
+![](assets/img/r4ds.jpeg){width="60px" fig-alt="R4DS logo" style="padding-right:1em"} [R4DS Learning Community](https://rfordatasci.com/)
 
-![](assets/img/wig.jpeg){width="60px" fig-alt="Women in GovTech logo"} [Women in GovTech](https://women-in-govtech.github.io/)
+![](assets/img/wig.jpeg){width="60px" fig-alt="Women in GovTech logo" style="padding-right:1em"} [Women in GovTech](https://women-in-govtech.github.io/)
 
-![](assets/img/rladiesseattle.gif){width="60px" fig-alt="R-Ladies Seattle logo"} [R-Ladies Seattle](https://rladiesseattle.org/)
+![](assets/img/rladiesseattle.gif){width="60px" fig-alt="R-Ladies Seattle logo" style="padding-right:1em"} [R-Ladies Seattle](https://rladiesseattle.org/)
 
-![](assets/img/seattleuser.webp){width="60px" fig-alt="Seattle useR Group"} [Seattle useR Group](https://www.meetup.com/seattle-user/)
+![](assets/img/seattleuser.webp){width="60px" fig-alt="Seattle useR Group" style="padding-right:1em"} [Seattle useR Group](https://www.meetup.com/seattle-user/)
 
 ## {{< fa book >}} Publications
 
@@ -181,21 +182,19 @@ Tuttle, G., Noland, K., **Ryan, J.N.** 2020. Glyphosate: Ecological Fate and Eff
 
 ## {{< fa person-chalkboard >}} Presentations
 
-Parameterized Quarto reports improve understanding of soil health. posit::conf(2023). Chicago, IL. September 20, 2023.
+[Parameterized Quarto reports improve understanding of soil health](talks/2023-09-25_posit_parameterized-quarto/). posit::conf(2023). Chicago, IL. September 20, 2023.
 
-Shiny optimization of climate benefits from a statewide agricultural grant program. Cascadia R Conf. Seattle, WA. August 19, 2023.
+[Shiny optimization of climate benefits from a statewide agricultural grant program](talks/2023-08-19_cascadia_shiny-wacse/). Cascadia R Conf. Seattle, WA. August 19, 2023.
 
-Washington's Soil Health Initiative and Climate Smart Estimator. Washington Association of District Employees Conference. Leavenworth, WA. June 13, 2023.
+[Washington's Soil Health Initiative and Climate Smart Estimator](talks/2023-06-13_wade_washi-wacse/). Washington Association of District Employees Conference. Leavenworth, WA. June 13, 2023.
 
-Web Scraping & Mapping {orcas} Encounters. R-Ladies Seattle: R in the Outdoors Meetup. Seattle, WA. April 20, 2023.
+[Web Scraping & Mapping {orcas} Encounters](talks/2023-04-20_rladies_orcas-web-scraping/). R-Ladies Seattle: R in the Outdoors Meetup. Seattle, WA. April 20, 2023.
 
-Web Scraping & Mapping {orcas} Encounters. Seattle useR Group Meetup. Seattle, WA. April 20, 2023.
+[Washington Climate Smart Estimator (WaCSE): Using ArcGIS Dashboards and Experience Builder](talks/2022-05-25_wagisa_arcgis-wacse/). Washington GIS Association Conference. Virtual. May 25, 2022.
 
-Washington Climate Smart Estimator (WaCSE): Using ArcGIS Dashboards and Experience Builder. Washington GIS Association Conference. Virtual. May 25, 2022.
+[Organophosphate insecticide mixtures in Washington surface waters](talks/2021-11-14_setac_insecticides_water/). Annual Water Resources Conference, American Water Resources Association. Virtual. November 9, 2021.
 
-Organophosphate insecticide mixtures in Washington surface waters. Annual Water Resources Conference, American Water Resources Association. Virtual. November 9, 2021.
-
-Organophosphate insecticide mixtures in Washington surface waters. North American 42nd Annual Meeting, Society of Environmental Toxicology and Chemistry. Virtual. November 14, 2021.
+[Organophosphate insecticide mixtures in Washington surface waters](talks/2021-11-09_awra_insecticides_water/). North American 42nd Annual Meeting, Society of Environmental Toxicology and Chemistry. Virtual. November 14, 2021.
 
 
 ## {{< fa user-gear >}} Skills

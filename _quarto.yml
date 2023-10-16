@@ -60,7 +60,7 @@ website:
   page-footer:
     border: true
     left: "&#169; 2023 Jadey Ryan"
-    center: "made with {{< fa heart title='love' aria-hidden='true'>}} & [Quarto](https://quarto.org)"
+    center: made with {{< fa heart title='love' aria-hidden='true' >}} & [Quarto](https://quarto.org)
     right:
       - text: Accessibility
         aria-label: accessibility

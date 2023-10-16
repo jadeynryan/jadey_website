@@ -17,9 +17,11 @@ This site has been designed with the following features in mind:
 - A color palette that meets [WCAG 2.1 AA](https://www.w3.org/WAI/WCAG21/quickref/) standards for contrast.
 - Alternative text for all informative images.
 - Readable font faces, specifically to avoid impostor letter shapes and mirroring.
-  - 1iIl should all look different from one another. 
-  - This site primarily uses Merriweather for headings, Atkinson Hyperlegible for body text (developed by the [Braille Institute](https://brailleinstitute.org/freefont)), and Fira Code for code.
+  - Each character in [iIl], [ceo], and [db qp] should all be distinct from one another.[^1] 
+  - This site primarily uses `Domine` for headings, `Atkinson Hyperlegible` for body text (developed by the [Braille Institute](https://brailleinstitute.org/freefont)), and Fira Code for code.
 - A table of contents in the sidebars for easier navigation.
+
+[^1]: Added the [ceo] and [db qp] tests from Cara Thompson's amazing [data viz design system talk](https://www.cararthompson.com/talks/nhsr2023-dataviz-design-system/), specifically slide 22: Font inspiration.
 
 ## Accessibility tools
 

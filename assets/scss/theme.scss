@@ -1,7 +1,7 @@
 /*-- scss:defaults --*/
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Merriweather:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Domine:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
 
 // Colors
 
@@ -53,16 +53,21 @@ $min-contrast-ratio:   7;
 
 /*-- scss:rules --*/
 
+.navbar-title {
+  font-family: Domine, serif;
+  font-weight: 700;
+}
+
 h1, h2 {
   font-size: 1.3em;
-  font-weight: 700;
-  font-family: Merriweather, serif;
+  font-weight: 900;
+  font-family: Domine, serif;
   color: $teal-dark;
 }
 
 h3, h4 {
-  font-weight: 600;
-  font-family: Merriweather, serif;
+  font-weight: 700;
+  font-family: Domine, serif;
   color: $teal;
 }
 
@@ -72,8 +77,8 @@ h3 {
 
 h5, h6 {
   font-size: 1.1em;
-  font-weight: 500;
-  font-family: Merriweather, serif;
+  font-weight: 600;
+  font-family: Domine, serif;
   color: $secondary;
 }
 

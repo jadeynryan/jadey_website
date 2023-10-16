@@ -1,10 +1,10 @@
 ---
 title: "Web Scraping & Mapping {orcas} Encounters"
-description: "R-Ladies & useR Group Seattle Meetups"
+description: "Web scraping with {rvest} & mapping with {leaflet}"
+author: Jadey Ryan
 date: "2023-04-20"
 image: featured.webp
 image-alt: "Slide with heading: Mapping with orcas icons and leaflet map."
-slug: "2023-orcas"
 categories:
   - R
   - web scraping
@@ -15,19 +15,21 @@ categories:
 <a href="https://jadeynryan.github.io/orcas/" class="btn" role="button">{{< fa display >}} Slides</a> <a href="https://github.com/jadeynryan/orcas" class="btn" role="button">{{< fa brands github >}} Code</a> 
 </span>
 
-### Event
+### Details
 
-Presented at both R-Ladies Seattle: R in the Outdoors  & Seattle useR Group: Lightning Talks.
+**Events**: [R-Ladies Seattle](https://rladiesseattle.org/) and [Seattle useR Group](https://www.meetup.com/seattle-user) meetups
 
-Seattle, WA
+**Date**: April 20, 2023
+
+**Location**: Seattle, WA
+
+**Talk duration**: 15 minutes each
 
 ### Abstract
 
 [R-Ladies Seattle](https://rladiesseattle.org/) invited me to give a talk for the ‘R in the Outdoors’ [meetup](https://www.meetup.com/rladies-seattle/). This was my first in-person talk of my professional career! I used this as an opportunity to learn new skills through a personal project. I’ve always had an affinity for the Southern Resident Killer Whales in the Salish Sea. The [Center for Whale Research](https://www.whaleresearch.com/) does a lot of really fascinating and important work monitoring their population. They post their survey data on their website; each encounter with the orcas is a separate webpage. Lately, I’ve been curious and intimidated by web scraping so I decided this would make a great case study and personal project.
 
 I ended up also going to the [Seattle useR Group](https://www.meetup.com/seattle-user) lightning talks meetup afterwards and spontaneously gave the same presentation there!
-
-Talk duration: 15 minutes
 
 ### Slides
 

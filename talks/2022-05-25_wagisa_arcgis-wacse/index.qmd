@@ -1,6 +1,13 @@
 ---
 title: "Washington Climate Smart Estimator: Using ArcGIS Dashboards and Experience Builder"
-description: "WAGISA 2022"
+description: "Overview of WA Climate Smart Estimator ArcGIS Experience web app"
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+  - name: Leslie Michel
+    affiliation: WSDA
+  - name: Dani Gelardi
+    affiliation: WSDA
 date: "2022-05-25"
 image: featured.webp
 image-alt: "Slide describing the development workflow using ArcGIS tools"
@@ -16,11 +23,15 @@ categories:
 <a href="https://youtu.be/ksLOo6BHbqg?si=EiVyXtfNJzfapo70" class="btn" role="button">{{< fa play-circle >}} Recording</a>
 </span>
 
-### Event
+### Details
 
-Washington GIS Association (WAGISA) conference
+**Event**: [Washington GIS Association (WAGISA) conference](https://www.wagisa.org/)
 
-Virtual
+**Date**: May 25, 2022
+
+**Location**: Virtual
+
+**Talk duration**: 30 minutes
 
 ### Abstract
 
@@ -31,8 +42,6 @@ To maximize the climate change mitigation potential of the SFF program, and to o
 By utilizing the intuitive user interface of ArcGIS Dashboards, WaCSE enables swift, science-based estimates of climate benefits, while remaining accessible for audiences of varied technical backgrounds.
 
 [See the old app built with ArcGIS](https://experience.arcgis.com/experience/1982f8e8d9fb4be196b83502f9e6bc28/).
-
-Talk duration: 30 minutes
 
 ### Slides
 

@@ -1,10 +1,16 @@
 ---
 title: "Washington Soil Health Initative and Climate Smart Estimator"
-description: "WADE 2023"
+description: "Overview of the WA Soil Health Initative & WA Climate Smart Estimator {WaCSE} shiny app"
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+  - name: Leslie Michel
+    affiliation: WSDA
+  - name: Dani Gelardi
+    affiliation: WSDA
 date: "2023-6-13"
 image: featured.webp
 image-alt: "Slide with image of about 50 soils of varying colors and textures and text saying we need diverse solutions for diverse soils."
-slug: "2023-washi-wade"
 categories:
   - agriculture
   - soil health
@@ -15,19 +21,21 @@ categories:
 <a href="2023_WADE_WaSHI_WaCSE_JR.pdf" target="_blank" class="btn" role="button">{{< fa display >}} Slides</a> <a href="https://youtu.be/PKOQitlLjXI?si=v3tVpDIP3F8xHMtR" class="btn" role="button">{{< fa play-circle >}} Video</a>
 </span>
 
-### Event
+### Details
 
-Washington Association of District Employees (WADE) conference
+**Event**: [Washington Association of District Employees (WADE) conference](https://sites.google.com/site/wadistrictemployees/wade-conference)
 
-Leavenworth, WA
+**Date**: June 13, 2023
+
+**Location**: Leavenworth, WA
+
+**Talk duration**: 30 minutes
 
 ### Abstract
 
 [Washington Soil Health Initiative](https://washingtonsoilhealthinitiative.com/) overview and updates.
 
 How to get the most of the [Sustainable Farms and Fields](https://www.scc.wa.gov/programs/sustainable-farms-fields) Washington Climate Smart Estimator (WaCSE) tool.
-
-Talk duration: 30 minutes
 
 ### Slides
 

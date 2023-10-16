@@ -5,3 +5,5 @@ freeze: true
 
 execute:
   echo: false
+
+citation: true

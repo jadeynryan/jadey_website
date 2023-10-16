@@ -31,4 +31,4 @@ Talk duration: 30 minutes
 
 ### Slides
 
-<object class="slides" data="2023_WADE_WaSHI_WaCSE_JR.pdf"><p>Oops! Your browser doesn't seem to support PDFs.</p><p><a href="2023_WADE_WaSHI_WaCSE_JR.pdf">Try downloading instead.</a></p></object>
+<object class="slides" data="https://drive.google.com/file/d/1d_--CNEI3YOwNUwR9_i_sn2zYot_XusN/preview"><p>Oops! Your browser doesn't seem to support embedded PDFs.</p><p><a href="2023_WADE_WaSHI_WaCSE_JR.pdf">Try downloading instead.</a></p></object>

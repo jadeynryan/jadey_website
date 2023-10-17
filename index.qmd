@@ -36,10 +36,10 @@ I work as a data scientist for the [Natural Resources and Agricultural Sciences]
 
 The core values I live by are **kindness**, **authenticity**, **sustainability**, and **inclusivity**. I feel particularly fulfilled working in the environmental data science space and meeting so many amazing folks in the R and open-source community.
 
-Persuaded by several folks who had positive reactions to my [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR?utm_source=share&utm_medium=member_desktop) I made for `posit::conf(2023)`, I started a small business! I am excited to tap into my creativity and combine some of my favorite things in designs that embody cats, programming, and data science. `Coming soon`: check out my Etsy shop [**the coding cats**](shop.qmd)!
+Persuaded by several folks who had positive reactions to my [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR) I made as conversation starters for `posit::conf(2023)`, I started a small business! I am excited to tap into my creativity and combine some of my favorite things in designs that embody cats, programming, and data science. Coming soon: check out my Etsy shop [**the coding cats**](shop.qmd)!
 
 Professionally, I am happiest automating tedious tasks and developing data driven decision-support tools. 
 
 Personally, I am happiest hanging out with my husband and three snowshoe siamese cats, trying new foods, and playing in the beautiful outdoors.
 
-![](assets/img/mts.jpeg){fig-alt="Three snowshoe siamese cats laying under a Christmas tree." fig-align="center" width="100%" height="auto"}
+![From left to right: Tai, Mai, and Skye](assets/img/mts.jpeg){fig-alt="Three snowshoe siamese cats in loaf mode" fig-align="center" width="100%" height="auto"}

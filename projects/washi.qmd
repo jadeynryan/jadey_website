@@ -1,0 +1,25 @@
+---
+title: "washi"
+description: "Palette and themes for Washington Soil Health Initiative branding"
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+  - name: Molly McIlquham
+    affiliation: WSU
+  - name: Dani Gelardi
+    affiliation: WSDA
+date: "2023-09-07"
+image: "https://github.com/WA-Department-of-Agriculture/washi/blob/main/man/figures/logo.png?raw=true"
+image-alt: "washi logo"
+categories:
+  - R package
+---
+
+<span class="listing-btn-group">
+<a href="https://wa-department-of-agriculture.github.io/washi/" class="btn" role="button">{{< fa box >}} {pkgdown} site</a> 
+<a href="https://github.com/WA-Department-of-Agriculture/washi/" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://cran.r-project.org/web/packages/washi/index.html" class="btn" role="button">{{< fa brands r-project >}} CRAN</a>
+</span>
+
+Inspired by other branding R packages such as [`glitr`](https://github.com/USAID-OHA-SI/glitr), [`ratlas`](https://github.com/atlas-aai/ratlas), and [`nmfspalette`](https://github.com/nmfs-fish-tools/nmfspalette), `washi` provides color palettes and themes consistent with [Washington Soil Health Initiative](https://washingtonsoilhealthinitiative.com) (WaSHI) branding. This package is to be used only by direct collaborators within WaSHI, though you are welcome to adapt the package to suit your own organization’s branding. ![](https://github.com/WA-Department-of-Agriculture/washi/blob/main/man/figures/logo.png?raw=true){.img-center width=15em fig-alt="washi logo"}
+

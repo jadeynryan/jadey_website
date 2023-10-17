@@ -1,3 +1,14 @@
 ---
 title: "Projects"
+listing:
+  contents: projects
+  type: grid
+  fields: 
+    - title
+    - description
+    - date
+    - image
+    - categories
+  categories: true
+  sort: "date desc"
 ---

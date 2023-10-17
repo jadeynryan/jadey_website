@@ -1,0 +1,26 @@
+---
+title: "WaCSE"
+description: "Washington Climate Smart Estimator: A shiny app for comparing climate benefits of agricultural conservation practices"
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+  - name: Leslie Michel
+    affiliation: WSDA
+  - name: Dani Gelardi
+    affiliation: WSDA
+date: "2022-11-22"
+image: "https://github.com/WA-Department-of-Agriculture/WaCSE/blob/main/inst/app/www/rmd/img/favicon.png?raw=true"
+image-alt: "WaCSE logo"
+categories:
+  - Shiny app
+---
+
+<span class="listing-btn-group">
+<a href="https://wsda.shinyapps.io/WaCSE/" class="btn" role="button">{{< fa laptop >}} App</a> 
+<a href="https://github.com/WA-Department-of-Agriculture/WaCSE" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+The [Washington State Department of Agriculture](https://agr.wa.gov/AgScience) developed WaCSE for the Washington State Conservation Commission to use in the [Sustainable Farms and Fields](https://www.scc.wa.gov/sff) (SFF) program. Intended users are the Conservation Commission, conservation districts, growers, and anyone interested in reducing agricultural greenhouse gas (GHG) emissions. This interactive tool estimates the reduction of GHG emissions from different conservation practices across Washington’s diverse counties.
+
+![](https://github.com/WA-Department-of-Agriculture/WaCSE/blob/main/inst/app/www/rmd/img/favicon.png?raw=true){.img-center width=15em fig-alt="WaCSE logo"}
+

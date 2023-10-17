@@ -197,6 +197,12 @@ body .nav-footer {
   vertical-align: bottom;
 }
 
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .cv-date {
   float: right;
   color: $gray-8;
@@ -226,7 +232,7 @@ div.quarto-post .listing-categories .listing-category:hover, .quarto-category:ho
   color: $white;
 }
 
-.talk-btn-group {
+.listing-btn-group {
   display: inline-flex;
   gap: 1em;
 }

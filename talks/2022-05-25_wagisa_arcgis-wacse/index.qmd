@@ -18,7 +18,7 @@ categories:
   - climate
 ---
 
-<span class="talk-btn-group">
+<span class="listing-btn-group">
 <a href="2022_WaCSE_WAGISA_JRyan.pdf" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Slides</a> 
 <a href="https://youtu.be/ksLOo6BHbqg?si=EiVyXtfNJzfapo70" class="btn" role="button">{{< fa play-circle >}} Recording</a>
 </span>

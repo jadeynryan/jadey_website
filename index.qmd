@@ -32,14 +32,14 @@ anchor-sections: false
 
 Thanks for visiting my website -- I'm happy you're here!
 
-I work as a data scientist for the [Natural Resources and Agricultural Sciences](https://agr.wa.gov/agscience) section within the Washington State Department of Agriculture. I have a background in natural sciences (BS in Biology, BA in Environmental Studies, and MS in Land Resources & Environmental Sciences). My R programming skills were self/community taught in an effort to improve efficiency, accuracy, and reproducibility in data analyses and visualizations.
+I'm the data scientist for the [Natural Resources and Agricultural Sciences](https://agr.wa.gov/agscience) section within the Washington State Department of Agriculture. I've had a long academic journey through the world of nature, with degrees in Biology (BS), Environmental Studies (BA), and Land Resources & Environmental Sciences (MS).
 
-The core values I live by are **kindness**, **authenticity**, **sustainability**, and **inclusivity**. I feel particularly fulfilled working in the environmental data science space and meeting so many amazing folks in the R and open-source community.
+My guiding principles in life are **kindness**, **authenticity**, **sustainability**, and **inclusivity**. I finally feel like I've found my happy place in life working in the environmental data science space and connecting with so many amazing folks in the R and open-source community.
 
-Persuaded by several folks who had positive reactions to my [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR) I made as conversation starters for `posit::conf(2023)`, I started a small business! I am excited to tap into my creativity and combine some of my favorite things in designs that embody cats, programming, and data science. Coming soon: check out my Etsy shop [**the coding cats**](shop.qmd)!
+I designed [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR) as conversation starters for `posit::conf(2023)`. The positive feedback led me to start a small business: **the coding cats**. I'm excited to channel my creativity and love for cats, programming, and data science into designs for clothing, mugs, and tote bags. Keep an eye out for my [Etsy shop](shop.qmd).
 
-Professionally, I am happiest automating tedious tasks and developing data driven decision-support tools. 
+When it comes to work, I love improving the efficiency and reproducibility of our workflows. I'm also in my element when developing decision-support tools with `Quarto` and `Shiny`. In my downtime, I'm happiest hanging out with my husband and our three snowshoe Siamese cats. We love exploring new food spots and the great outdoors.
 
-Personally, I am happiest hanging out with my husband and three snowshoe siamese cats, trying new foods, and playing in the beautiful outdoors.
+Thanks for being a part of my journey. I'm by no means an expert at anything, but I plan on using this space to learn out loud!
 
 ![From left to right: Tai, Mai, and Skye](assets/img/mts.jpeg){fig-alt="Three snowshoe siamese cats in loaf mode" fig-align="center" width="100%" height="auto"}

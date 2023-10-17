@@ -17,7 +17,7 @@ categories:
   - climate
 ---
 
-<span class="talk-btn-group">
+<span class="listing-btn-group">
 <a href="2023_WADE_WaSHI_WaCSE_JR.pdf" target="_blank" class="btn" role="button">{{< fa display >}} Slides</a> <a href="https://youtu.be/PKOQitlLjXI?si=v3tVpDIP3F8xHMtR" class="btn" role="button">{{< fa play-circle >}} Video</a>
 </span>
 

@@ -11,7 +11,7 @@ categories:
   - leaflet
 ---
 
-<span class="talk-btn-group">
+<span class="listing-btn-group">
 <a href="https://jadeynryan.github.io/orcas/" class="btn" role="button">{{< fa display >}} Slides</a> <a href="https://github.com/jadeynryan/orcas" class="btn" role="button">{{< fa brands github >}} Code</a> 
 </span>
 

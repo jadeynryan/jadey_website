@@ -1,12 +1,16 @@
 ---
 title: "Blog"
-toc: true
 listing:
   contents: blog
-  type: grid
-  date-format: "YYYY-MM-DD"
-  filter-ui: true
-  sort-ui: true
-  image-align: "left"
+  type: default
+  image-align: left
+  fields: 
+    - title
+    - description
+    - date
+    - image
+    - categories
+  categories: true
   sort: "date desc"
+  page-size: 5
 ---

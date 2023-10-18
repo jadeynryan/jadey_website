@@ -16,8 +16,7 @@ categories:
 The goal of `orcas` is to scrape orca sighting data from the web and
 visualize it in maps and tables.
 
-I’ve always
-had an affinity for the Southern Resident Killer Whales in the Salish Sea. The [Center for Whale Research](https://www.whaleresearch.com "Center for Whale Research URL") does a lot of really fascinating and important work monitoring their
+I’ve always had an affinity for the Southern Resident Killer Whales in the Salish Sea. The [Center for Whale Research](https://www.whaleresearch.com "Center for Whale Research URL") does a lot of really fascinating and important work monitoring their
 population. They post their survey data on their website; each encounter with the orcas is a separate webpage. I was both curious and intimidated by web scraping so I decided this would make a great case study and personal project. I also learned how to use custom icons in `leaflet` maps! 🐋
 
 ![](https://github.com/jadeynryan/orcas/blob/master/inst/img/leaflet_screenshot.png?raw=true){.img-center fig-alt="Screenshot of leaflet map with whale icons representing the start and end of the encounters."}

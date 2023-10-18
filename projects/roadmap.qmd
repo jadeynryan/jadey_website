@@ -1,0 +1,25 @@
+---
+title: "WaSHI Roadmap"
+description: "Washington Soil Health Initiative Roadmap created with Python and ArcGIS Dashboards & Experience Builder"
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+date: "2023-08-04"
+image: roadmap.webp
+image-alt: "Screenshot of WaSHI roadmap landing page."
+categories:
+  - ArcGIS
+  - Python
+---
+
+<span class="listing-btn-group">
+<a href="https://experience.arcgis.com/experience/505ae4db89ca43f1b943325e6a76e99c" class="btn" role="button">{{< fa laptop >}} App</a> 
+<a href="https://github.com/WA-Department-of-Agriculture/washi_roadmap" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+The [Soil Health Roadmap](https://washingtonsoilhealthinitiative.com/roadmap/) is a science-based guide across Washington state. Researchers worked with the agricultural community to identify goals, barriers, and milestones to improving soil health in each of the eight focus areas' region and production system.
+
+For each focus area, I created an ArcGIS dashboard summarizing the crop acreage and soil properties from maps that I crafted using the [`arcpy` Python package](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/importing-arcpy.htm). These dashboards are a companion to the [117-page report](https://hk79fd.p3cdn1.secureserver.net/wp-content/uploads/2023/09/WSU-Soil-Health-Roadmap-updated-August-2023_page.pdf).
+
+![](roadmap.webp){.img-center fig-alt="Screenshot of WaSHI roadmap landing page."}
+

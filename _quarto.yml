@@ -1,5 +1,10 @@
 project:
   type: website
+  preview:
+    port: 3434
+    browser: true
+    watch-inputs: true
+    timeout: 3600
 
 execute:
   freeze: auto
@@ -12,10 +17,21 @@ website:
   description: "Jadey's personal website for her portfolio, blog, and shop. Explore for R coding, cats, and environmental data science content."
   site-url: https://jadeynryan.com
   favicon: assets/img/JR-favicon.svg
+  twitter-card:
+    image: assets/img/JR-favicon.svg
+    image-alt: "cat with tail shaped as the letter J next to last name initial R"
   open-graph:
     locale: en_EN
     site-name: Jadey Ryan
+    image: assets/img/JR-favicon.svg
+    image-alt: "cat with tail shaped as the letter J next to last name initial R"
   page-navigation: true
+  google-analytics:
+    tracking-id: "G-LEVV3VZT0E"
+    anonymize-ip: true
+  cookie-consent:
+    type: express
+    prefs-text: "Change Cookies 🍪"
 
   navbar:
     pinned: true
@@ -60,14 +76,14 @@ website:
   page-footer:
     border: true
     left: "&#169; 2023 Jadey Ryan"
-    center: made with {{< fa heart title='love' aria-hidden='true' >}} & [Quarto](https://quarto.org)
-    right:
+    center:
       - text: Accessibility
         aria-label: accessibility
         href: accessibility.qmd
       - text: License
         aria-label: license
         href: license.qmd
+    right: "made with {{< fa heart title='love' aria-hidden='true' >}} & [Quarto](https://quarto.org)"
 
 format:
   html:

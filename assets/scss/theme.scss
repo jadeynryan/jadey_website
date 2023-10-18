@@ -147,19 +147,20 @@ body .nav-footer {
     }
 
   .nav-footer-center {
-    order: 1 !important;
+    order: 3 !important;
     flex-basis: 100%;
-    margin: 0 0 -2em 0;
+    margin: 0 0 -1em 0;
   }
 
   .nav-footer-right {
     order: 2 !important;
     flex-basis: 100%;
     text-align: center;
+    margin: 0.5em 0 -1em 0;
   }
 
   .nav-footer-left {
-    order: 3 !important;
+    order: 1 !important;
     flex-basis: 100%;
     text-align: center;
   }
@@ -167,6 +168,52 @@ body .nav-footer {
   .navbar .quarto-navbar-tools {
     text-align: left;
   }
+}
+
+// cookies
+
+div.cookie-consent-footer {
+  font-family: Atkinson Hyperlegible, Nunito, sans-serif;
+  font-size: 1em;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+}
+
+.termsfeed-com---nb .cc-nb-main-container {
+    padding: 1rem;
+    background: $orange-light;
+    border-radius: 6px;
+}
+
+.termsfeed-com---nb .cc-nb-title, #cc-pc-head-title-headline, .cc-cp-body-content-entry .cc-cp-body-content-entry-title {
+  font-family: Domine, serif;
+}
+
+.termsfeed-com---reset {
+  font-family: Atkinson Hyperlegible, Nunito, sans-serif;
+}
+
+.termsfeed-com---palette-light .cc-nb-okagree, .termsfeed-com---palette-light .cc-nb-reject, .cc-pc-container .cc-cp-foot-save {
+  background-color: $teal;
+  border-radius: 6px;
+}
+
+.termsfeed-com---palette-light .cc-nb-changep {
+  background-color: $teal-light;
+  border-radius: 6px;
+}
+
+.cc-cp-body .cc-cp-body-tabs-item-link, .cc-cp-body .cc-cp-body-tabs {
+  background-color: $orange-light;
+}
+
+.termsfeed-com---palette-light .cc-cp-body-tabs-item[active=true] button {
+  background-color: $orange-dark;
+  color: white;
+}
+
+.termsfeed-com---pc-dialog input[type=checkbox].cc-custom-checkbox:checked+label:before {
+  background: #18bc9c;
 }
 
 // appendix

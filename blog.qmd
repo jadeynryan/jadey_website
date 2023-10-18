@@ -14,3 +14,5 @@ listing:
   sort: "date desc"
   page-size: 5
 ---
+
+First post coming soon!

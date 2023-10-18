@@ -9,22 +9,20 @@ project:
 execute:
   freeze: auto
 
-title-meta: "Jadey Ryan"
-description-meta: "Jadey's personal website for her portfolio, blog, and shop. Explore for R coding, cats, and environmental data science content."
-
 website:
   title: "Jadey Ryan"
-  description: "Jadey's personal website for her portfolio, blog, and shop. Explore for R coding, cats, and environmental data science content."
+  description: "Personal website for Jadey's portfolio, blog, and the coding cats shop. Explore for R coding, cats, and environmental data science content."
   site-url: https://jadeynryan.com
   favicon: assets/img/JR-favicon.svg
   twitter-card:
-    image: assets/img/JR-favicon.svg
-    image-alt: "cat with tail shaped as the letter J next to last name initial R"
+    description: "Personal website for Jadey's portfolio, blog, and the coding cats shop. Explore for R coding, cats, and environmental data science content."
+    image: assets/img/JR-logo-white-bg.png
+    image-alt: "Logo for Jadey Ryan's personal website: a cat with tail shaped as the letter J next to last name initial R"
   open-graph:
     locale: en_EN
-    site-name: Jadey Ryan
-    image: assets/img/JR-favicon.svg
-    image-alt: "cat with tail shaped as the letter J next to last name initial R"
+    description: "Personal website for Jadey's portfolio, blog, and the coding cats shop. Explore for R coding, cats, and environmental data science content."
+    image: assets/img/JR-logo-white-bg.png
+    image-alt: "Logo for Jadey Ryan's personal website: a cat with tail shaped as the letter J next to last name initial R"
   page-navigation: true
   google-analytics:
     tracking-id: "G-LEVV3VZT0E"
@@ -36,7 +34,7 @@ website:
   navbar:
     pinned: true
     logo: assets/img/JR-logo-white.svg
-    logo-alt: "cat with tail shaped as the letter J next to last name initial R"
+    logo-alt: "Logo for Jadey Ryan's personal website: a cat with tail shaped as the letter J next to last name initial R"
     left:
       - text: About
         icon: person-circle

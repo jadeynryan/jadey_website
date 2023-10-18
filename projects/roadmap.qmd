@@ -1,8 +1,14 @@
 ---
-title: "WaSHI Roadmap"
+title: "WaSHI Soil Health Roadmap"
 description: "Washington Soil Health Initiative Roadmap created with Python and ArcGIS Dashboards & Experience Builder"
 author: 
   - name: Jadey Ryan
+    affiliation: WSDA
+  - name: Molly McIlquham
+    affiliation: WSU
+  - name: Chris Benedit
+    affiliation: WSU
+  - name: Dani Gelardi
     affiliation: WSDA
 date: "2023-08-04"
 image: roadmap.webp
@@ -17,9 +23,9 @@ categories:
 <a href="https://github.com/WA-Department-of-Agriculture/washi_roadmap" class="btn" role="button">{{< fa brands github >}} Code</a>
 </span>
 
-The [Soil Health Roadmap](https://washingtonsoilhealthinitiative.com/roadmap/) is a science-based guide across Washington state. Researchers worked with the agricultural community to identify goals, barriers, and milestones to improving soil health in each of the eight focus areas' region and production system.
+The [Soil Health Roadmap](https://washingtonsoilhealthinitiative.com/roadmap/) is a science-based guide to maintaining and improving soil health in eight focus areas across Washington state.
 
-For each focus area, I created an ArcGIS dashboard summarizing the crop acreage and soil properties from maps that I crafted using the [`arcpy` Python package](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/importing-arcpy.htm). These dashboards are a companion to the [117-page report](https://hk79fd.p3cdn1.secureserver.net/wp-content/uploads/2023/09/WSU-Soil-Health-Roadmap-updated-August-2023_page.pdf).
+For each focus area, I created crop and soil maps using the [`arcpy` Python package](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/importing-arcpy.htm). I then summarized the crop acreage and soil properties in interactive ArcGIS dashboards to complement the [117-page report](https://hk79fd.p3cdn1.secureserver.net/wp-content/uploads/2023/09/WSU-Soil-Health-Roadmap-updated-August-2023_page.pdf).
 
 ![](roadmap.webp){.img-center fig-alt="Screenshot of WaSHI roadmap landing page."}
 

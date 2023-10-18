@@ -3,7 +3,6 @@ pagetitle: "Jadey Ryan | About"
 title: "Jadey Ryan"
 subtitle: "🐱 cat-obsessed environmental data scientist 🌱"
 image: assets/img/headshot.jpg
-image-alt: "Headshot of smiling asian woman with glasses and long dark hair."
 about:
   id: hero-heading
   template: jolla

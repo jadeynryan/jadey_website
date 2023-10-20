@@ -22,6 +22,8 @@ about:
       href: https://fosstodon.org/@jadeynryan
 toc: false
 anchor-sections: false
+execute: 
+  freeze: true
 ---
 
 ::: {#hero-heading}

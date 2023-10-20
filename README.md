@@ -1,6 +1,4 @@
-[![](https://api.netlify.com/api/v1/badges/b58c2e5b-cf60-4b13-aa25-743b13f3cbf7/deploy-status)](https://app.netlify.com/sites/jadeynryan/deploys)
-
-# Hi there! ![](assets/img/JR-logo.svg){.img-va-bottom fig-alt="cat with tail shaped as the letter J next to last name initial R" width="100"}
+# Hi there! <img src="assets/img/JR-logo.svg" height="138"/>[![](https://api.netlify.com/api/v1/badges/b58c2e5b-cf60-4b13-aa25-743b13f3cbf7/deploy-status)](https://app.netlify.com/sites/jadeynryan/deploys)
 
 Welcome to the repo of my personal website, which was created with [Quarto](https://quarto.org/) and deployed with [Netlify](https://www.netlify.com/).
 

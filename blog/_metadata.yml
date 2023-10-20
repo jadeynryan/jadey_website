@@ -3,9 +3,19 @@
 # prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
 
-# enable banner style title blocks (see https://quarto.org/docs/authoring/title-blocks.html)
-title-block-banner: true
-
 format:
   html:
     include-after-body: ../assets/blog_footer.html
+
+comments:
+    giscus:
+      repo: jadeynryan/jadey-website-giscus
+      repo-id: R_kgDOKisUNQ
+      category: Announcements
+      category-id: DIC_kwDOKisUNc4CaSRD
+      mapping: pathname
+      reactions-enabled: true
+      loading: lazy
+      input-position: top
+      theme: light
+      language: en

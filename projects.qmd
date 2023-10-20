@@ -11,5 +11,4 @@ listing:
     - categories
   categories: true
   sort: "date desc"
-comments: false
 ---

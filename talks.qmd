@@ -14,5 +14,4 @@ listing:
   sort: "date desc"
   page-size: 5
   feed: true
-comments: false
 ---

@@ -309,7 +309,20 @@ div.quarto-post .listing-categories .listing-category:hover, .quarto-category:ho
   border-width: 1px;
 }
 
-// buy me coffee button
+// subscribe
+
+.subscribe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// buy me coffee
+
+.bmcoffee {
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .bmc-btn:hover, .bmc-btn:active, .bmc-btn:focus {
     color: white;

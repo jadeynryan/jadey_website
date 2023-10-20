@@ -7,3 +7,8 @@ execute:
   echo: false
 
 citation: true
+
+format:
+  html:
+    include-after-body: ../assets/blog_footer.html
+    toc-depth: 4

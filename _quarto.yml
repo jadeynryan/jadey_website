@@ -5,6 +5,10 @@ project:
     browser: true
     watch-inputs: true
     timeout: 3600
+  render:
+    - "*.qmd"
+    - "!LICENSE"
+    - "!README.md"
 
 execute:
   freeze: auto
@@ -12,7 +16,7 @@ execute:
 website:
   title: "Jadey Ryan"
   description: "Personal website for Jadey's portfolio, blog, and the coding cats shop. Explore for R coding, cats, and environmental data science content."
-  site-url: https://jadeynryan.com
+  site-url: https://jadeyryan.com
   favicon: assets/img/JR-favicon.svg
   twitter-card:
     description: "Personal website for Jadey's portfolio, blog, and the coding cats shop. Explore for R coding, cats, and environmental data science content."
@@ -99,6 +103,7 @@ format:
   html:
     theme: [flatly, assets/styling/theme.scss]
     toc: true
+    toc-depth: 4
     pagetitle: "Jadey Ryan | {{< meta title >}}"
     page-layout: full
     highlight-style: a11y

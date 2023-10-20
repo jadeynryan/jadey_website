@@ -24,6 +24,7 @@ toc: false
 anchor-sections: false
 execute: 
   freeze: true
+comments: false
 ---
 
 ::: {#hero-heading}

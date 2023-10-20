@@ -3,6 +3,7 @@ title: "Curriculum Vitae"
 execute: 
   freeze: true
 anchor-sections: false
+comments: false
 ---
 
 ## {{< fa briefcase >}} Professional Experience

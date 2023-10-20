@@ -6,3 +6,13 @@ package = "@quarto/netlify-plugin-quarto"
 from = "https://thecodingcats.com"
 to = "/shop.html"
 status = 200
+
+[[redirects]]
+from = "https://jadeyryan.com/shop.html"
+to = "https://thecodingcats.com/shop.html"
+status = 200
+
+[[redirects]]
+from = "https://jadeynryan.com/shop.html"
+to = "https://thecodingcats.com/shop.html"
+status = 200

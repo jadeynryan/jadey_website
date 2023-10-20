@@ -13,4 +13,5 @@ listing:
   categories: true
   sort: "date desc"
   page-size: 5
+comments: false
 ---

@@ -5,10 +5,6 @@ project:
     browser: true
     watch-inputs: true
     timeout: 3600
-  render:
-    - "*.qmd"
-    - "!LICENSE"
-    - "!README.md"
 
 execute:
   freeze: auto

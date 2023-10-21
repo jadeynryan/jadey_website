@@ -3,6 +3,7 @@ pagetitle: "Jadey Ryan | About"
 title: "Jadey Ryan"
 subtitle: "🐱 cat-obsessed environmental data scientist 🌱"
 image: assets/img/headshot.jpg
+image-alt: "Jadey Ryan headshot"
 about:
   id: hero-heading
   template: jolla
@@ -20,6 +21,10 @@ about:
       text: Mastodon
       aria-label: Mastodon
       href: https://fosstodon.org/@jadeynryan
+    - icon: briefcase-fill
+      text: Work
+      aria-label: WSDA Website
+      href: https://agr.wa.gov/AgScience
 toc: false
 anchor-sections: false
 execute: 

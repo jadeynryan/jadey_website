@@ -7,3 +7,16 @@ execute:
   echo: false
 
 citation: false
+
+comments:
+    giscus:
+      repo: jadeynryan/jadey-website-giscus
+      repo-id: R_kgDOKisUNQ
+      category: Announcements
+      category-id: DIC_kwDOKisUNc4CaSRD
+      mapping: pathname
+      reactions-enabled: true
+      loading: lazy
+      input-position: top
+      theme: light
+      language: en

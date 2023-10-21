@@ -8,10 +8,6 @@ execute:
 
 citation: true
 
-format:
-  html:
-    include-after-body: ../assets/blog_footer.html
-
 comments:
     giscus:
       repo: jadeynryan/jadey-website-giscus

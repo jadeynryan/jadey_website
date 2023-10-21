@@ -5,7 +5,9 @@ freeze: true
 
 format:
   html:
-    include-after-body: ../assets/blog_footer.html
+    include-after-body:
+      - ../assets/html/subscribe.html
+      - ../assets/html/buymecoffee.html
 
 comments:
     giscus:

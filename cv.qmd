@@ -22,9 +22,11 @@ Washington State Department of Agriculture
 -   Collect and process soil and climate data from diverse sources to compile in a statewide soil health database using Kisters WISKI software.
 -   Use R, Python, and ArcGIS to develop data collection and decision support tools such as R Shiny web applications and ArcGIS field maps, dashboards, and Experience Builder web applications.
 -   Use GitHub for version control and to promote open access data and code.
--   Collaborate with the Soil Health team to develop standard operating procedures and a quality assurance project plan to establish a soil health monitoring program.
+-   Collaborate with the Soil Health team to develop standard operating procedures (SOPs) and a quality assurance project plan to establish a soil health monitoring program.
 -   Create training videos for R packages and ArcGIS spatial data collection tools that I developed.
 -   Coordinate and facilitate meetings with intra- and inter- agency partners and stakeholders.
+
+![Jadey standing in a field with a soil sampling probe. ](assets/img/soil-sampling.webp){fig-align="left" height="250px"}
 
 [Environmental Specialist]{.h5} [Jun 2020 -- Jan 2022]{.cv-date}
 
@@ -33,12 +35,21 @@ In addition to duties as Environmental Technician:
 -   Contributed data analysis, writing, and editing to the annual fact sheets and technical report.
 -   Collaborated with the Surface Water Monitoring Program team to improve standard operating procedures and quality assurance project plan.
 -   Provided administrative support for timekeeping, purchasing, and travel.
+-   Supported planning for the [Washington Soil Heath Initiative](https://wasoilheath.com) and [Sustainable Farms and Fields grant program](https://www.scc.wa.gov/programs/sustainable-farms-fields) during the COVID-19 hiring freeze.
+
+Read this [blog post](https://wastatedeptag.blogspot.com/2021/06/washington-soil-health-initiative.html), written by yours truly, to learn more about the Washington Soil Health Initiative.
+
+[![Soil sampling kits for distribution to conservation districts across the state.](https://1.bp.blogspot.com/-CRWiPiLtYgY/YL_CJwvT1UI/AAAAAAAADko/t03-h0kMJScLHNkWyQtNk6muqiNtJGUzgCLcBGAsYHQ/s2016/SoilSamplingBinsForCDs.jpg){fig-align="left" height="250px"}](https://wastatedeptag.blogspot.com/2021/06/washington-soil-health-initiative.html)
 
 [Environmental Technician]{.h5} [Jun 2019 -- May 2020]{.cv-date}
 
 -   Calibrated a water quality sonde and prepared chain of custodies and sample labels.
 -   Collected water samples from salmonid-bearing wadable streams for pesticide analysis and measured streamflow using an electromagnetic current meter.
 -   Performed quality assurance checks on data each week after sampling.
+
+Read this [blog post](https://wastatedeptag.blogspot.com/2019/07/checking-for-pesticides-in-surface-water.html) for a recount of what a site visit looks like, including pictures!
+
+[![Jadey Ryan measures stream flow while Katie Noland records the data.](https://1.bp.blogspot.com/-JhcELPQJ1mU/XRuOrqPlg8I/AAAAAAAAALM/8GBKuWZ7JTMe68vHmLf2qt4E0_A7W_yDgCLcBGAs/s640/panorama.JPG){fig-align="left"}](https://wastatedeptag.blogspot.com/2019/07/checking-for-pesticides-in-surface-water.html)
 
 :::: {.d-inline-flex style="align-items:baseline"}
 ::: {.p-2}
@@ -56,6 +67,8 @@ Genetics, Microbiology, and Molecular Biology:
 -   Communicated with professors, lab manager, and peers to plan and implement preparation of organisms, media, reagents, and equipment.
 -   Guided students through the labs.
 
+![Eight neat rack of Eppendorf tubes containing aliquots of reagents for a genetics lab.](assets/img/lab-prep.webp){height="200px" fig-align="left"}
+
 :::: {.d-inline-flex style="align-items:baseline"}
 ::: {.p-2}
 ![](assets/img/tacoma-water.jpeg){width="80px" fig-alt="Tacoma Water logo"}
@@ -65,6 +78,8 @@ Tacoma Water
 :::
 ::::
 [Skilled Occupational Intern]{.h5} [Nov 2015 -- May 2019]{.cv-date}
+
+![Collecting a water sample from a stream.](assets/img/green-river-sampling.webp){style="float:right" height="300px" fig-align="left"}
 
 -   Used XC2 software for data entry, auditing, research, and correction of discrepancies for backflow preventer assembly installation and testing records for the Cross Connection Control program.
 -   Delivered consistent and compassionate customer service when interacting with customers in person, by phone, or by email.
@@ -86,6 +101,8 @@ Ocean Mammal Institute
 -   Participated in lectures, discussions, and field research to learn about the biology and behavior of humpback whales, politics associated with marine mammal protection, and ecopsychology.
 -   Applied shore-based data collection methods to research the impact of vessel traffic on Hawaiian Humpback whales by monitoring their behaviors and movements.
 -   Developed and presented a poster of my results at the 23rd Annual Natural Sciences Academic Festival at Pacific Lutheran University.
+
+<object class="slides" data="https://drive.google.com/file/d/1_DwdH_vwO8YvQBcTq7xaimENyg4-EPpE/preview"><p>Oops! Your browser doesn't seem to support embedded PDFs.</p><p><a href="2021_AWRA_CDM_Mixture_RA_JR.pdf">Try downloading instead.</a></p></object>
 
 ## {{< fa graduation-cap >}} Education
 

@@ -65,6 +65,10 @@ h1, h2 {
   color: $teal-dark;
 }
 
+h2 {
+  font-size: 1.2em;
+}
+
 h3, h4 {
   font-weight: 700;
   font-family: Domine, serif;
@@ -72,11 +76,15 @@ h3, h4 {
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.15em;
+}
+
+h4 {
+  font-size: 1.1em;
 }
 
 h5, h6 {
-  font-size: 1.1em;
+  font-size: 1.05em;
   font-weight: 600;
   font-family: Domine, serif;
   color: $secondary;

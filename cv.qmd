@@ -26,7 +26,7 @@ Washington State Department of Agriculture
 -   Create training videos for R packages and ArcGIS spatial data collection tools that I developed.
 -   Coordinate and facilitate meetings with intra- and inter- agency partners and stakeholders.
 
-![Jadey standing in a field with a soil sampling probe. ](assets/img/soil-sampling.webp){fig-align="left" height="250px"}
+![Jadey standing in a field with a soil sampling probe. ](assets/img/soil-sampling.webp){fig-align="left" max-height="250px"}
 
 [Environmental Specialist]{.h5} [Jun 2020 -- Jan 2022]{.cv-date}
 
@@ -77,15 +77,16 @@ Genetics, Microbiology, and Molecular Biology:
 Tacoma Water
 :::
 ::::
-[Skilled Occupational Intern]{.h5} [Nov 2015 -- May 2019]{.cv-date}
 
-![Collecting a water sample from a stream.](assets/img/green-river-sampling.webp){style="float:right" height="300px" fig-align="left"}
+[Skilled Occupational Intern]{.h5} [Nov 2015 -- May 2019]{.cv-date}
 
 -   Used XC2 software for data entry, auditing, research, and correction of discrepancies for backflow preventer assembly installation and testing records for the Cross Connection Control program.
 -   Delivered consistent and compassionate customer service when interacting with customers in person, by phone, or by email.
 -   Collected water samples from the primary source (Green River Watershed) and various points within the distribution system for investigative sampling.
 -   Performed various water quality analyses in the field and lab using turbidimeters, colorimeters, and spectrometers.
 -   Designed and implemented two pilot studies in the Green River Watershed (Water Quality Index and Trace Metals Screening).
+
+![Collecting a water sample from a stream.](assets/img/green-river-sampling.webp){height="300px" fig-align="left"}
 
 :::: {.d-inline-flex style="align-items:baseline"}
 ::: {.p-2}

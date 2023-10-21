@@ -45,9 +45,6 @@ $link-color: $orange-dark; // hyperlinks
 $code-bg: $orange-light; // inline code background color
 $code-color: $orange-dark; // inline code text color
 
-// Code blocks
-$code-block-bg: $white; // code block background color
-
 // Contrast
 $min-contrast-ratio:   7;
 
@@ -99,13 +96,23 @@ p.subtitle.lead {
   margin-top: 1em;
 }
 
+body {
+  font-family: Atkinson Hyperlegible, Nunito, sans-serif;
+  background-color: $light;
+}
+
+// code
+
 code {
   font-family: Fira Code, monospace;
 }
 
-body {
-  font-family: Atkinson Hyperlegible, Nunito, sans-serif;
-  background-color: $light;
+pre.sourceCode {
+  font-size: 1em;
+}
+
+.sourceCode pre code {
+  padding: 1.2em;
 }
 
 // about section

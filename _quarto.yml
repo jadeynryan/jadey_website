@@ -61,6 +61,9 @@ website:
         aria-label: the coding cats shop
         href: shop.qmd
     tools:
+      - icon: rss
+        aria-label: rss
+        href: index.xml
       - icon: github
         aria-label: GitHub
         href: https://github.com/jadeynryan
@@ -90,9 +93,9 @@ format:
     toc-depth: 4
     pagetitle: "Jadey Ryan | {{< meta title >}}"
     page-layout: full
-    highlight-style: a11y
     smooth-scroll: true
-    code-link: true
     link-external-newwindow: true
+    code-link: true
+    highlight-style: a11y
 
 

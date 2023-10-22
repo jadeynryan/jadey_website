@@ -77,11 +77,11 @@ website:
     border: true
     left: "&#169; 2023 Jadey Ryan"
     center:
+      - text: Code of Conduct
+        href: coc.qmd
       - text: Accessibility
-        aria-label: accessibility
         href: accessibility.qmd
       - text: License
-        aria-label: license
         href: license.qmd
     right: "made with {{< fa heart title='love' aria-hidden='true' >}} & [Quarto](https://quarto.org)"
 

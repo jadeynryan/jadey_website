@@ -2,9 +2,12 @@
 title: Code of Conduct
 ---
 
-I value **kindness** and **inclusivity**. Therefore I'm committed to making sure all content on my website adheres to these standards.
+I value kindness and inclusivity. This means I will:
 
-I am putting putting myself in a vulnerable position by posting content to the very public wild web. I hope others can feel comfortable enough to participate in discussions in the spirit of **learning out loud**.
+-   be friendly, courteous, and respectful
+-   take great care to not make statements that could cause offence, personal hurt, or discourage participation/conversation
+
+I am putting putting myself in a vulnerable position by posting content to the very public wild web. I hope others, no matter their experience level, feel comfortable enough to participate in discussions in the spirit of learning out loud.
 
 I will not post unacceptable content, and I will delete any references or comments that contain it.
 
@@ -16,6 +19,6 @@ I define unacceptable content as anything included or linked to that:
 - violates an obligation of confidentiality
 - violates the privacy of others
 
-I define and determine what is “unacceptable content” on a case-by-case basis, and my definitions are not limited to this list. If I delete a comment or link, I will say so and explain why. [I reserve the right to change these standards at any time with no notice.]
+I define and determine what is “unacceptable content” on a case-by-case basis, and my definitions are not limited to this list. If I delete a comment or link, I will say so and explain why. I reserve the right to change these standards at any time with no notice.
 
 Modified from [Cédric Scherer](https://www.cedricscherer.com/top/conduct/), who modified from [Tim O'Reilly](http://radar.oreilly.com/2007/04/draft-bloggers-code-of-conduct.html).

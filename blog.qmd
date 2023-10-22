@@ -1,7 +1,9 @@
 ---
 title: "data whiskeRs"
 listing:
-  contents: blog
+  contents: 
+    - "/blog/*.qmd"
+    - "!session-info.qmd"
   type: default
   image-align: left
   fields: 

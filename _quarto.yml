@@ -92,7 +92,7 @@ format:
     toc: true
     toc-depth: 4
     pagetitle: "Jadey Ryan | {{< meta title >}}"
-    page-layout: full
+    page-layout: article
     smooth-scroll: true
     link-external-newwindow: true
     code-link: true

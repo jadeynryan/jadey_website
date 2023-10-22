@@ -1,9 +1,7 @@
 ---
 title: "data whiskeRs"
 listing:
-  contents: 
-    - "/blog/*.qmd"
-    - "!session-info.qmd"
+  contents: blog
   type: default
   image-align: left
   fields: 
@@ -27,3 +25,4 @@ Welcome to my blog, **data whiskeRs**! I'm so happy you're here to learn with me
 
 I welcome respectful feedback and discussions that adhere to the [Code of Conduct](coc.qmd).
 
+---

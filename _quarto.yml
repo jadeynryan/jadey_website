@@ -11,18 +11,17 @@ execute:
 
 website:
   title: "Jadey Ryan"
-  description: "Personal website for Jadey's portfolio, blog, and the coding cats shop. Explore for R coding, cats, and environmental data science content."
+  description: "R code, environmental data science, and cats."
   site-url: https://jadeyryan.com
   favicon: assets/img/JR-favicon.svg
   twitter-card:
-    description: "Personal website for Jadey's portfolio, blog, and the coding cats shop. Explore for R coding, cats, and environmental data science content."
+    creator: "@jadeynryan"
     image: assets/img/JR-logo-white-bg.png
-    image-alt: "Logo for Jadey Ryan's personal website: a cat with tail shaped as the letter J next to last name initial R"
+    image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   open-graph:
     locale: en_EN
-    description: "Personal website for Jadey's portfolio, blog, and the coding cats shop. Explore for R coding, cats, and environmental data science content."
     image: assets/img/JR-logo-white-bg.png
-    image-alt: "Logo for Jadey Ryan's personal website: a cat with tail shaped as the letter J next to last name initial R"
+    image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   page-navigation: true
   google-analytics:
     tracking-id: "G-LEVV3VZT0E"
@@ -34,7 +33,7 @@ website:
   navbar:
     pinned: true
     logo: assets/img/JR-logo-white.svg
-    logo-alt: "Logo for Jadey Ryan's personal website: a cat with tail shaped as the letter J next to last name initial R"
+    logo-alt: "Cat with tail shaped as the letter J next to last name initial R"
     left:
       - text: About
         icon: person-circle
@@ -63,7 +62,7 @@ website:
     tools:
       - icon: rss
         aria-label: rss
-        href: index.xml
+        href: blog.xml
       - icon: github
         aria-label: GitHub
         href: https://github.com/jadeynryan
@@ -78,11 +77,11 @@ website:
     border: true
     left: "&#169; 2023 Jadey Ryan"
     center:
+      - text: Code of Conduct
+        href: coc.qmd
       - text: Accessibility
-        aria-label: accessibility
         href: accessibility.qmd
       - text: License
-        aria-label: license
         href: license.qmd
     right: "made with {{< fa heart title='love' aria-hidden='true' >}} & [Quarto](https://quarto.org)"
 

@@ -5,6 +5,7 @@ freeze: true
 
 format:
   html:
+    pagetitle: "data whiskeRs | {{< meta title >}}"
     include-after-body:
       - ../assets/html/subscribe.html
       - ../assets/html/buymecoffee.html

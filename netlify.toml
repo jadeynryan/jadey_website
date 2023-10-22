@@ -1,18 +1,2 @@
 [[plugins]]
 package = "@quarto/netlify-plugin-quarto"
-
-# Rewrite a path
-[[redirects]]
-from = "https://thecodingcats.com"
-to = "/shop.html"
-status = 200
-
-[[redirects]]
-from = "https://jadeyryan.com/shop.html"
-to = "https://thecodingcats.com/shop.html"
-status = 200
-
-[[redirects]]
-from = "https://jadeynryan.com/shop.html"
-to = "https://thecodingcats.com/shop.html"
-status = 200

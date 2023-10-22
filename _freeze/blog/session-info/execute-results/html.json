@@ -1,0 +1,14 @@
+{
+  "hash": "b42cb734874b0749fae42ac6717a4739",
+  "result": {
+    "markdown": "<!-- From Tom Mock's blog (https://github.com/jthomasmock/themockup-blog/blob/master/posts/_footer.qmd) -->\n\n<details><summary>Session Info</summary>\n\n<div style='font-size:12px;'>\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n─ Session info ───────────────────────────────────────────────────────────────\n setting  value\n version  R version 4.2.3 (2023-03-15)\n os       macOS 14.0\n system   aarch64, darwin20\n ui       X11\n language (EN)\n collate  en_US.UTF-8\n ctype    en_US.UTF-8\n tz       America/Los_Angeles\n date     2023-10-21\n pandoc   3.1.1 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/ (via rmarkdown)\n quarto   1.3.450 @ /Users/jadeyryan/Applications/quarto/bin/quarto\n\n─ Packages ───────────────────────────────────────────────────────────────────\n ! package     * version date (UTC) lib source\n P sessioninfo * 1.2.2   2021-12-06 [?] CRAN (R 4.2.0)\n\n [1] /Users/jadeyryan/Library/CloudStorage/Dropbox/Mac/Documents/R/jadey_website/renv/library/R-4.2/aarch64-apple-darwin20\n [2] /Users/jadeyryan/Library/Caches/org.R-project.R/R/renv/sandbox/R-4.2/aarch64-apple-darwin20/fd29d0b8\n\n P ── Loaded and on-disk path mismatch.\n\n──────────────────────────────────────────────────────────────────────────────\n```\n:::\n:::\n\n\n</div>\n\n</details>",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

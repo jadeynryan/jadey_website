@@ -1,0 +1,23 @@
+---
+title: "Test"
+description: "test"
+date: "2022-11-22"
+---
+
+Test test test test
+
+```{r}
+library(dplyr)
+
+# remove variables and modify existing variables.
+starwars %>%
+  select(name, height, mass, homeworld) %>%
+  mutate(
+    mass = NULL,
+    height = height * 0.0328084 # convert to feet
+  )
+```
+
+
+```{r, echo=FALSE, child="./session-info.qmd"}
+```

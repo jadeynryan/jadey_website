@@ -15,6 +15,7 @@ execute:
 filters: 
   - lightbox
 lightbox: auto
+draft: true
 ---
 
 Thankfully, there are already many amazing resources for building beautiful websites and blogs with Quarto. Instead of adding to that pool of content, my first blog post will describe the workflow that I spent hours struggling with: publishing a Quarto website with Netlify, GitHub, and [Continuous Integration (CI)](https://quarto.org/docs/publishing/ci.html#rendering-for-ci). This workflow automates my site deployment every time I commit to my GitHub repository.

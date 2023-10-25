@@ -13,10 +13,6 @@ website:
   title: "Jadey Ryan"
   description: "R code, environmental data science, and cats."
   site-url: https://jadeyryan.com
-  repo-url: https://github.com/jadeynryan/jadey_website
-  repo-actions:
-    - source
-    - issue
   favicon: assets/img/JR-favicon.svg
   twitter-card:
     creator: "@jadeynryan"
@@ -32,7 +28,7 @@ website:
     anonymize-ip: true
   cookie-consent:
     type: express
-    prefs-text: "Change cookies 🍪"
+    prefs-text: "Change Cookies 🍪"
 
   navbar:
     pinned: true
@@ -81,7 +77,7 @@ website:
     border: true
     left: "&#169; 2023 Jadey Ryan"
     center:
-      - text: Code of conduct
+      - text: Code of Conduct
         href: coc.qmd
       - text: Accessibility
         href: accessibility.qmd

@@ -1,0 +1,302 @@
+---
+title: "Publish a Quarto website with GitHub, Netlify, and continuous integration"
+description: "Build a Quarto website and automatically publish it with GitHub, Netlify, and CI. This tutorial skips the middle part of actually crafting the website."
+date: "2023-10-21"
+image: img/netlify-deploys-gh.png
+image-alt: "Netlify deploy from GitHub"
+categories:
+  - R
+  - Quarto
+  - GitHub
+  - Netlify
+bibliography: references.bib
+execute: 
+  eval: false
+filters: 
+  - lightbox
+lightbox: auto
+draft: true
+---
+
+Thankfully, there are already many amazing resources for building beautiful websites and blogs with Quarto. Instead of adding to that pool of content, my first blog post will describe the workflow that I spent hours struggling with: publishing a Quarto website with Netlify, GitHub, and [Continuous Integration (CI)](https://quarto.org/docs/publishing/ci.html#rendering-for-ci). This workflow automates my site deployment every time I commit to my GitHub repository.
+
+In this post, I walk through:
+
+-   building a Quarto website as an RStudio project
+-   connecting this project to a GitHub repository
+-   the first manual Netlify deployment with the RStudio terminal
+-   setting up the configuration files for automatic rendering with Netlify bots, and
+-   using Netlify's deploy previews.
+
+# Why Netlify?
+
+The free starter plan is enough for me.
+
+![](img/netlify-starter.png){width="600"}
+
+A super nifty feature of Netlify is its free [preview branch deployment system](https://docs.netlify.com/site-deploys/overview/) This means I use a `staging` branch, which Netlify's bots automatically deploy from my repo and allow me to preview it on my computer and phone before publishing to my live website!
+
+::: callout-important
+Netlify servers can only render markdown and not execute code. This means all code must be executed locally on our computers. Read this [article](https://quarto.org/docs/publishing/ci.html#rendering-for-ci) to learn more about rendering Quarto documents and websites with CI. The workflow presented in this post is in the middle of the continuum <!--# insert a graphic of the continuum --> discussed in the article: "local execution with CI rendering".
+
+If you need to execute code with CI, instead of `Step 4. Deploy with Netlify bots`, you'll need to [configure a GitHub Action](https://quarto.org/docs/publishing/netlify.html#executing-code) that executes code, renders the site, and publishes to Netlify.
+:::
+
+# Step 1. Create a Quarto website
+
+In RStudio, go to `File` \> `New Project` \> `New Directory` to open the **New Project Wizard**.
+
+Let's begin with a website. If you'd like to add a blog later on, Samantha Csik wrote a great blog post explaining this process [@csik2022].
+
+![](img/rstudio-project-wizard.png){fig-alt="New project wizard with box around Quarto Website." width="500"}
+
+Choose the name of your directory (which will also be the name of your GitHub repository), check the `Create a git repository` box, then click `Create Project`.
+
+![](img/create-website.png){fig-alt="Create Quarto Website dialog box with a field for directory name and a checkbox selected to create a git repository." width="500"}
+
+You should now be in a RStudio project that has `index.qmd` and `_quarto.yml` open and some new things in your `Files pane`:
+
+![](img/rstudio-website.png){fig-alt="RStudio with index.qmd and _quarto.yml open and many new folders and files in the files pane." width="500"}
+
+Your `Files pane` should be populated with the following:
+
+```         
+├── _quarto.yml         # Website configuration file
+├── about.qmd           # Special about template
+├── index.qmd           # Landing page
+├── my-website.Rproj    # RStudio project config file
+└── styles.css          # CSS file for any custom styling
+```
+
+Notice we also have a `Git pane` with all of these files unstaged and no branches are available. This is because we haven't created a repository on GitHub and connected it with this project yet.
+
+![](img/git-pane.png){fig-alt="RStudio Git pane with a box around (no branch)." width="500"}
+
+# Step 2. Create and connect to GitHub
+
+If you've never set up a GitHub repository, check out [Happy Git and GitHub for the useR](https://happygitwithr.com/) [@bryan2023]. We're following the [`Existing project, GitHub last`](https://happygitwithr.com/existing-github-last) workflow.
+
+Thankfully, we can use the `usethis` package so we don't have to touch the terminal! If you haven't used `usethis` yet, you'll need to do the setup described in the [package documentation](https://usethis.r-lib.org/articles/usethis-setup.html#install-git).
+
+Assuming you have connected and authenticated your GitHub account in RStudio, you can create and connect your project to a repository with just **two** lines of code.
+
+```{r}
+usethis::use_git()
+```
+
+```{r}
+# ✔ Setting active project to '/Users/jadeyryan/Library/CloudStorage/Dropbox/Mac/Documents/my-website'
+# ✔ Adding '.Rhistory', '.Rdata', '.httr-oauth', '.DS_Store', '.quarto' to '.gitignore'
+# There are 6 uncommitted files:
+# * '_quarto.yml'
+# * '.gitignore'
+# * 'about.qmd'
+# * 'index.qmd'
+# * 'my-website.Rproj'
+# * 'styles.css'
+# Is it ok to commit them?
+# 
+# 1: Negative
+# 2: Nope
+# 3: Yeah
+# 
+# Selection: 3
+# ✔ Adding files
+# ✔ Making a commit with message 'Initial commit'
+```
+
+```{r}
+usethis::use_github()
+```
+
+```{r}
+# ℹ Defaulting to 'https' Git protocol
+# ✔ Creating GitHub repository 'jadeynryan/my-website'
+# ✔ Setting remote 'origin' to 'https://github.com/jadeynryan/my-website.git'
+# ✔ Pushing 'main' branch to GitHub and setting 'origin/main' as upstream branch
+# ✔ Opening URL 'https://github.com/jadeynryan/my-website'
+```
+
+# Step 3. Manually deploy from Netlify
+
+For easier integration with GitHub, sign up for [Netlify](https://app.netlify.com/signup) with GitHub.
+
+![](img/netlify-signup.png){fig-alt="Netlify signup page with GitHub login." width="400"}
+
+Once you're logged into Netlify with GitHub, in the `Terminal` run:
+
+``` {.bash filename="Terminal"}
+quarto publish netlify
+```
+
+![](img/quarto-publish-netlify.png){fig-alt="quarto publish netlify command run in the RStudio terminal."}
+
+This command rendered your site locally, uploaded all the static files to Netlify, deployed and published to your new site! The site overview on Netlify should have opened:
+
+![](img/netlify-site-overview.png){fig-alt="Site overview on Netlify with boxes around the random subdomain name and the status as a manual deploy." width="400"}
+
+Note that Netlify provided a random site name (**`stately-chimera-0c91c7`**) at the `netlify.app` domain. Also, notice that it says `Manual deploys` underneath the site link, meaning it was deployed from the `quarto publish netlify` command in our terminal and not from GitHub.
+
+Click on the link to open your live site!
+
+![](img/live-website.png){fig-alt="Screenshot of live website at stately-chimera-0c91c7.netlify.app."}
+
+## Site domain name
+
+The domain name is just the URL or web address to your site. You have two options to rename your site:
+
+-   **Free**: change the random name provided but keep the `netlify.app` domain.
+-   **Purchase a new domain**: I recommend buying it from Netlify to not deal with the messiness of [DNS](https://ns1.com/products/dedicated-dns) records. Or, buy from a domain provider that doesn't use the NS1 DNS zone, or you'll get the error in the footnote.[^1]
+
+[^1]: I originally bought a domain from Square Space and could not set my Netlify site to that domain due to DNS issues that I don't fully understand. Here's a [support forum thread](https://answers.netlify.com/t/trying-to-move-domain-from-squarespace-to-netlify/11879) on Netlify with the instructions for pointing a custom domain to a Netlify site. I ended up buying another domain directly from Netlify.
+
+    ![](img/netlify-dns-error.png){fig-alt="An error when trying to add a custom domain purchased from Squarespace. The error says a DNS zone already exists on NS1." width="400"}
+
+    DNS stuff is so confusing. 🫤
+
+### Free domain name change
+
+From the site overview Netlify page, click on `Site configuration`.
+
+![](img/netlify-site-config.png){fig-alt="Netlify website site overview with box around site configuration." width="400"}
+
+Scroll down to `Site information` then click on `Change site name`.
+
+![](img/netlify-site-info.png){fig-alt="Site information page on Netlify with button to change site name." width="400"}
+
+Now you can update the site name:
+
+![](img/netlify-change-site-name.png){fig-alt="Netlify change site name dialog box with new name of my-website24.netlify.app." width="400"}
+
+### Buy a domain name
+
+If you don't want the `netlify.app` domain, you can purchase your own. Instead of `Site configuration`, go to the `Domain management` part of the site then click `Add a domain`.
+
+![](img/netlify-domain-mgmt.png){fig-alt="Domain management part of Netlify site with option to add a domain." width="400"}
+
+Type in whatever custom domain you want: there are a bajillion different extensions. [domain.com](https://www.domain.com/domains/new-domain-extensions) lists them alphabetically and has a frequently asked questions section. If your desired name is available, you can register the domain for the listed price.
+
+![](img/netlify-add-custom-domain.png){fig-alt="Add a custom domain to your site page on netlify. It says my-website24.com is available and costs $13.99 for the first year." width="400"}
+
+## New `_publish.yml` file
+
+Notice this new file appeared in the project directory when you used the `quarto publish netlify` command:
+
+``` {.yaml filename="_publish.yml"}
+- source: project
+  netlify:
+    - id: b9f73a69-06e7-4de2-9c7b-4f9855b56ba3
+      url: 'https://stately-chimera-0c91c7.netlify.app'
+```
+
+The next time you manually publish from the terminal, it will ask if you want to publish the update to `https://my-website24.netlify.app`. If you enter `y`, it will update the `url` value in the `_publish.yml` file.
+
+``` {.bash filename="Terminal"}
+(base) MacBook-Pro-4:my-website jadeyryan$ quarto publish netlify
+? Publish update to: › https://stately-chimera-0c91c7.netlify.app (Netlify - jadey.nicole.ryan@gmail.com)
+Rendering for publish:
+
+[1/2] index.qmd
+[2/2] about.qmd
+
+[✓] Preparing to publish site
+[✓] Uploading files (complete)
+[✓] Deploying published site
+[✓] Published site: https://stately-chimera-0c91c7.netlify.app
+
+(base) MacBook-Pro-4:my-website jadeyryan$ quarto publish netlify
+? Publish update to: › https://my-website24.netlify.app (Netlify - jadey.nicole.ryan@gmail.com)
+Rendering for publish:
+
+[1/2] index.qmd
+[2/2] about.qmd
+
+[✓] Preparing to publish site
+[✓] Uploading files (complete)
+[✓] Deploying published site
+[✓] Published site: https://my-website24.netlify.app
+```
+
+# Step 4. Deploy with Netlify bots
+
+Now we need to configure several things so Netlify's bots can publish our site when we push changes to our repo.
+
+-   Add Quarto Netlify plugin files: `netlify.toml` and `package.json`
+-   Freeze executable code by setting `freeze: auto` in `_quarto.yml`.
+-   Add `_site` directory to `.gitignore`
+-   
+-   Link Netlify site to GitHub repo
+
+## Configure Netlify plugin
+
+The [Quarto Netlify plugin](https://github.com/quarto-dev/netlify-plugin-quarto) renders the entire website on the Netlify build server.
+
+``` {.toml filename="netlify.toml"}
+[[plugins]]
+package = "@quarto/netlify-plugin-quarto"
+```
+
+``` {.json filename="package.json"}
+{
+  "dependencies": {
+    "@quarto/netlify-plugin-quarto": "^0.0.5"
+  }
+}
+```
+
+## 
+
+## Freeze computations
+
+First, we need to [freeze](https://quarto.org/docs/projects/code-execution.html#freeze) computations so that code is only run locally. When you render a `.qmd` that executes code, the results get saved in a `html.json` file within a `_freeze` directory. This means that no code needs to be run on CI services that don't have R installed.
+
+The `_freeze` directory and all its files must be committed to your repo. Otherwise, the build will fail because Netlify can't run code (see the detailed error in my [comment](https://github.com/quarto-dev/quarto-cli/issues/1956#issuecomment-1773958407)).
+
+Add these two lines to your `_quarto.yml` file:
+
+``` {.yaml filename="_quarto.yml"}
+execute:
+  freeze: auto
+```
+
+If you need to execute code within a CI service, see the [Quarto docs](https://quarto.org/docs/projects/code-execution.html#freeze) for example GitHub actions.
+
+## Ignore output
+
+We also need to add the `_site` directory that contains all the rendered website content to our `.gitignore` file. This is recommended in the [Quarto docs](https://quarto.org/docs/publishing/netlify.html#ignoring-output-1) to avoid super messy diffs and potential merge conflicts.
+
+``` {.bash filename=".gitignore"}
+/_site/
+```
+
+## Link Netlify site to GitHub repo
+
+On the Netlify site, go to `Site configuration` \> `Build & deploy` \> `Continous deployment` \> `Link repository`.
+
+![](img/netlify-link-repo.png){fig-alt="Netlify site on the continuous deployment page with a box around the link repository button." width="700"}
+
+Choose `Deploy with GitHub`:
+
+![](img/netlify-connect-git.png){fig-alt="Netlify site to connect to Git provider." width="400"}
+
+If you're already logged into GitHub, it should immediately authorize and allow you to select repositories to allow the Netlify app to access. To get this popup screen (`Installed GitHub App - Netlify`), I clicked the `Configure the Netlify app on GitHub` link at the bottom of the Netlify site.
+
+![](img/netlify-select-repos.png){width="500"}
+
+After selecting the correct repository, the next screen will have build settings. Enter `_site` in the `Publish directory` field:
+
+![](img/netlify-build-settings.png){width="400"}
+
+Once you click `Deploy my-website`, it should take you back to your site overview page and it will now say `Deploys from GitHub` instead of `Manual deploys` below the link.
+
+![](img/netlify-deploys-gh.png){width="400"}
+
+Scroll down to make sure the deploy published successfully.
+
+<!--# insert screenshot of this -->
+
+## Commit a change to our repo to test workflow
+
+Let's commit to our repo and make sure it is automatically republished!
+
+# Step 5. Try a deploy preview

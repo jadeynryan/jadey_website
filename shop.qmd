@@ -2,4 +2,12 @@
 title: "Shop"
 ---
 
-Etsy shop coming soon!
+![](assets/img/etsy-banner.webp)
+
+Check out my Etsy shop at [thecodingcats.etsy.com](https://thecodingcats.etsy.com)
+
+Thank you so much for supporting my brand new small business! It truly means the world to me.
+
+This shop was born from posit::conf(2023), a data science conference with a community of amazing people who happen to love programming & cats. While there are lots of Python, Javascript, and other programming merch out there, there's little representation for the R statistical language! I hope to change that, with my own twist of adding cute cats to R themed designs.
+
+All of my designs are available in any product type. If you see a design you like but want it on something else or would like it personalized, please reach out!

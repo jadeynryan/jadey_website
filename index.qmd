@@ -42,7 +42,7 @@ I'm the data scientist for the [Natural Resources and Agricultural Sciences](htt
 
 My guiding principles in life are **kindness**, **authenticity**, **sustainability**, and **inclusivity**. I finally feel like I've found my happy place in life working in the environmental data science space and connecting with so many amazing folks in the R and open-source community.
 
-I designed [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR) as conversation starters for `posit::conf(2023)`. The positive feedback led me to start a small business: **the coding cats**. I'm excited to channel my creativity and love for cats, programming, and data science into designs for clothing, mugs, and tote bags. Keep an eye out for my [Etsy shop](shop.qmd).
+I designed [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR) as conversation starters for `posit::conf(2023)`. The positive feedback led me to start a small business: **the coding cats**. I'm excited to channel my creativity and love for cats, programming, and data science into designs for clothing, mugs, and tote bags. Learn more about my [Etsy shop](shop.qmd).
 
 When it comes to work, I love improving the efficiency and reproducibility of our workflows. I'm also in my element when developing decision-support tools with `Quarto` and `Shiny`. In my downtime, I'm happiest hanging out with my husband and our three snowshoe Siamese cats. We love exploring new food spots and the great outdoors.
 

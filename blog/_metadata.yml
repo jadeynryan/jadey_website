@@ -3,6 +3,9 @@
 # prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
 
+fig-align: "left"
+number-sections: true
+
 format:
   html:
     pagetitle: "data whiskeRs | {{< meta title >}}"

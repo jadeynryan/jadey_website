@@ -15,28 +15,27 @@ execute:
 filters: 
   - lightbox
 lightbox: auto
-draft: true
 ---
 
 Thankfully, there are already many amazing resources for building beautiful websites and blogs with Quarto. Instead of adding to that pool of content, I'll demo how I built my website with Quarto, connected to a GitHub repository, and published with Netlify [continuous deployment](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git).
 
 I struggled for hours trying to set up the configurations (and in the right order) so the site would be deployed every time I committed to my GitHub repo. Hopefully this demo saves you some time when you start your own website! :)
 
-As with most tech and dev stuff, there's many ways to do (almost) the same thing. There's probably a better way to do this, so I'd love to hear if anyone has any suggestions!
+As with most tech and dev stuff, there's many ways to do (almost) the same thing. I'd love to hear how other people have their Quarto/Netlify workflows set up!
 
-Keep reading to learn about:
+Anyhoo, keep on reading to learn about:
 
 -   options for publishing a Quarto website
 -   building a Quarto website as an RStudio project
 -   connecting this project to a GitHub repository
--   the first manual Netlify deployment with the RStudio terminal
--   setting up the configuration files for automatic rendering with Netlify bots
+-   the first manual Netlify deployment with the terminal
+-   setting up the configuration files for automatic rendering
 -   using Netlify's branch deploys and deploy previews
 -   installing the [Lighthouse](https://github.com/netlify/netlify-plugin-lighthouse#readme) plugin to audit your site's performance, accessibility, best practices, and SEO
 
 # Why Netlify? {.unnumbered}
 
-There are many options for deploying Quarto websites such as:
+There are lots of options for publishing Quarto websites:
 
 -   [GitHub Pages](https://quarto.org/docs/publishing/github-pages.html)
 -   [Quarto Pub](https://quarto.org/docs/publishing/quarto-pub#github-action)
@@ -57,19 +56,19 @@ I checked out what other #RStats bloggers[^1] were using and found most folks us
 
 [^1]: See my [GitHub stars list](https://github.com/stars/jadeynryan/lists/blogs) for my favorite blogs or Quarto website resources.
 
-After some repo-diving and research, I decided to go with Netlify's starter plan, shown below:
+After some repo-diving and research, I decided to go with Netlify and their starter plan, shown below:
 
 ![](img/netlify-starter.png){width="600" fig-alt="Netlify starter stats for my account. Bandwidth is 745 MB/100 GB. Build minutes is 43/300. Concurrent builds is 0/1. Team members is 1."}
 
-I don't think I'll ever get near the starter plan limits, but who knows. I can re-evaluate if/when that time comes.
+I don't think I'll ever get near the starter plan limits, but who knows. If I exceed the limits, it becomes pay as you go or I can upgrade to $19/month.
 
-A major selling point for Netlify are its free [branch deploys and deploy previews](https://docs.netlify.com/site-deploys/overview/). You can configure branch deploys to preview a working branch without touching your site in production. You also can see deploy previews generated from pull requests and merges.
+A major selling point for Netlify is the free [deployment preview system](https://docs.netlify.com/site-deploys/overview/). You can use **branch deploys** to preview changes from a feature branch or **deploy previews** to see changes from pull requests and merges. These deployment previews don't touch your site in production.
 
 ::: callout-note
 According to this [discussion](https://github.com/orgs/community/discussions/7730), a similar feature is under development for GitHub pages.
 :::
 
-See an [example Netlify bot comment](https://github.com/jadeynryan/jadey_website/pull/10) that includes links to the commit, deploy log, deploy preview URL, and a QR code for mobile preview:
+See an [example Netlify bot comment](https://github.com/jadeynryan/jadey_website/pull/10) from a deploy preview:
 
 ![](img/netlify-bot.png){fig-alt="GitHub merge request. Netlify bot commented a table with links to the latest commit, latest deploy log, deploy preview, and preview on mobile QR code."}
 
@@ -93,10 +92,6 @@ If you need to execute code with CI, instead of `Step 4. Deploy with Netlify bot
 
 If you're still interested in creating a website with Quarto and deploying it with Netlify, follow along to get started!
 
-::: callout-note
-I'm a very visual person, so I really rely on screenshots to understand stuff. I promise this post isn't actually that long -- it just has many images. I hope this helps! :)
-:::
-
 # Create a Quarto website
 
 In RStudio, go to `File` \> `New Project` \> `New Directory` to open the **New Project Wizard**.
@@ -105,15 +100,15 @@ Let's start with a website. If you'd like to add a blog later on, Samantha Csik 
 
 ![](img/rstudio-project-wizard.png){fig-alt="New project wizard with box around Quarto Website." width="500"}
 
-Choose the name of your directory (which will also be the name of your GitHub repository), check the `Create a git repository` box, then click `Create Project`.
-
-![](img/create-website.png){fig-alt="Create Quarto Website dialog box with a field for directory name and a checkbox selected to create a git repository." width="500"}
-
 ::: callout-warning
 ## Are you new to GitHub?
 
 I'm assuming you already use GitHub and have it connected to your RStudio. If you haven't, please follow the installation instructions in [Happy Git and GitHub for the useR](https://happygitwithr.com/) [@bryan2023] and then come back.
 :::
+
+Choose the name of your directory (which will also be the name of your GitHub repository), check the `Create a git repository` box, then click `Create Project`.
+
+![](img/create-website.png){fig-alt="Create Quarto Website dialog box with a field for directory name and a checkbox selected to create a git repository." width="500"}
 
 You should now be in a RStudio project that has `index.qmd` and `_quarto.yml` open and some new things in your `Files pane`:
 
@@ -139,7 +134,7 @@ If you're following along with [Happy Git and GitHub for the useR](https://happy
 
 Thankfully, we can use the `usethis` package so we don't have to touch the terminal! If you haven't used `usethis` yet, you'll need to do the setup described in the [package documentation](https://usethis.r-lib.org/articles/usethis-setup.html#install-git).
 
-Assuming you have connected and authenticated your GitHub account in RStudio, you can create and connect your project to a repository with just **two** lines of code ️🧙🏼‍♀️.
+Assuming you have connected and authenticated your GitHub account in RStudio, you can create and connect your project to a repository with just *two* lines of code ️🧙🏼‍♀️.
 
 ```{r}
 usethis::use_git()
@@ -192,11 +187,11 @@ Once we're logged into Netlify and connected to our GitHub, we can do the initia
 quarto publish netlify
 ```
 
-If you're not already logged in on your browser, there may be an additional authentication step.
+If you're not already logged in to Netlify on your browser, there may be an additional authentication step.
 
 ![](img/quarto-publish-netlify.png){fig-alt="quarto publish netlify command run in the RStudio terminal."}
 
-This command rendered your site locally, uploaded all the static files to Netlify, deployed and published to your new site! The site overview on Netlify should have opened:
+This command rendered your site locally, uploaded all the static files to Netlify, deployed and published your new site! The site overview on Netlify should have opened in your browser:
 
 ![](img/netlify-site-overview.png){fig-alt="Site overview on Netlify with boxes around the random subdomain name and the status as a manual deploy." width="400"}
 
@@ -213,7 +208,7 @@ The domain name is the URL or web address to your site. You have two options to 
 -   **Free**: change the random name provided but keep the `netlify.app` domain.
 -   **Purchase a new domain**: I recommend buying it directly on Netlify so they handle all the NS1 [DNS](https://ns1.com/products/dedicated-dns) configurations. Or, buy from a domain provider that doesn't use the NS1 DNS zone, or you might go through this nightmare of having to switch DNS zones.[^3]
 
-[^3]: I originally bought a domain from Square Space and could not set my Netlify site to that domain due to DNS issues that I don't fully understand. Here's a [support forum thread](https://answers.netlify.com/t/trying-to-move-domain-from-squarespace-to-netlify/11879) on Netlify with the instructions for pointing a custom domain to a Netlify site. I ended up buying another domain directly from Netlify.
+[^3]: I originally bought a domain from Square Space and could not set my Netlify site to that domain due to DNS issues that I don't fully understand. Here's a [support forum thread](https://answers.netlify.com/t/trying-to-move-domain-from-squarespace-to-netlify/11879) on Netlify with the instructions for pointing a custom domain to a Netlify site. I ended up buying another domain directly from Netlify...
 
     ![](img/netlify-dns-error.png){fig-alt="An error when trying to add a custom domain purchased from Squarespace. The error says a DNS zone already exists on NS1." width="400"}
 
@@ -243,13 +238,15 @@ If you don't want the `netlify.app` domain, you can purchase your own. Instead o
 
 ![](img/netlify-domain-mgmt.png){fig-alt="Domain management part of Netlify site with option to add a domain."}
 
-Type in whatever custom domain you want: there are a bajillion different extensions. [domain.com](https://www.domain.com/domains/new-domain-extensions) lists them alphabetically and has a helpful frequently asked questions section. If your desired name is available, you can register the domain for the listed price.
+Type in whatever custom domain you want: there are a bajillion different extensions. [domain.com](https://www.domain.com/domains/new-domain-extensions) lists them alphabetically and has a helpful FAQ section about domain extensions. If your desired name and extension is available, you can register the domain for the listed price. 
 
 ![](img/netlify-add-custom-domain.png){fig-alt="Add a custom domain to your site page on netlify. It says my-website24.com is available and costs $13.99 for the first year." width="500"}
 
+I liked this option because Netlify automatically did the DNS configuration for me!
+
 ## New `_publish.yml` file
 
-Now that we're set up with Netlify and GitHub, let's head back over to RStudio. Notice this new file appeared in the project directory when you used the `quarto publish netlify` command:
+Now that we're set up with Netlify and GitHub, let's head back over to RStudio. Notice this new file appeared in the project directory when we used the `quarto publish netlify` command:
 
 ``` {.yaml filename="_publish.yml"}
 - source: project
@@ -258,9 +255,9 @@ Now that we're set up with Netlify and GitHub, let's head back over to RStudio. 
       url: 'https://stately-chimera-0c91c7.netlify.app'
 ```
 
-Notice how it automatically filled in the original random URL from Netlify.
+It automatically filled in the original random URL from Netlify.
 
-The next time you manually publish from the terminal, it will ask if you want to publish the update to `https://my-website24.netlify.app`. If you enter `y`, it will update the `url` value in the `_publish.yml` file.
+The next time we manually publish from the terminal, it will ask if we want to publish the update to `https://my-website24.netlify.app`. If we enter `y`, it will update the `url` value in the `_publish.yml` file.
 
 ``` {.bash filename="Terminal"}
 (base) MacBook-Pro-4:my-website jadeyryan$ quarto publish netlify
@@ -305,9 +302,9 @@ Now we need to configure several things so Netlify's bots can automatically depl
 
 ## Configure Netlify plugin
 
-The [Quarto Netlify plugin](https://github.com/quarto-dev/netlify-plugin-quarto) installs Quarto on the Netlify build server, allowing Netlify to build your Quarto website.
+The [Quarto Netlify plugin](https://github.com/quarto-dev/netlify-plugin-quarto) installs Quarto on the Netlify build server, allowing Netlify to build our Quarto website.
 
-Create the following two files in your RStudio project and copy the content below into these files.
+Let's create the following two files in our RStudio project and copy the content below into these files.
 
 ``` {.toml filename="netlify.toml"}
 [[plugins]]
@@ -324,11 +321,11 @@ package = "@quarto/netlify-plugin-quarto"
 
 ## Freeze computations
 
-We need to [freeze](https://quarto.org/docs/projects/code-execution.html#freeze) computations so code only runs locally. When you render a `.qmd` that executes code, the results get saved in a `html.json` file within a `_freeze` directory. This means that R and your packages don't need to be installed on the Netlify server to execute the code.
+We need to [freeze](https://quarto.org/docs/projects/code-execution.html#freeze) computations so code only runs locally. When we render a `.qmd` that executes code, the results get saved in a `html.json` file within a `_freeze` directory. This means that R and our packages don't need to be installed on the Netlify server to execute the code.
 
-The `_freeze` directory and all its files must be committed to your repo. Otherwise, the build will fail because Netlify doesn't have R and the dependencies installed to run the code (see the detailed error in my [comment](https://github.com/quarto-dev/quarto-cli/issues/1956#issuecomment-1773958407)).
+The `_freeze` directory and all its files must be committed to our repo. Otherwise, the build will fail because Netlify doesn't have R and the dependencies installed to run the code (see the detailed error in my [comment](https://github.com/quarto-dev/quarto-cli/issues/1956#issuecomment-1773958407)).
 
-Add these two lines to your `_quarto.yml` file:
+We'll add these two lines to our `_quarto.yml` file:
 
 ``` {.yaml filename="_quarto.yml"}
 execute:
@@ -367,11 +364,13 @@ If this is your first time deploying with Netlify and GitHub, you'll likely need
 
 ![](img/netlify-select-repos.png){fig-alt="Netlify website Link your site to a Git Repository with box around 'Can't see your repo here? Configure the Netlify app on GitHub' link and arrow pointing to a new popup window that allows you to select which repositories Netlify can access."}
 
-After selecting the correct repository, you'll configure the build settings on the next screen. Enter `_site` in the `Publish directory` field:
+After selecting the correct repository, let's configure the build settings on the next screen. Enter `_site` in the `Publish directory` field:
 
 ![](img/netlify-build-settings.png){width="500" fig-alt="Netlify site configuration build settings. All settings are blank except the Publish directory should be set to _site."}
 
-Once you click `Deploy my-website24`, it should take you back to your site overview page and it will now say `Deploys from GitHub` instead of `Manual deploys` below the link.
+<!-- Am I missing a screenshot of the Deploy my website button? -->
+
+Once we click `Deploy my-website24`, it takes us back to our site overview page and it will now say `Deploys from GitHub` instead of `Manual deploys` below the link.
 
 ![](img/netlify-deploys-gh.png){width="400" fig-alt="Netlify site overview with website URL and text 'Deploys from GitHub'."}
 
@@ -379,7 +378,7 @@ Once you click `Deploy my-website24`, it should take you back to your site overv
 
 Let's push a change to our repo and make sure it is automatically rebuild and deployed!
 
-I added some content to `about.qmd` and pushed to `main`.
+Next we'll add some content to `about.qmd` and push to `main`.
 
 ![](img/github-push-change.png){fig-alt="GitHub repository with recent commit 0b8b526."}
 
@@ -389,11 +388,11 @@ On the `Deploys` page on Netlify, we can see we successfully published `main@0b8
 
 Since we pushed directly to `main` and `auto publishing` is turned on, all successful deployments are automatically published to our production site.
 
-You could click `Lock to stop auto publishing` to turn this setting off. This means the site will still build every time you push changes to your repo, but you will need to click a button to actually publish this latest build. This is a good option if you don't want to work in new branches or use pull requests/merges in your workflow but you still want to preview your site before sending it to production.
+We could click `Lock to stop auto publishing` to turn this setting off. This means the site will still build every time we push changes to our repo, but we will need to click a button to actually publish this latest build. This is a good option if we don't want to work in new branches or use pull requests/merges in our workflow, but still want to preview our site before sending it to production.
 
 # Branch deploys and deploy previews
 
-As you work on your website styling, content, and features, you may want to preview what your deployed site would look like without messing up your live site. This is where Netlify's branch deploys and deploy previews come into play!
+As we work on our website styling, content, and features, we may want to preview what our deployed site would look like without messing up our live site. This is where Netlify's branch deploys and deploy previews come into play!
 
 The table below (adapted from [Netlify's docs](https://docs.netlify.com/site-deploys/overview/)) provides a quick comparison of the differences between branch deploys and deploy preview.
 
@@ -410,10 +409,11 @@ The table below (adapted from [Netlify's docs](https://docs.netlify.com/site-dep
 +-------------------+------------------------------------------------+-------------------------------------------------------------------------------------+
 | **Scope**         | Changes from feature branch                    | Changes from pull/merge request                                                     |
 +-------------------+------------------------------------------------+-------------------------------------------------------------------------------------+
+: {tbl-colwidths="[10,45,45]"}
 
 [^4]: Netlify.com \> \[Your website\] \> Site configuration \> Build & deploy \> Continuous Deployment \> Branches and deploy contexts
 
-You can learn more details on the differences between branch deploys and deploy previews in [Netlify's docs](https://docs.netlify.com/site-deploys/overview/).
+See more details on the differences between branch deploys and deploy previews in [Netlify's docs](https://docs.netlify.com/site-deploys/overview/).
 
 ## Branch deploys
 
@@ -425,7 +425,7 @@ To enable branch deploys on other branches, we need to change the branch deploy 
 
 ![](img/netlify-branch-deploy-context.png){fig-alt="Netlify site configuration webpage with the branches and deploy contexts settings open. Branch deploys is set to All instead of None."}
 
-Or, if you only want to use a staging branch, you could select `Let me add individual branches` then enter the name of your staging branch.
+Or, if we only want to deploy previews for a specific feature branch, we would select `Let me add individual branches` then enter the name of our feature branch.
 
 Let's create a new branch called `staging` and push a commit with the message 'Testing branch deploy'.
 
@@ -437,7 +437,7 @@ Click on the branch deploy to preview the site with the changes you made on that
 
 ## Deploy previews
 
-Deploy previews are enabled by default once you've linked your Netlify site with the GitHub repository. Every time you make a pull request or merge, Netlify's bots will build and deploy your site and then comment on your pull/merge request with the URL links.
+Deploy previews are enabled by default once our Netlify site is linked with our GitHub repository. Every time we make a pull request or merge, Netlify's bots will build and deploy our site and then comment on our pull/merge request with the URL links.
 
 From our GitHub repository, let's create a pull request to merge our `staging` branch into `main`.
 
@@ -449,34 +449,36 @@ We can also access our deploy preview from the Netlify `Deploys` page. Similar t
 
 ![](img/netlify-deploy-preview.png){fig-alt="Netlify deploys webpage for demo site highlighting the published site is deployed from the main production branch. Lower on the screen is the deploy preview which shows it was deployed from Pull Request #2."}
 
-Click on the deploy preview #2 link to preview the site with the changes you made based on that pull request.
+Click on the deploy preview #2 link to preview the site with the changes we made based on that pull request.
 
 # Lighthouse plugin
 
-Another benefit of using Netlify are the integrations with different web tools. The only one I am using so far is [Google's Lighthouse tool](https://developer.chrome.com/docs/lighthouse/overview/), which helps me to abide by my [accessibility commitment](../accessibility.qmd).
+Another benefit of using Netlify are the integrations with different web tools. The only one I am using so far is [Google's Lighthouse tool](https://developer.chrome.com/docs/lighthouse/overview/), which helps me to abide by my [accessibility commitment](https://jadeyryan.com/accessibility).
 
-The [Lighthouse plugin](https://github.com/netlify/netlify-plugin-lighthouse#readme) audits your site for performance, accessibility, best practices, and SEO at build time. You'll see your scores for each of these four categories in your deploy previews.
+Once installed, the [Lighthouse plugin](https://github.com/netlify/netlify-plugin-lighthouse#readme) audits our site for performance, accessibility, best practices, and SEO at build time. We'll see our scores for each of these four categories in our deploy previews.
 
-To enable the plugin, go to your Netlify site \> `Integrations` \> search for lighthouse \> `Enable`.
+To enable the plugin, let's go to our Netlify site \> `Integrations` \> search for lighthouse \> `Enable`.
 
 ![](img/netlify-lighthouse.png){fig-alt="Netlify integrations page searching for lighthouse with box highlighting the Enable button for the Lighthouse plugin."}
 
-Netlify will then ask you if you're sure you want to install Lighthouse on your website. It's as easy as that!
+Netlify will then ask if we're sure we want to install Lighthouse on our website. It's as easy as that!
 
 Now let's push another commit to see our Lighthouse report in the Netlify bot comment.
 
 Notice the original Netlify bot comment was edited so the GitHub pull request conversation isn't overly cluttered.
 
-Our Lighthouse audit showed pretty high scores for each of the categories. You can view the more detailed breakdown to see where you can make improvements.
+Our Lighthouse audit showed pretty high scores for each of the categories. We can view the more detailed breakdown to see where we can make improvements.
 
 ![](img/netlify-bot-lighthouse.png){fig-alt="GitHub pull request conversation with netlify bot comment that was edited with the latest commit, deploy log, preview URL, and Lighthouse audit."}
 
 # Workflow
 
+My general workflow for editing my website is as follows:
+
 1.  Add/edit/remove content.
-2.  Run `quarto render` in Terminal.
-3.  Push changes to GitHub.
-4.  Review changes (depends on if you're pushing to `main`, or using the branch deploys, or deploy previews).
+2.  Run `quarto rende️r` in Terminal.
+3.  Push changes to GitHub [in a new branch, or directly to `main` if I'm feeling brave 🦸🏻‍♀️].
+4.  Review changes.
 5.  \[Optional\]: Edit based on Lighthouse audit scores.
 6.  Rinse and repeat!
 

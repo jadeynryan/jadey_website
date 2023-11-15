@@ -10,6 +10,7 @@ listing:
     - date
     - image
     - categories
+    - reading-time
   categories: true
   sort: "date desc"
   page-size: 5

@@ -3,9 +3,26 @@
 # prevents posts from re-rendering unless explicitly told to do so (for more, see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
 
+# default author and citation
+author: Jadey Ryan
+citation: true
+
+# align figures to left
 fig-align: "left"
+
+# number sections
 number-sections: true
 
+# lightbox extension
+# https://github.com/quarto-ext/lightbox
+filters:
+  - lightbox
+lightbox:
+  match: auto
+  effect: zoom
+  loop: false
+
+# html format options
 format:
   html:
     pagetitle: "data whiskeRs | {{< meta title >}}"
@@ -13,6 +30,7 @@ format:
       - ../assets/html/subscribe.html
       - ../assets/html/buymecoffee.html
 
+# giscus comments https://giscus.app/
 comments:
     giscus:
       repo: jadeynryan/jadey-website-giscus
@@ -25,6 +43,3 @@ comments:
       input-position: top
       theme: light
       language: en
-
-# default author
-author: Jadey Ryan

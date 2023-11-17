@@ -1,8 +1,8 @@
 ---
 title: "Publish a Quarto website with Netlify"
 description: "Create a Quarto website, connect it to GitHub, deploy & publish it with Netlify."
-date: "2023-11-14"
-image: thumbnail.png
+date: "2023-11-17"
+image: thumbnail.webp
 image-alt: "My three cats cuddling on my legs. Quarto, GitHub, and Netlify logos are placed on top of them."
 categories:
   - R
@@ -451,7 +451,7 @@ We can also access our deploy preview from the Netlify `Deploys` page. Similar t
 
 # Lighthouse plugin
 
-Another benefit of Netlify are the integrations with different web tools. The only one I'm using so far is [Google's Lighthouse tool](https://developer.chrome.com/docs/lighthouse/overview/), which helps me abide by my [accessibility commitment](../accessibility.html).
+Another benefit of Netlify are the integrations with different web tools. The only one I'm using so far is [Google's Lighthouse tool](https://developer.chrome.com/docs/lighthouse/overview/), which helps me abide by my [accessibility commitment](https://jadeynryan.com/accessibility).
 
 Once installed, the [Lighthouse plugin](https://github.com/netlify/netlify-plugin-lighthouse#readme) audits our site for performance, accessibility, best practices, and SEO at build time. We'll see our scores for each of these four categories in the Netlify bot comment.
 

@@ -20,8 +20,12 @@ website:
   favicon: assets/img/JR-logo.svg
   twitter-card:
     creator: "@jadeynryan"
+    image: assets/img/JR-logo.webp
+    image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   open-graph:
     locale: en_EN
+    image: assets/img/JR-logo.webp
+    image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   page-navigation: true
   google-analytics:
     tracking-id: "G-LEVV3VZT0E"

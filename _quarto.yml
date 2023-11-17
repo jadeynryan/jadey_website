@@ -17,15 +17,11 @@ website:
   repo-actions:
     - source
     - issue
-  favicon: assets/img/JR-favicon.svg
+  favicon: assets/img/JR-logo.svg
   twitter-card:
     creator: "@jadeynryan"
-    image: assets/img/JR-logo-white-bg.png
-    image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   open-graph:
     locale: en_EN
-    image: assets/img/JR-logo-white-bg.png
-    image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   page-navigation: true
   google-analytics:
     tracking-id: "G-LEVV3VZT0E"
@@ -36,32 +32,26 @@ website:
 
   navbar:
     pinned: true
-    logo: assets/img/JR-logo-white.svg
+    logo: assets/img/JR-logo.webp
     logo-alt: "Cat with tail shaped as the letter J next to last name initial R"
     left:
       - text: About
         icon: person-circle
-        aria-label: about me
         href: index.qmd
       - text: CV
         icon: file-earmark-text-fill
-        aria-label: cv
         href: cv.qmd
       - text: Blog
         icon: pen-fill
-        aria-label: blog
         href: blog.qmd
       - text: Talks
-        aria-label: talks
         icon: mic-fill
         href: talks.qmd
       - text: Projects
         icon: puzzle-fill
-        aria-label: projects
         href: projects.qmd
       - text: the coding cats shop
         icon: bag-heart-fill
-        aria-label: the coding cats shop
         href: shop.qmd
     tools:
       - icon: rss
@@ -87,7 +77,7 @@ website:
         href: accessibility.qmd
       - text: License
         href: license.qmd
-    right: "made with {{< fa heart title='love' aria-hidden='true' >}} & [Quarto](https://quarto.org)"
+    right: "made with ︎♥️ & [Quarto](https://quarto.org)"
 
 format:
   html:

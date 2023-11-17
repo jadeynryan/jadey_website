@@ -12,15 +12,18 @@ fig-align: "left"
 
 # number sections
 number-sections: true
+number-depth: 2
 
 # lightbox extension
 # https://github.com/quarto-ext/lightbox
 filters:
   - lightbox
 lightbox:
-  match: auto
-  effect: zoom
-  loop: false
+  desc-position: right  # position of description
+  match: auto # give all images lightbox treatment
+  effect: zoom # how lightbox opens/closes
+  loop: false # doesn't loop to first image in gallery
+
 
 # html format options
 format:

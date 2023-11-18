@@ -17,14 +17,14 @@ website:
   repo-actions:
     - source
     - issue
-  favicon: assets/img/JR-logo.svg
+  favicon: assets/img/JR-logo-circle.webp
   twitter-card:
     creator: "@jadeynryan"
-    image: assets/img/JR-logo.webp
+    image: assets/img/JR-logo-circle.webp
     image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   open-graph:
     locale: en_EN
-    image: assets/img/JR-logo.webp
+    image: assets/img/JR-logo-circle.webp
     image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   page-navigation: true
   google-analytics:
@@ -36,7 +36,7 @@ website:
 
   navbar:
     pinned: true
-    logo: assets/img/JR-logo.webp
+    logo: assets/img/JR-logo-circle.webp
     logo-alt: "Cat with tail shaped as the letter J next to last name initial R"
     left:
       - text: About
@@ -54,7 +54,7 @@ website:
       - text: Projects
         icon: puzzle-fill
         href: projects.qmd
-      - text: the coding cats shop
+      - text: The Coding Cats
         icon: bag-heart-fill
         href: shop.qmd
     tools:

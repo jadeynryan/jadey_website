@@ -22,7 +22,7 @@ format:
       - ./assets/html/buymecoffee.html
 ---
 
-Welcome to my blog, **data whiskeRs**! I'm so happy you're here to learn with me. I'll be using this space to write about what I'm learning, working on, and am curious about.
+Welcome to my blog! I'm so happy you're here to learn with me. I'll be using this space to write about what I'm learning, working on, and am curious about.
 
 I welcome respectful feedback and discussions that adhere to the [Code of Conduct](coc.qmd).
 

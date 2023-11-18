@@ -27,7 +27,7 @@ I use Google's [Lighthouse accessibility tests](https://developer.chrome.com/doc
 
 ## Accessibility tools
 
--   [Google's Lighthouse tool](https://developer.chrome.com/docs/lighthouse/accessibility/)
+-   [Google Lighthouse Tool](https://developer.chrome.com/docs/lighthouse/accessibility/)
 -   [Google Chrome Accessibility Features Reference](https://developer.chrome.com/docs/devtools/accessibility/reference/)
 -   [Colour Contrast Checker](https://colourcontrast.cc/)
 -   [Viz Palette](https://projects.susielu.com/viz-palette)

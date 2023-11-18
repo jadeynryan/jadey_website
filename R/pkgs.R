@@ -2,3 +2,4 @@
 library(rmarkdown)
 library(downlit)
 library(xml2)
+library(styler)

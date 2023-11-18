@@ -8,9 +8,11 @@ library(purrr)
 folder <- here("blog/2023-11-17_publish-quarto-website/img/")
 
 # List all PNG files in the folder
-png_files <- fs::dir_ls(path = folder,
-                        pattern = "\\.png$",
-                        full.names = TRUE)
+png_files <- dir_ls(
+  path = folder,
+  pattern = "\\.png$",
+  full.names = TRUE
+)
 
 # Function to convert a PNG file to WebP
 convert_to_webp <- function(png_file) {
@@ -22,7 +24,6 @@ convert_to_webp <- function(png_file) {
 
   # Convert and save as WebP
   image_write(img, path = webp_file, format = "webp")
-
 }
 
 # Use purrr::map function to apply the conversion function to each PNG file
@@ -30,3 +31,17 @@ map(png_files, convert_to_webp)
 
 # Remove .png files
 map(png_files, file_delete)
+
+# Function to resize images
+resize_image <- function(image_path, size) {
+  # Load the PNG image
+  img <- image_read(image_path)
+
+  # Resize the image
+  img <- image_resize(img, size)
+
+  # Convert and save as WebP
+  image_write(img, path = image_path)
+}
+
+resize_image(here("assets/img/soil-bins.webp"), 400)

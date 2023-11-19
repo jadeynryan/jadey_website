@@ -1,7 +1,7 @@
 ---
 title: "Publish a Quarto website with Netlify"
 description: "Create a Quarto website, connect it to GitHub, deploy & publish it with Netlify."
-date: "2023-11-18"
+date: "2023-11-19"
 image: thumbnail.webp
 image-alt: "My three cats cuddling on my legs. Quarto, GitHub, and Netlify logos are placed on top of them."
 categories:
@@ -387,9 +387,13 @@ The `Deploys` page on Netlify tells us that we successfully published from `main
 
 ### Auto publishing
 
-Since we pushed directly to `main` and `auto publishing` is turned on in our Netlify deploy settings, all successful deployments are automatically published to our production site.
+By default, `auto publishing` is turned on in our Netlify deploy settings. This means all successful deployments are automatically published to our production site.
 
-To turn this setting off, click `Lock to stop auto publishing`. The site will still deploy every time we push changes to our repo, but we need to click a button to actually publish this latest deployment. This is a good option if we don't want to work in new branches or use pull requests/merges in our workflow, but still want to preview our site before sending it to production.
+Optionally, you can turn this setting off so that you have to click `Publish` to send a deployment to your public site. To turn this off, go to `Deploys` \> `Lock to stop auto publishing`. 
+
+![](img/netlify-auto-publishing.webp){fig-alt="Netlify site Deploys page with box around button to Lock to stop auto publishing."}
+
+The site will still deploy every time we push changes to our repo, but we need to click a button to actually publish this latest deployment. This is a good option if we don't want to work in new branches or use pull requests/merges in our workflow, but still want to preview our site before sending it to production.
 
 Netlify docs provide more detail about [auto publishing](https://docs.netlify.com/site-deploys/manage-deploys/#lock-a-published-deploy).
 
@@ -423,7 +427,7 @@ Branch deploys are great if you typically use feature branches in your workflow.
 
 By default, only the production branch (typically `main`) is automatically deployed by Netlify.
 
-To enable branch deploys on other branches, we need to change the branch deploy setting. On the Netlify website \> `Site Configuration` \> `Build & deploy` \> `Continuous deployment` \> `Branches and deploy contexts` \> `Branch deploys` \> Select the `All` radio button.
+To enable branch deploys on other branches, we need to change the branch deploy setting. On the Netlify website \> `Site Configuration` \> `Build & deploy` \> `Continuous deployment` \> `Branches and deploy contexts` \> `Branch deploys` \> `Configure` \> Select the `All` radio button \> then click `Save`.
 
 ![](img/netlify-branch-deploy-context.webp){fig-alt="Netlify site configuration webpage with the branches and deploy contexts settings open. Branch deploys is set to All instead of None."}
 
@@ -434,6 +438,8 @@ Let's try it out by creating a new branch called `staging` and pushing a commit.
 On the Netlify `Deploys` page, we see our live site is still published from `main`, but we now have a `Branch deploy` from the `staging` branch that we can click to preview.
 
 ![](img/netlify-branch-deploy.webp){fig-alt="Netlify deploys webpage for demo site highlighting the published site is deployed from the main production branch. Lower on the screen is the branch deploy which shows it was deployed from the staging branch."}
+
+Once you merge your `staging` branch into `main`, those changes will be published to your site in production.
 
 ## Deploy previews
 
@@ -449,6 +455,8 @@ We can also access our deploy preview from the Netlify `Deploys` page. Similar t
 
 ![](img/netlify-deploy-preview.webp){fig-alt="Netlify deploys webpage for demo site highlighting the published site is deployed from the main production branch. Lower on the screen is the deploy preview which shows it was deployed from Pull Request #2."}
 
+Once you complete your pull request and merge to `main`, those changes will be published to your site in production.
+
 # Lighthouse plugin
 
 Another benefit of Netlify are the integrations with different web tools. The only one I'm using so far is [Google's Lighthouse tool](https://developer.chrome.com/docs/lighthouse/overview/), which helps me abide by my [accessibility commitment](https://jadeynryan.com/accessibility).
@@ -459,13 +467,19 @@ To enable the plugin, on Netlify \> go to `Integrations` \> search for lighthous
 
 ![](img/netlify-lighthouse.webp){fig-alt="Netlify integrations page searching for lighthouse with box highlighting the Enable button for the Lighthouse plugin."}
 
-Netlify will then ask if we're sure we want to install Lighthouse on our website. It's that easy!
+Netlify will then ask if we're sure we want to install Lighthouse on our website.
 
-Let's try it out by pushing another commit to see our Lighthouse report in the Netlify bot comment.
+If we click `Install`, the Lighthouse audit will run the next time we deploy our site.
 
-Notice the original comment was edited so the GitHub pull request conversation isn't overly cluttered.
+### Lighthouse report on Netlify
 
-Our Lighthouse audit showed pretty high scores for each of the categories. We can view the more detailed breakdown to see where we can make improvements.
+Regardless of whether you push directly to `main` or use the deployment preview system, you can view Lighthouse scores on the Netlify deploys page.
+
+![](img/netlify-lighthouse-report.webp){fig-alt="Netlify deploys page with box around Lighthouse scores for performance (score of 96), accessibility (score of 86), best practices (score of 100), and SEO (score of 82)."}
+
+### Lighthouse report on GitHub
+
+If we have a pull or merge request open, the Netlify bot will include the Lighthouse scores in its deploy preview comment.
 
 ![](img/netlify-bot-lighthouse.webp){fig-alt="GitHub pull request conversation with netlify bot comment that was edited with the latest commit, deploy log, preview URL, and Lighthouse audit."}
 

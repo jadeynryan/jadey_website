@@ -26,7 +26,7 @@ Welcome to my blog! I'm so happy you're here to learn with me. I'll be using thi
 
 I welcome respectful feedback and discussions that adhere to the [Code of Conduct](coc.qmd).
 
----
+------------------------------------------------------------------------
 
 ```{r, include=FALSE}
 # Code snippet modified from Danielle Navarro
@@ -49,4 +49,3 @@ redirects <- paste0("/blog/", slugs, " ", "/blog/", posts)
 # write the _redirect file
 writeLines(redirects, here::here("_redirects"))
 ```
-

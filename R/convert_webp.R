@@ -5,10 +5,10 @@ library(magick)
 library(purrr)
 
 # Folder to convert all images from png to webp
-folder <- here("blog/2023-11-17_publish-quarto-website/img/")
+folder <- here("blog/2023-11-19_publish-quarto-website/img/")
 
 # List all PNG files in the folder
-png_files <- dir_ls(
+png_files <- list.files(
   path = folder,
   pattern = "\\.png$",
   full.names = TRUE

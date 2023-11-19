@@ -3,7 +3,7 @@ title: "Publish a Quarto website with Netlify"
 description: "Create a Quarto website, connect it to GitHub, deploy & publish it with Netlify."
 date: "2023-11-19"
 image: thumbnail.webp
-image-alt: "My three cats cuddling on my legs. Quarto, GitHub, and Netlify logos are placed on top of them."
+image-alt: "My three cats with Quarto, GitHub, and Netlify logos are placed on top of them."
 categories:
   - R
   - Quarto
@@ -14,7 +14,7 @@ execute:
   eval: false
 ---
 
-Thankfully, many amazing [resources](https://github.com/mcanouil/awesome-quarto) for building beautiful websites and blogs with Quarto already exist. Instead of adding to that pool of content, I'll demo how I built my website with Quarto, connected to a GitHub repository, and then deployed and published with Netlify [continuous deployment](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git). Special thanks to [Libby Heeren](https://libbyheeren.com) for reading the first draft and helping me clarify some points of confusion! ♥️
+Thankfully, many amazing [resources](https://github.com/mcanouil/awesome-quarto) for building beautiful websites and blogs with Quarto already exist. Instead of adding to that pool of content, I'll demo how I built my website with Quarto, connected to a GitHub repository, and then deployed and published with Netlify [continuous deployment](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git). Special thanks to [Libby Heeren](https://libbyheeren.com) for testing this demo and helping me clarify some sticky points! ♥️
 
 I struggled for hours trying to set up the configurations so my site would deploy every time I pushed a change to my GitHub repo. Hopefully this demo saves you some time when you start your own website! :)
 
@@ -387,13 +387,15 @@ The `Deploys` page on Netlify tells us that we successfully published from `main
 
 ### Auto publishing
 
-By default, `auto publishing` is turned on in our Netlify deploy settings. This means all successful deployments are automatically published to our production site.
+By default, `auto publishing` is turned on in the Netlify deploy settings. This means all successful deployments are automatically published to the public site.
 
-Optionally, we can turn this setting off so that you have to click `Publish` to send a deployment to our public site. Go to `Deploys` \> `Lock to stop auto publishing`. 
+Optionally, you can turn this setting off so that you have to click `Publish` to send the deployment to production. If you do want to turn it off, go to `Deploys` \> and then click `Lock to stop auto publishing`.
 
 ![](img/netlify-auto-publishing.webp){fig-alt="Netlify site Deploys page with box around button to Lock to stop auto publishing."}
 
-The site will still deploy every time we push changes to our repo, but we need to click a button to actually publish this latest deployment. This is a good option if we don't want to work in new branches or use pull requests/merges in our workflow, but still want to preview our site before sending it to production.
+The site will still deploy every time you push changes to your repo, but you need to click a button to actually publish this latest deployment. This is a good option if you don't want to work in new branches or use pull requests/merges, but still want to preview your site before sending it to production.
+
+For my personal website, I don't have this turned off so that the site will automatically publish anytime I push to GitHub. Otherwise I might forget to click `Publish`😅.
 
 Netlify docs provide more detail about [auto publishing](https://docs.netlify.com/site-deploys/manage-deploys/#lock-a-published-deploy).
 

@@ -10,7 +10,6 @@ categories:
   - GitHub
   - Netlify
 bibliography: references.bib
-draft: true
 execute: 
   eval: false
 ---

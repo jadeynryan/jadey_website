@@ -4,6 +4,8 @@ library(fs)
 library(magick)
 library(purrr)
 
+# Convert image from png to webp =====================================
+
 # Folder to convert all images from png to webp
 folder <- here("blog/2023-11-19_publish-quarto-website/img/")
 
@@ -31,6 +33,8 @@ map(png_files, convert_to_webp)
 
 # Remove .png files
 map(png_files, file_delete)
+
+# Resize image =======================================================
 
 # Function to resize images
 resize_image <- function(image_path, size) {

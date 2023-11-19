@@ -1,5 +1,6 @@
 ---
 title: "Talks"
+toc: false
 listing:
   contents: talks
   type: default
@@ -14,3 +15,17 @@ listing:
   sort: "date desc"
   page-size: 5
 ---
+
+# Upcoming
+
+[![](https://secure.meetupstatic.com/photos/event/9/7/5/4/600_517358740.webp?w=750){fig-alt="Poster for Parameterized reporting using Quarto 2-hour workshop, presented by Jadey Ryan and hosted by R-Ladies Washington D.C. January 18th, 2024 at 6:30 EDT." fig-align="left"}](https://www.meetup.com/rladies-dc/events/297344107/)
+
+**What**: workshop on parameterized reporting using Quarto
+
+**Where**: virtual, hosted by R-Ladies Washington D.C.
+
+**When**: 6:30 - 8:30 ET on January 18, 2024
+
+**Register** on [Meetup](https://www.meetup.com/rladies-dc/events/297344107/).
+
+# Past

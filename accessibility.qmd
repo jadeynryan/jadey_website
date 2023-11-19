@@ -21,12 +21,15 @@ This site has been designed with the following features in mind:
   - This site primarily uses `Domine` for headings, `Atkinson Hyperlegible` for body text (developed by the [Braille Institute](https://brailleinstitute.org/freefont)), and Fira Code for code.
 - A table of contents in the sidebars for easier navigation.
 
+I use Google's [Lighthouse accessibility tests](https://developer.chrome.com/docs/lighthouse/accessibility/) to check the accessibility of my website at each deployment. While I would love a perfect score of 100, I commit to a score of at least 80. The Quarto GitHub has quite a few open [GitHub issues with accessibility tags](https://github.com/quarto-dev/quarto-cli/labels/accessibility) that I have no control over.
+
 [^1]: Added the [ceo] and [db qp] tests from Cara Thompson's amazing [data viz design system talk](https://www.cararthompson.com/talks/nhsr2023-dataviz-design-system/), specifically slide 22: Font inspiration.
 
 ## Accessibility tools
 
+-   [Google Lighthouse Tool](https://developer.chrome.com/docs/lighthouse/accessibility/)
+-   [Google Chrome Accessibility Features Reference](https://developer.chrome.com/docs/devtools/accessibility/reference/)
 -   [Colour Contrast Checker](https://colourcontrast.cc/)
 -   [Viz Palette](https://projects.susielu.com/viz-palette)
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 -   [Microsoft Edge Accessibility Guide](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/accessibility/test-inspect-tool)
--   [Google Chrome Accessibility Features Reference](https://developer.chrome.com/docs/devtools/accessibility/reference/)

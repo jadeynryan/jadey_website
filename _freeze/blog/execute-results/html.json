@@ -1,0 +1,16 @@
+{
+  "hash": "c1e72773a080e16fb9fc6a380a67375d",
+  "result": {
+    "markdown": "---\ntitle: \"data whiskeRs\"\nlisting:\n  contents: blog\n  type: default\n  image-align: left\n  fields: \n    - title\n    - description\n    - date\n    - image\n    - categories\n    - reading-time\n  categories: true\n  sort: \"date desc\"\n  page-size: 5\n  feed: true\nformat:\n  html:\n    include-after-body:\n      - ./assets/html/subscribe.html\n      - ./assets/html/buymecoffee.html\n---\n\n\nWelcome to my blog! I'm so happy you're here to learn with me. I'll be using this space to write about what I'm learning, working on, and am curious about.\n\nI welcome respectful feedback and discussions that adhere to the [Code of Conduct](coc.qmd).\n\n------------------------------------------------------------------------\n\n\n\n",
+    "supporting": [
+      "blog_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

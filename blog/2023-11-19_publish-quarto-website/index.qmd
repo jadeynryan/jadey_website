@@ -14,7 +14,7 @@ execute:
   eval: false
 ---
 
-Thankfully, many amazing [resources](https://github.com/mcanouil/awesome-quarto) for building beautiful websites and blogs with Quarto already exist. Instead of adding to that pool of content, I'll demo how I built my website with Quarto, connected to a GitHub repository, and then deployed and published with Netlify [continuous deployment](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git).
+Thankfully, many amazing [resources](https://github.com/mcanouil/awesome-quarto) for building beautiful websites and blogs with Quarto already exist. Instead of adding to that pool of content, I'll demo how I built my website with Quarto, connected to a GitHub repository, and then deployed and published with Netlify [continuous deployment](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git). Special thanks to [Libby Heeren](https://libbyheeren.com) for reading the first draft and helping me clarify some points of confusion! ♥️
 
 I struggled for hours trying to set up the configurations so my site would deploy every time I pushed a change to my GitHub repo. Hopefully this demo saves you some time when you start your own website! :)
 
@@ -389,7 +389,7 @@ The `Deploys` page on Netlify tells us that we successfully published from `main
 
 By default, `auto publishing` is turned on in our Netlify deploy settings. This means all successful deployments are automatically published to our production site.
 
-Optionally, you can turn this setting off so that you have to click `Publish` to send a deployment to your public site. To turn this off, go to `Deploys` \> `Lock to stop auto publishing`. 
+Optionally, we can turn this setting off so that you have to click `Publish` to send a deployment to our public site. Go to `Deploys` \> `Lock to stop auto publishing`. 
 
 ![](img/netlify-auto-publishing.webp){fig-alt="Netlify site Deploys page with box around button to Lock to stop auto publishing."}
 
@@ -427,7 +427,7 @@ Branch deploys are great if you typically use feature branches in your workflow.
 
 By default, only the production branch (typically `main`) is automatically deployed by Netlify.
 
-To enable branch deploys on other branches, we need to change the branch deploy setting. On the Netlify website \> `Site Configuration` \> `Build & deploy` \> `Continuous deployment` \> `Branches and deploy contexts` \> `Branch deploys` \> `Configure` \> Select the `All` radio button \> then click `Save`.
+To enable branch deploys on other branches, we need to change the branch deploy setting. On the Netlify website \> `Site Configuration` \> `Build & deploy` \> `Continuous deployment` \> `Branches and deploy contexts` \> `Branch deploys` \> `Configure` \> select the `All` radio button \> and then click `Save`.
 
 ![](img/netlify-branch-deploy-context.webp){fig-alt="Netlify site configuration webpage with the branches and deploy contexts settings open. Branch deploys is set to All instead of None."}
 
@@ -493,13 +493,15 @@ My general workflow for editing my website is:
 
 1.  Add, edit, or remove content.
 
-2.  Run `quarto rende️r`then `quarto preview` in the terminal.
+2.  Run `quarto preview` in the terminal and work iteratively.
 
 3.  Use `Command`+`Shift`+`C` on Mac or `Control`+`Shift`+`C` on Windows to open Chrome DevTools and then `Command`+`Shift`+`M` on Mac or `Control`+`Shift`+`M` on Windows to toggle [device mode](https://developer.chrome.com/docs/devtools/device-mode/) for testing the webpage responsiveness on mobile.
 
-4.  Push changes to GitHub (usually in a new branch).
+4. When happy with the changes, run `quarto render` in the terminal.
 
-5.  Preview changes on different devices because I don't fully trust Chrome DevTools device mode!
+5.  Push changes to GitHub (usually in a new branch).
+
+6.  Preview changes on different devices because I don't fully trust Chrome DevTools device mode!
 
 6.  Edit based on Lighthouse audit scores.
 

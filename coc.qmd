@@ -1,5 +1,7 @@
 ---
 title: Code of Conduct
+image: assets/img/JR-logo-circle.webp
+image-alt: "Cat with tail shaped as the letter J next to last name initial R"
 ---
 
 I value kindness and inclusivity. This means I will:

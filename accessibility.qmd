@@ -1,5 +1,7 @@
 ---
 title: "Accessibility commitment"
+image: assets/img/JR-logo-circle.webp
+image-alt: "Cat with tail shaped as the letter J next to last name initial R"
 ---
 
 Making sure all content I publish on the web is accessible to anyone and everyone is very important to me. While I'm not an expert on web design or accessibility, I am committed to trying my best. 

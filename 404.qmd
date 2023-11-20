@@ -1,5 +1,7 @@
 ---
 pagetitle: "Jadey Ryan | 404"
+image: assets/img/JR-logo-circle.webp
+image-alt: "Cat with tail shaped as the letter J next to last name initial R"
 ---
 <br>
 [Uh oh!]{.h1 style="font-size:2em"}

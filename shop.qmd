@@ -1,5 +1,6 @@
 ---
 title: "Shop"
+description-meta: "The Coding Cats: a shop for R coding and cat enthusiasts."
 ---
 
 ![](assets/img/etsy-banner.webp){.preview-image fig-alt="Etsy shop banner with The Coding Cats logo and four pictures of people wearing or holding the merchandise and interacting with cats."}

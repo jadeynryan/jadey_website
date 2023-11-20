@@ -24,7 +24,7 @@ Washington State Department of Agriculture
 -   Create training videos for R packages and ArcGIS spatial data collection tools that I developed.
 -   Coordinate and facilitate meetings with intra- and inter- agency partners and stakeholders.
 
-![Jadey standing in a field with a soil sampling probe.](assets/img/soil-sampling.webp){fig-alt="Woman in a field of wheat stubble holding a 3 foot long soil sampling probe over her shoulder." fig-align="left" height="150"}
+![Jadey standing in a field with a soil sampling probe.](assets/img/soil-sampling.webp){.preview-image fig-alt="Woman in a field of wheat stubble holding a 3 foot long soil sampling probe over her shoulder." fig-align="left" height="150"}
 
 [Environmental Specialist]{.h5} [Jun 2020 -- Jan 2022]{.cv-date}
 
@@ -33,7 +33,7 @@ In addition to duties as Environmental Technician:
 -   Contributed data analysis, writing, and editing to the annual fact sheets and technical report.
 -   Collaborated with the Surface Water Monitoring Program team to improve standard operating procedures and quality assurance project plan.
 -   Provided administrative support for timekeeping, purchasing, and travel.
--   Supported planning for the [Washington Soil Heath Initiative](https://wasoilheath.com) and [Sustainable Farms and Fields grant program](https://www.scc.wa.gov/programs/sustainable-farms-fields) during the COVID-19 hiring freeze.
+-   Supported planning for the [Washington Soil Heath Initiative](https://washingtonsoilhealthinitiative.com/) and [Sustainable Farms and Fields grant program](https://www.scc.wa.gov/programs/sustainable-farms-fields) during the COVID-19 hiring freeze.
 
 Read this [blog post](https://wastatedeptag.blogspot.com/2021/06/washington-soil-health-initiative.html), written by yours truly, to learn more about the Washington Soil Health Initiative.
 
@@ -108,7 +108,7 @@ Ocean Mammal Institute
 
 <p>Oops! Your browser doesn't seem to support embedded PDFs.</p>
 
-<p><a href="2021_AWRA_CDM_Mixture_RA_JR.pdf">Try downloading instead.</a></p>
+<p><a href="https://drive.google.com/file/d/1_DwdH_vwO8YvQBcTq7xaimENyg4-EPpE/preview">Try opening it in a new tab instead.</a></p>
 
 </object>
 

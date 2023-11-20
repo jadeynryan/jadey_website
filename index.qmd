@@ -2,11 +2,13 @@
 pagetitle: "Jadey Ryan | About"
 title: "Jadey Ryan"
 subtitle: "🐱 cat-obsessed environmental data scientist 🌱"
-image: assets/img/headshot.webp
-image-alt: "Jadey Ryan headshot: smiling asian woman wearing glasses with long dark hair."
+image: assets/img/JR-logo-circle.webp
+image-alt: "Cat with tail shaped as the letter J next to last name initial R"
+
 about:
   id: hero-heading
   template: jolla
+  image: assets/img/headshot.webp
   image-width: 10em
   links:
     - icon: github
@@ -38,7 +40,7 @@ I'm the data scientist for the [Natural Resources and Agricultural Sciences](htt
 
 My guiding principles in life are **kindness**, **authenticity**, **sustainability**, and **inclusivity**. I finally feel like I've found my happy place in life working in the environmental data science space and connecting with so many amazing folks in the R and open-source community.
 
-I designed [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR) to wear as conversation starters at [posit::conf(2023)](https://posit.co/conference/). The positive feedback led me to start a small business: **the coding cats**. I channel creativity and my love for cats and coding into designs for clothing, mugs, and tote bags. Check out my [Etsy shop](thecodingcats.etsy.com).
+I designed [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR) to wear as conversation starters at [posit::conf(2023)](https://posit.co/conference/). The positive feedback led me to start a small business: **the coding cats**. I channel creativity and my love for cats and coding into designs for clothing, mugs, and tote bags. Check out my [Etsy shop](https://thecodingcats.etsy.com).
 
 When it comes to work, I love improving the efficiency and reproducibility of our workflows. I'm also in my element when developing decision-support tools with `Quarto` and `Shiny`. In my downtime, I'm happiest hanging out with my husband and our three snowshoe Siamese cats. We love exploring new food spots and the great outdoors.
 

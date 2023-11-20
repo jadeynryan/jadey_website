@@ -1,5 +1,8 @@
 ---
 title: "Projects"
+twitter-card:
+  image: "https://github.com/jadeynryan/orcas/blob/master/inst/img/leaflet_screenshot.png?raw=true"
+  image-alt: "Screenshot of leaflet map with whale icons representing the start and end of the encounters."
 listing:
   contents: projects
   type: grid

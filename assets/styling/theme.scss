@@ -345,3 +345,11 @@ div.quarto-post .listing-categories .listing-category:hover, .quarto-category:ho
 .bmc-btn:hover, .bmc-btn:active, .bmc-btn:focus {
     color: white;
 }
+
+// blog subscribe section
+
+@media screen and (max-width: 991.98px) {
+  #subscribe-thumbnail, #subscribe-iframe {
+    width: 100%;
+  }
+}

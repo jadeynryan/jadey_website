@@ -2,7 +2,7 @@
 title: "Shop"
 ---
 
-![](assets/img/etsy-banner.webp){fig-alt="Etsy shop banner with The Coding Cats logo and four pictures of people wearing or holding the merchandise and interacting with cats."}
+![](assets/img/etsy-banner.webp){.preview-image fig-alt="Etsy shop banner with The Coding Cats logo and four pictures of people wearing or holding the merchandise and interacting with cats."}
 
 Check out my Etsy shop at [thecodingcats.etsy.com](https://thecodingcats.etsy.com)
 

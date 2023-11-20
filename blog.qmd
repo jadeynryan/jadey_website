@@ -1,5 +1,9 @@
 ---
 title: "data whiskeRs"
+description-meta: "A blog for R code & data science content with a sprinkle of cute cats."
+twitter-card:
+  image: assets/data-whiskeRs-thumbnail.webp
+  image-alt: "Thumbnail for the data whiskeRs blog. Dark teal color with white text reading data whiskeRs: R code & data science content with a sprinkle of cute cats."
 listing:
   contents: blog
   type: default

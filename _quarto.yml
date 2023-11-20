@@ -20,12 +20,13 @@ website:
   favicon: assets/img/JR-logo-circle.webp
   twitter-card:
     creator: "@jadeynryan"
-    image: assets/img/JR-logo-circle.webp
-    image-alt: "Cat with tail shaped as the letter J next to last name initial R"
+    # commented out images so I could specify them individually for various pages
+    # image: assets/img/JR-logo-circle.webp
+    # image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   open-graph:
     locale: en_EN
-    image: assets/img/JR-logo-circle.webp
-    image-alt: "Cat with tail shaped as the letter J next to last name initial R"
+    # image: assets/img/JR-logo-circle.webp
+    # image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   page-navigation: true
   google-analytics:
     tracking-id: "G-LEVV3VZT0E"
@@ -67,9 +68,6 @@ website:
       - icon: linkedin
         aria-label: LinkedIn
         href: https://www.linkedin.com/in/jadeynryan/
-      - icon: mastodon
-        aria-label: Mastodon
-        href: https://fosstodon.org/@jadeynryan
 
   page-footer:
     border: true
@@ -94,4 +92,5 @@ format:
     link-external-newwindow: true
     code-link: true
     highlight-style: a11y
+    include-in-header: assets/html/fosstodon.html
 

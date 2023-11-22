@@ -17,7 +17,9 @@ listing:
   categories: true
   sort: "date desc"
   page-size: 5
-  feed: true
+  feed:
+    categories: 
+      - R
 format:
   html:
     include-after-body:

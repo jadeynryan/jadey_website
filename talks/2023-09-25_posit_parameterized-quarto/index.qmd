@@ -30,6 +30,8 @@ categories:
 <span class="listing-btn-group">
 <a href="https://jadeynryan.github.io/2023_posit-parameterized-quarto/" class="btn" role="button">{{< fa display >}} Slides</a> 
 <a href="https://github.com/jadeynryan/2023_posit-parameterized-quarto" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://youtu.be/lbE5uOqfT70?si=GnUILZ6Amoae_aRL" class="btn" role="button">{{< fa play-circle >}} Video</a>
+</span>
 
 ### Details
 

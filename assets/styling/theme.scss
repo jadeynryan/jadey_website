@@ -271,6 +271,20 @@ div.cookie-consent-footer {
   margin-right: auto;
 }
 
+.img-float-right {
+  float: right;
+  padding-left: 1em;
+}
+
+@media screen and (max-width: 991.98px) {
+  .img-float-right {
+    float: right;
+    width: 100%;
+    padding-bottom: 1em;
+    padding-left: 0em;
+  }
+}
+
 .cv-date {
   float: right;
   color: $gray-8;

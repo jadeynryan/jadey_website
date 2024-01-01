@@ -10,6 +10,8 @@ categories:
   - GitHub
   - Netlify
 bibliography: references.bib
+number-sections: true
+number-depth: 2
 execute: 
   eval: false
 ---

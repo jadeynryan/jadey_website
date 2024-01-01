@@ -1,0 +1,125 @@
+---
+title: "2023: a year of firsts"
+description: "Review the year of many firsts, cope with insecurity, and develop a sense of belonging."
+date: "2023-12-31"
+image: featured.webp
+image-alt: "My three cats with drawn on party hats rolling on the floor with catnip Christmas gifts. A drawn disco ball and handwritten buh-bye 2023 and hello 2024!"
+categories:
+  - Reflection
+---
+
+# Celebrating our collective survival
+
+[![](new-year.webp){style="float:right;padding-left: 1em;" fig-alt="Four panel comic featuring two cute aliens wearing party hats. by Nathan W Pyle. In the first panel, an alien says we celebrate because we completed a revolution around the star. The second panel shows the other alien asking so it is identical to emergence day? The other alien responds emergence day in for one individual's survival! The third panel says New Revolution's day celebrates collective survival. The last panel shows the aliens with their hands in the air exclaiming we did not die and the other saying exactly!" width="400"}](https://www.instagram.com/p/C1h8ggNRELm/) Getting up and surviving each of the last 365 days is an accomplishment in itself. We're all still adjusting from the COVID-19 pandemic phase to the endemic phase; dealing with changes from remote to hybrid or in-person work; and coping with the current state of politics, economics, climate disasters, and war. As we reflect on our year, I hope we can honor the lives lost, lessons learned, and feel proud that, despite all that's wrong in the world, we managed to keep our heads above water.
+
+For the last week, I've been thinking about my experience through 2023 and been considering writing the cliche end of year review post. It's 9:09 PM on 123123 and I've decided I do want to jot down my reflections -- raw and unedited. Typos, rambling, incoherence, and disorganization guaranteed 😉.
+
+# From 2022 to 2023
+
+The year started off pretty rough for me. This was my second year in this data scientist role where everything (soil science, data management, programming) was new to me. I was disappointed in myself because I only accomplished about half of my 2022 goals and worried that I was also disappointing my supervisor and colleagues. I was wondering if I made a mistake in this career transition from a field-based environmental scientist to a data scientist. On a daily basis, I really struggled with imposter syndrome and worried that I was holding back these important statewide programs and initiatives because I was slow and needed to learn so much on the job.
+
+# First rejection
+
+I submitted a talk proposal to present [{WaCSE}](https://wsda.shinyapps.io/WaCSE/), my first Shiny app used for a statewide agricultural grant program, at [Appsilon's Shiny Conf](https://appsilon.com/shiny-conference/). I submitted the abstract at the end of 2022 and got the rejection notice at the end of January 2023. This was my third conference proposal I've ever submitted in the four years of my professional career and my first rejection. My learned lesson here was to put more thought into which category I submit to (20-min talk versus showcase section) and make the idea more unique. The feedback from the review committee was that my talk fell under the category "tools to facilitate data access" and there were quite a few of those. This rejection certainly added to my feelings of being an imposter and not deserving my job.
+
+Though with the support and encouragement of my supervisor, I kept trying and also submitted talk proposals for 2023 Cascadia R Conf and posit::conf(2023).
+
+# One project/talk, many firsts
+
+In March, things started to look more hopeful as I got my first invitation to speak at an [R-Ladies Seattle](https://rladiesseattle.org/) lightning talk event: *R in the Outdoors*. This one invitation led to so many of my firsts including my:
+
+-   first invitation to speak
+-   first web scraping project
+-   first R package
+-   first in-person talk
+-   first R-Ladies Seattle event
+-   first Seattle useR group event
+
+While these all are huge accomplishments to me, I also realize that it's totally natural because I am so new to the R and coding space. Nevertheless, April 20, 2023 was a huge day for me as this was the first moment since RStudio::con(2022) that I really felt a sense of belonging in the R community.
+
+![](https://jadeyryan.com/talks/2023-04-20_rladies_orcas-web-scraping/featured.webp){style="float:right;padding-left: 1em;" width="300px" fig-alt="Slide titled 'Mapping with whale icons!' with screenshot of leaflet map with whale icons representing the start and end of the encounters."} This was also my first in-person talk of my professional career! I used this as an opportunity to learn new skills through a personal project. I've always had an affinity for the Southern Resident Killer Whales in the Salish Sea. The [Center for Whale Research](https://www.whaleresearch.com) does a lot of really fascinating and important work monitoring their population. They post their survey data on their website; each encounter with the orcas is a separate webpage. I'd been curious and intimidated by web scraping so I decided this would make a great case study and personal project.
+
+With the encouragement from new friends I met at the R-Ladies event, we ended up also going to the [Seattle useR Group](https://www.meetup.com/seattle-user/) lightning talks meetup afterwards. I spontaneously gave the same presentation there!
+
+Check out the {orcas} package [repo](https://github.com/jadeynryan/orcas) and [talk materials](/talks/2023-04-20_rladies_orcas-web-scraping/index.qmd).
+
+# First WADE (attendance & talk)
+
+![](https://jadeyryan.com/talks/2023-06-13_wade_washi-wacse/featured.webp){style="float:right;padding-left: 1em;" width="300px" fig-alt="Screenshot of slide with many different colored and textured soils and the text: we need diverse solutions for diverse soils.."} Outside of the R community and moreso in my capacity as the data scientist at the Washington State Department of Agriculture, I was invited to present at the Washington Association of District Employees (WADE). I presented on the [Washington Soil Health Initiative](https://washingtonsoilhealthinitiative.com/) and [{WaCSE}](https://wsda.shinyapps.io/WaCSE/).
+
+See the [talk materials](/talks/2023-06-13_wade_washi-wacse/index.qmd).
+
+# First Master of Science degree
+
+In August, I graduated from [Montana State University's online Land Resources and Environmental Sciences program](https://landresources.montana.edu/grad/gradonline.html) with a Master of Science. It took me about three years of part-time school with full-time work to complete this degree. I really enjoyed the online aspect of the program as it allowed me to really focus on what was applicable to my job, rather than rote memorization of lots of content I didn't really need for my day-to-day work. I am a big proponent of *learning how to learn* in primary and secondary education \[thanks dad for teaching me this mentality ☺️\], and then using those learning skills to dive deeper into a domain you want to pursue for postsecondary education.
+
+For my professional project (aka the cheaper version of a thesis), I got to learn some JavaScript and Google Earth Engine to model wind-driven soil erosion in Washington State's Columbia Plateau.
+
+See the [repo](https://github.com/jadeynryan/erosion) and my [presentation recording](https://youtu.be/5IA3JaCnMFs?si=6ZQZSsr31Hjf479F).
+
+# First Cascadia Conf (attendance & talk)
+
+![](cascadia.webp){style="float:right;padding-left: 1em;" width="300px" fig-alt="Me smiling while presenting at Cascadia R Conf 2023."}
+Given my rejection for Shiny Conf, I definitely didn't expect to be accepted for [Cascadia R Conf](https://cascadiarconf.com/) or Posit. I used the lessons from my first proposal and made this proposal more unique by focusing less on the Shiny app as a data access tool, and more on the development process and lessons learned from creating our first Shiny app.
+
+See the [talk materials](/talks/2023-08-19_cascadia_shiny-wacse/index.qmd).
+
+This was my first time attending Cascadia Conf and I've got to say that it is an endearing and enlightening experience. It's more local and tight-knit than RStudio/Posit conf. I appreciated the smaller size, venue, and one track style of conference. I really enjoyed meeting people I've known online in person and making entirely new friends and connections. I loved the experience so much that I volunteered to be on the planning committee for 2024 conf! I'll be working on the hex logo, paper materials, the *witty* committee to come up with quirky, fun activities, and helping to update the [website](https://cascadiarconf.com).
+
+# First Posit Conf talk
+
+![](posit.webp){style="float:right;padding-left: 1em;" width="300px" fig-alt="Me smiling while presenting at posit::conf(2023)."} Since I already revised the {WaCSE} Shiny talk from the Appsilon Shiny Conf proposal for Cascadia R Conf, I wanted to submit a different topic just in case. So I decided to try a talk about the parameterized soil health Quarto reports. Getting my talk proposal accepted for [posit::conf](https://posit.co/conference/) was probably the most shocking news I had for 2023. The call for proposals required an abstract and a 1-minute video pitching the idea for the talk and what I hope the audience will walk away with. I was incredibly intimidated but the amazing [Rachael Dempsey](https://www.linkedin.com/in/rachaeldempsey/) wrote a very encouraging and helpful [LinkedIn post](https://www.linkedin.com/posts/rachaeldempsey_positconf-activity-7043697290061971456-ts01) for those nervous about the video.
+
+<details>
+
+<summary>Read Rachael's post</summary>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7043697288497516545" height="800" width="504" frameborder="0" allowfullscreen title="Embedded post">
+
+</iframe>
+
+</details>
+
+I strongly encourage anyone to submit a talk for next year's conference in Seattle! You never know if you don't at least try. Posit provides speaker coaching through [Articulation](https://www.articulationinc.com/), which is so incredibly helpful for learning how to weave a story into your presentation, even with code-based content.
+
+See the [talk materials](/talks/2023-09-25_posit_parameterized-quarto/index.qmd).
+
+# General thoughts from my four talks this year
+
+I've always been extremely nervous about public speaking. So much anxiety, shaking, sweating, red face, voice cracking, and lightheadedness that I would take propranolol to help. This year I didn't need it though. I definitely felt nervous and shaky. But not to the same extent. Once I got started presenting, I (for the most part) felt nervous-excited to share whatever I was talking about.
+
+Reflecting on how I felt each talk, I've realized that I'm naturally more confident talking about things that I really care about and am professionally and personally invested in. Instead of presenting random research for school projects in my high school and undergraduate classes, I'm presenting projects that I've invested dozens of hours in learning, crafting, and perfecting.
+
+# First invitation for a workshop
+
+![](https://secure.meetupstatic.com/photos/event/9/7/5/4/600_517358740.webp?w=750){style="float:right;padding-left: 1em;" width="300px" fig-alt="Poster for Parameterized reporting using Quarto 2-hour workshop, presented by Jadey Ryan and hosted by R-Ladies Washington D.C. January 18th, 2024 at 6:30 EDT."} After my posit::conf talk, [Arati Krishnamoorthy](https://www.linkedin.com/in/aratikrishnamoorthy/) came up to me to congratulate me on my presentation and ask if I was interested in leading a workshop as a longer version of my talk on parameterized Quarto reports. Of course I said yes, even though I've never led a workshop before. It'll be my *first* first \[workshop\] of 2024 on January 18th!
+
+Register for the [R-Ladies Washington D.C. Meetup](https://www.meetup.com/rladies-dc/events/297344107/).
+
+So far, I've really enjoyed these R focused presentations and teaching. Depending on how the workshop goes, I'm considering applying for [The Carpentries Trainer Training Program](https://docs.carpentries.org/topic_folders/instructor_training/trainers_training.html) to better learn how to teach. After all, my husband is an instructional coach (with 5 years of elementary teaching under his belt).
+
+# First personal website and blog
+
+[Millie Symnns](https://www.linkedin.com/in/millie-symns/) wrote a [blog post](https://milliesymns.com/blog/2022-12-28-side-effects-of-a-year-of-blogging/) and gave an excellent [posit::conf(2023) talk](https://youtu.be/PQvnizEJ2eQ?si=2V6386gPdjtylfKJ) about the side effects of blogging that inspired me to create my own website and blog. Since RStudio::Conf(2022), I've been obsessed with Quarto so the technology behind a website and blog obviously had to be Quarto. It was a blast coming back from Posit Conf and immediately applying what I learned to build my own personal portfolio and website.
+
+# First small business - Etsy shop
+
+At Cascadia Conf and Posit Conf, I used my Cricut and heat transfer vinyl to create my own cat and code themed shirts to wear as conversation starters. At both conferences, I made new friends because I was approachable and immediately had *two* common interests to talk about (R and cats 😻). People asked where I got my shirts and encouraged me to make them available. So to spread the joy and allow others to proudly share/wear their interests, I set up a sole proprietorship, started a small business called **The Coding Cats**, and launched an Etsy shop found at [thecodingcats.etsy.com/](https://thecodingcats.etsy.com)!
+
+In 2024, I hope to move from Etsy to a Shopify store that lives on the [The Coding Cats tab](https://jadeyryan.com/shop) of my website to avoid the excessive Etsy fees.
+
+# First freelance job
+
+Lastly, my first freelance job sort of fell into my lap when a friend referred me to one of their colleagues who was looking for someone to convert their RMarkdown website to Quarto. I picked the brain of my friend to learn about freelancing, listened to some episodes of [The Business of Authority podcast](https://www.thebusinessofauthority.com/), decided on [project-based billing](https://jonathanstark.com/trust-fractures-how-hourly-billing-hurts-software-projects) rather than hourly billing, consulted with the client, wrote up a proposal, and then began the work. 
+
+I actually just finished the next stage of the project earlier today 😀.
+
+While I'm not actively looking for freelance work, I'm happy to entertain the idea and set up a short call to see if I would be a good fit for your project if it involves pretty much anything Quarto. 
+
+# Last thoughts
+
+I appreciate you sticking through my ramblings (including my future self)! 
+
+The year started out with imposter syndrome, so much self-doubt, and one rejection. But with the support from my community, I kept on keeping on. My general theme for the year was perseverance through failures and insecurities to finally get to the realization that I'm exactly where I'm supposed to be. I'm learning as I go, and that's perfectly okay! My learning directly feeds into my sense of belonging within the R community. This community is so amazing at lifting each other up as we all learn together and support each other. We're all collectively trying to use the latest technologies and best practices to gain insights from our data and make the world a better place.
+
+Here's to 2024 being another year of learning, being vulnerable, and lifting each other up! 

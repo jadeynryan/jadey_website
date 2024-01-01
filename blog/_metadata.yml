@@ -10,10 +10,6 @@ citation: true
 # align figures to left
 fig-align: "left"
 
-# number sections
-number-sections: true
-number-depth: 2
-
 # lightbox extension
 # https://github.com/quarto-ext/lightbox
 filters:

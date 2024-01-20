@@ -24,7 +24,6 @@ format:
   html:
     include-after-body:
       - ./assets/html/subscribe.html
-      - ./assets/html/buymecoffee.html
 ---
 
 Welcome to my blog! I'm so happy you're here to learn with me. I'll be using this space to write about what I'm learning, working on, and am curious about.

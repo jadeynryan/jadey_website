@@ -23,6 +23,7 @@ listing:
 format:
   html:
     include-after-body:
+      - ./assets/html/kofi.html
       - ./assets/html/subscribe.html
 ---
 

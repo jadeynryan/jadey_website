@@ -20,3 +20,9 @@ comments:
       input-position: top
       theme: light
       language: en
+
+# html format options
+format:
+  html:
+    include-after-body:
+      - ../assets/html/kofi.html

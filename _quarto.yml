@@ -68,6 +68,13 @@ website:
       - icon: linkedin
         aria-label: LinkedIn
         href: https://www.linkedin.com/in/jadeynryan/
+      - icon: mastodon
+        text: Mastodon
+        href: https://fosstodon.org/@jadeynryan
+        rel: me
+      - icon: cup-hot-fill
+        aria-label: Ko-Fi
+        href: https://ko-fi.com/jadeyryan
 
   page-footer:
     border: true
@@ -92,5 +99,3 @@ format:
     link-external-newwindow: true
     code-link: true
     highlight-style: a11y
-    include-after-body:
-      - ./assets/html/kofi.html

@@ -26,6 +26,7 @@ format:
   html:
     pagetitle: "data whiskeRs | {{< meta title >}}"
     include-after-body:
+      - ../assets/html/kofi.html
       - ../assets/html/subscribe.html
 
 # giscus comments https://giscus.app/

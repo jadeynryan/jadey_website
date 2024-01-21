@@ -20,6 +20,7 @@ about:
     - icon: mastodon
       text: Mastodon
       href: https://fosstodon.org/@jadeynryan
+      rel: me
     - icon: briefcase-fill
       text: Work
       href: https://agr.wa.gov/AgScience

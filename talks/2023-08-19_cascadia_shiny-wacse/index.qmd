@@ -25,13 +25,9 @@ categories:
 
 ### Details
 
-**Event**: [Cascadia R Conf](https://cascadiarconf.com/)
-
-**Date**: August 19, 2023
-
-**Location**: Seattle, WA
-
-**Talk duration**: 15 minutes
+📆 August 19, 2023 // 2:05 pm - 2:20 pm PT  
+🏨 Seattle, WA  
+🌠 [Cascadia R Conf](https://cascadiarconf.com/) 
 
 ### Abstract
 

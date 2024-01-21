@@ -35,13 +35,9 @@ categories:
 
 ### Details
 
-**Event**: [posit::conf(2023)](https://posit.co/conference/)
-
-**Date**: September 25, 2023
-
-**Location**: Chicago, IL
-
-**Talk duration**: 20 minutes
+📆 September 25, 2023 // 5:30 pm - 5:40 pm CDT 
+🏨 Chicago, IL  
+🌠 [posit::conf(2023)](https://posit.co/conference/)
 
 ### Abstract
 

@@ -17,13 +17,9 @@ categories:
 
 ### Details
 
-**Events**: [R-Ladies Seattle](https://rladiesseattle.org/) and [Seattle useR Group](https://www.meetup.com/seattle-user) meetups
-
-**Date**: April 20, 2023
-
-**Location**: Seattle, WA
-
-**Talk duration**: 15 minutes each
+📆 April 20, 2023 // 15-minute talk  
+🏨 Seattle, WA  
+🆓 [R-Ladies Seattle](https://rladiesseattle.org/) and [Seattle useR Group](https://www.meetup.com/seattle-user)  
 
 ### Abstract
 

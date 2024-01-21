@@ -1,0 +1,43 @@
+---
+title: "Parameterized Reports with Quarto: R-Ladies DC Workshop"
+description: "2-hour code-along workshop on parameterized reports with Quarto"
+author: 
+  - name: Jadey Ryan
+date: "2024-01-18"
+image: featured.webp
+image-alt: "Poster for Parameterized reporting using Quarto 2-hour workshop, presented by Jadey Ryan and hosted by R-Ladies Washington D.C."
+categories:
+  - R
+  - Quarto
+  - parameterized reports
+  - workshop
+---
+
+<span class="listing-btn-group">
+<a href="https://jadeyryan.quarto.pub/rladies-dc-quarto-params/" class="btn" role="button">{{< fa globe >}} Course website</a> 
+<a href="https://jadeyryan.quarto.pub/rladies-dc-quarto-params/slides/" class="btn" role="button">{{< fa display >}} Slides</a> 
+<a href="https://github.com/jadeynryan/parameterized-quarto-workshop" class="btn" role="button">{{< fa brands github >}} Code</a>
+<!-- <a href="https://youtu.be/lbE5uOqfT70?si=GnUILZ6Amoae_aRL" class="btn" role="button">{{< fa play-circle >}} Video</a> -->
+</span>
+
+### Details
+
+📆 January 18, 2024 // 6:30 pm - 8:30 pm EDT  
+🏨 Virtual  
+🆓 **FREE** with [registration](https://www.meetup.com/rladies-dc/events/297344107/)  
+🏡 [Workshop website](https://jadeyryan.quarto.pub/rladies-dc-quarto-params/)  
+🔖 [Source tag](https://github.com/jadeynryan/parameterized-quarto-workshop/releases/tag/rladies-dc-workshop)
+
+### Abstract
+
+Tired of manually adjusting Quarto reports for different regions, time periods, or clients? Dreaming of using just one template to generate both interactive HTML and static Word/PDF versions of your reports?
+
+Join our workshop to unlock the power of parameterized reporting with Quarto and leave with your own template and examples to modify for your own projects.
+
+Get a sneak preview of what you'll learn by checking out the [slides](https://jadeyryan.com/talks/2023-09-25_posit_parameterized-quarto/) for my posit::conf(2023) talk.
+
+Everyone is welcome to attend. If you're new to Quarto, we recommend watching [Tom Mock's excellent 2-hour introduction to Quarto](https://www.youtube.com/watch?v=yvi5uXQMvu4).
+
+### Slides
+
+<iframe class="slides" src="https://jadeyryan.quarto.pub/rladies-dc-quarto-params/slides/#/title-slide"></iframe>

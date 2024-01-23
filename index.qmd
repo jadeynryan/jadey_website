@@ -24,8 +24,7 @@ about:
     - icon: briefcase-fill
       text: Work
       href: https://agr.wa.gov/AgScience
-    - icon: cup-hot-fill
-      text: Support me
+    - text: "{{< iconify simple-icons kofi >}} Support me"
       href: https://ko-fi.com/jadeyryan
 toc: false
 anchor-sections: false

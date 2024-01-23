@@ -1,0 +1,378 @@
+---
+title: Notes from live code review of {soils} 
+description: "Unpolished notes and reflections from having a package reviewed in a livestream. "
+date: "2024-01-22"
+image: featured.webp
+image-alt: "My three cats laying in bed with the {soils} R package hex sticker placed in the middle."
+categories:
+  - R
+  - Quarto
+  - Package dev
+  - Code review
+  - Reflection
+---
+
+First off, I want to say that I'm strongly resisting my perfectionism and time-blocked this blog post to about one hour! This is a very vulnerable and unpolished post, so please be gentle. 😌
+
+A couple days ago, three ✨**expert**✨ R package developers and reviewers looked at my package:
+
+- [Nicholas Tierney](https://fosstodon.org/@njtierney@aus.social)
+- [Miles McBain](https://fosstodon.org/@milesmcbain)
+- [Adam Sparks](https://fosstodon.org/@adamhsparks@rstats.me)
+
+The idea to livestream a R package review came from [**Nick Tierney**](https://njtierney.com/). Others favorited, boosted, and commented on the [Mastodon post](https://aus.social/@njtierney/111780641044951873), including myself. I've been working on this [{soils} R package](https://github.com/WA-Department-of-Agriculture/soils) and am in the review/revise period of package development. Before I could get second thoughts, I volunteered this package for review. I was quite nervous about putting my work out there for critique, but I'm so happy that I did. And so grateful that Nick, Miles, and Adam all shared their brilliance! 🧠😇
+
+I've re-watched the session a few times to soak up all the gold nuggets of good practices, tips and tricks, and overall understanding of the package review process. Below, I've included the recording of the session, bullet point summaries of what I learned, what I did well, and what I can improve, and then my unpolished and mostly disorganized notes. 
+
+If you just want to see what changes Nick suggested, see his [pull request](PR with suggestions/changes](https://github.com/WA-Department-of-Agriculture/soils/pull/3).
+
+Please comment and let me know if you learned something new, or if you see something else I can improve in my package development journey!
+
+## Recording of live code review session
+
+{{< video https://www.youtube.com/watch?v=OttYnXwM4dU >}}
+
+## New tips and tricks I learned
+
+- Use [`goodpractice::gp()`](https://github.com/MangoTheCat/goodpractice) to run a check for many good practices in R package development.
+
+- {cli} has special [inline markup classes](https://cli.r-lib.org/reference/inline-markup.html).
+
+- `//` to add a new line in {cli} message. I bet this works with other long string arguments as well.
+
+- [`usethis::use_package_doc()`](https://usethis.r-lib.org/reference/use_package_doc.html) generates basic package-level documentation.
+
+- Menu to open file or function: `Ctrl` + `.`
+
+## Things I did well
+
+- Time and effort to make the user experience (UX) good: video demos, boxes and annotations for videos and screenshots, {pkgdown} website with detailed articles
+
+- Defensive programming: failing early and giving error messages
+
+- Using functions like `cat_red_bullet` and `cet_green_check` to set nice, informative {cli} message symbols
+
+- Consistent styling with [{grkstyle}](https://github.com/gadenbuie/grkstyle)
+
+- Including a URL reference to the exact commit of functions adapted from other packages
+
+- Including data dictionary was nice.
+
+- Generating example data from an R script to make it possible to reproduce.
+
+## Things to improve
+
+- Huge package size (not a big deal since using R-Universe instead of CRAN)
+
+- Incorporate testing
+
+- Error messages: take advantage of {cli} [inline markup](https://cli.r-lib.org/reference/inline-markup.html), provide an example of what the code *should* look like, tell the user if they need to provide something rather than say something is missing
+
+- Better use explaining variables in conditional statements to unravel confusing ifelse logic.
+
+- More consistency with approaches / utilities: base R or tidyverse
+
+- Naming things is so hard! Mixing snake_case and camelCase in the example data and data dictionary.
+
+  - Things to look into: [comments responding to Ben Bolker's Mastodon post](https://fediscience.org/@bbolker/111791764707599216), [Shannon Pileggi's post](https://www.pipinghotdata.com/posts/2022-09-13-the-case-for-variable-labels-in-r/), [Emily Riederer's post](https://emilyriederer.netlify.app/post/column-name-contracts/), [`data.table::setattr()`](https://rdatatable.gitlab.io/data.table/reference/setattr.html), and [{units}](https://r-quantities.github.io/units/) thanks to [Michael McCarthy](https://fosstodon.org/@mccarthymg/111792645556619721).
+  
+- Be more descriptive with example data: call it `washi_example` instead of `exampleData` and include data viz.
+
+- Investigate `ggtern` overwriting `ggplot2` S3 methods warning more closely, resolve or rethrow more helpful warning text instead of using `suppressWarnings()`.
+
+- Write better commit messages following the template: "this commit will..." and use headlines and bullet points.
+
+## Notes
+
+There are lots of notes of things Nick would wanted to "get to later" but we ran out of time. I left these notes in just to draw attention to other things we would have looked at more closely given more time.
+
+### Look at the GitHub repo.
+
+**About**: provides context, a few features, and link to website.
+
+**Website**: video demos in README and main page of website
+
+-   Author cares about UX and make it easy to understand what the benefit of the package
+
+-   Taking time to add boxes and annotations to videos and screenshots really helpful.
+
+-   Empathy for R users who haven't been using R for very long. Videos help take the user's hand and walk them through it.
+
+**Articles**: will get to later.
+
+-   Repo and website gives trust that the author wants the pkg to be easily usable and understandable.
+
+### Fork the package and copy to machine
+
+Used RStudio with New Project from Version Control.
+
+Took a long time to clone. Not a big deal unless want the pkg on CRAN. Will get to later.
+
+-   Large R package. Likely from the example .docx and .html reports that are included.
+
+    -   Look at README to see where video demos came from. Uses GitHub assets, so not included in pkg download. See how to do this in [GitHub's video](https://www.youtube.com/watch?v=G3Cytlicv8Y).
+
+Create new branch for changes/suggestions.
+
+### Run `goodpractice::gp()`
+
+Nick's experience as [ROpenSci](https://ropensci.org/) pkg reviewer to run this static analysis on the code. Makes markers for things that are easy to fix in the pkg.
+
+[{goodpractice} repo](https://github.com/MangoTheCat/goodpractice)
+
+Run `devtools::install_dev_deps()` to install everything for the pkg.
+
+Markers:
+
+-   Code lines that are \> 80 characters long.
+
+-   No tests
+
+    -   Tests are hard. Not sure how to do this with a project template based pkg. Will get back to this.
+
+    -   **Miles**: "Yeah so I think testing is hard here because the RStudioApi shows up pretty early in the workflow. To make things easier you could try to separate out as much possible work that can be done without it. then you contain the RStudioAPI stuff in a thin wrapper that wraps the functions that do the work. you can test the 'do the work' functions. although it does appear the API is made optional!"
+
+    -   **Adam**: "You can use tempdir() as in your example for create_soils() and just check that the directories exists in tempdir() and are created as you expect."
+
+    -   **Miles**: "yeah or maybe there's a way to make the test for the RStudio API return false in non interactive mode. so put in && interactive() there. then you can run your tests inside RStudio without hitting the API branch."
+
+    -   **Adam**: "I could see writing tests to circumvent the API would be useful, perhaps you could use it as a basis for automating a scripted setup that wasn't interactive?"
+
+-   UTF-8 strings? not sure how to fix
+
+-   Big installation size
+
+    -   **Adam**: "Size isn't a big issue if you don't plan to put it on CRAN"
+
+-   Not big deal breakers
+
+### Look through `.R` files
+
+#### `create_soils.R`
+
+-   **`roxygen` function documentation**
+
+    -   `@examples`: how would you use this? Create a soils project like a template R package in the given directory.
+
+-   **Function definition**
+
+    -   Nice defensive programming with missing path giving error.
+
+-   **Error messages**
+
+    -   **Improvement**: use inline markup syntax in {cli} instead of back ticks for code. Instead of `` "`path` is missing." ``, use `"{.code path} is missing."`
+
+    -   All classes are in [`inline-markup` of {cli}](https://cli.r-lib.org/reference/inline-markup.html)
+
+    -   Changed `"{.code path} is missing."` → `"{.path path} is missing."`
+
+    -   Keyboard shortcut `Ctrl`+`Shift`+`L` to call `devtools::load_all(".")`.
+
+        -   Got message about `ggtern` overwriting `ggplot2` S3 methods. Come back to this later.
+
+    -   Ran `create_soils()` with path missing to see error. This opened in Browser/debug mode.
+
+    -   **Improvement**: add another info message with example:\
+        `"i" = "For example, {.code create_soils('path/to/my/directory')}"`
+
+    -   Re-ran interactively to see updated error msg. Nice to not worry about including back ticks.
+
+    -   **Improvement**: can render the actual path by wrapping it in another pair of curly braces like: `"{.path {path}} already exists."`.
+
+    -   **Improvement**: add another info message with example and use `\\` to create a new line:
+
+        ``` r
+        "i" = "To always overwrite: \\  
+        {.code create_soils({.path {path}} overwrite = TRUE)}"
+        ```
+
+    -   Liked `cat_red_bullet` a lot. Defined in `utils.R`
+
+-   **Recommend interactive process**
+
+    -   Tweak something, load the pkg (`load_all`), then play around in the console.
+
+-   **Logic of function**
+
+    -   `if (!isTRUE(overwrite))`:
+
+        -   Could have used `if (isFALSE(overwrite))` but good practice to leave it as is since `overwrite` is user-defined
+
+    -   Too much ifelse nesting. Referred to [Jenny Bryan's Code Smells talk](https://github.com/jennybc/code-smells-and-feels).
+
+        -   **Improvement**: prioritize happy path. Failing early is good. Extract conditions into explaining variables (`dir_exists` and `overwriting`). Then use 3 if statements to emphasize each individual case:
+
+            -   `if (dir_exists && !overwriting) {...}`
+
+            -   `if (dir_exists && overwriting) {...}` good to inform user of overwriting existing project
+
+            -   `if (!dir_exists) {...}`
+
+    -   Would run {grkstyle} at this point after a chunk of refactoring if Nick had it installed.
+
+    -   Could consider wrapping each case into a function itself like `stop_if_dir_exists_and_overwriting(dir_exists, overwriting) {...}` to capture the intent. Reduces lines of code. Not a believer of just reducing lines of code. But is believer of writing functions to express yourself. Makes it eaier to browse through the code and maintain later. [Nick's blog post of these thoughts](https://www.njtierney.com/post/2023/12/06/long-errors-smell/).
+
+    -   `soils_sys()` in `utils.R`: really liked the fixed blob URL for the exact commit in {golem} for code reference.
+
+-   **Code style**
+
+    -   **Miles**: "Things are looking pretty clean. Did you use {styler} along the way?".
+
+        -   I used [{grkstyle}](https://github.com/gadenbuie/grkstyle) from Garrick Aden-Buie.
+
+    -   **Miles**: "One comment I would make having looked around a bit, which is visible here. There are some mixing of approaches / utilities. E.g. base::normalizePath shows up alongside fs:: stuff."
+
+        -   **Miles**: "I think it's safer to keep within one tool's conception of how things are, otherwise subtle differences in underlying objects / assumptions can create edge cases where things break"
+
+        -   **Miles**: "fs::path_norm and fs::path_real are worth a look"
+
+        -   Looked at what `normalizePath()` does with `?normalizePath`
+
+            -   Was going to rewrite it, but doesn't fully understand so will leave it.
+
+#### `data.R`
+
+-   Didn't like mix of snake_case and camelCase. If this is a norm in the community, that's okay.
+
+    -   **Adam**: "I picked this up too,the functions and some data are snake case but some data are camel case. I'd be consistent for myself and users. For better or worse, I tend to use "." For separators with units in colnames."
+
+    -   **Miles**: "put units in brackets so you regex them out? or maybe a better engineer would suggest storing them as attributes. Or you have vectors of objects with units if they're really important to calculations. Oooh oooh {roxyglobals}"
+
+    -   **Adam**: "Most times in my work the units aren't important for calculations but for knowing how it was recorded"
+
+    -   Naming things and units are hard. I use camel case to delineate words and underscores to separate soil health measurement from the unit. The underscores make pivoting easier.
+
+-   **Improvement**: instead of calling it `exampleData`, call it something more descriptive like `washi_example`.
+
+-   **Improvement**: add example table or data viz to show some of things I care about.
+
+-   Data dictionary is really nice: shows what the columns are and what they mean.
+
+-   Can quickly normalize names with `janitor::clean_names()`.
+
+#### `data-raw/example_data.R`
+
+-   Great to have this included so it's possible to reproduce the example data. Good signals that I care about this.
+
+#### `globals.R`
+
+-   Avoids CRAN check issue.
+
+-   **Improvement**: `usethis::use_package_doc()` creates a `soils-package.R` file.
+
+    -   Could move `utils::globalVariables()` into this file and remove `globals.R`. Having globals in own R file is fine. Actually kinda like it there.
+
+    -   Look at [dplyr](https://github.com/tidyverse/dplyr/blob/main/R/dplyr.R) or [narniar](https://github.com/njtierney/naniar/blob/master/R/naniar-package.R) for examples.
+
+    -   Include `if(getRversion() >= "2.15.1")  utils::globalVariables(c("."))` in `soils-package.R` with globals. Not sure if this is needed?
+
+#### `helpers.R`
+
+-   `calculate_mode()`: R doesn't include mode function.
+
+    -   **Adam**: "Oh! Watch the mode. I'll check your function in a bit, but I've a function that allows you to handle multimodal distributions if you'd like. I got burned by my initial function to calculate mode. OK, you've got the max. That's good. I don't recall what I did first off but I would get the max or min from a multimodal distribution, so I wrote this [\[function\]](https://adamhsparks.codeberg.page/misc.debris/reference/mode.html) that handles multimodal distributions"
+
+-   Noticed use of base pipe.
+
+    -   Updated DESCRIPTION to depend on R ≥ 4.1.
+
+    -   Fancy triangle ligature from FiraCode-Light
+
+-   Running out of time so super quick review
+
+#### `plots.R`
+
+-   Interested in the S3 methods overwritten by `ggtern` warning. Indicates something is going on but not sure what.
+
+-   Optional: instead of namespacing `ggplot2::`, can add `#' @import ggplot2` to the `soils-package.R` which is kinda like running `library(ggplot2)`.
+
+-   Really likes consistent styling. Makes code easy to read. Can turn off parts of brain to focus on various things.
+
+-   Doesn't have time to confidently to go through plotting code.
+
+-   **Miles**: "I'd like to hear Dr Nick's opinion on plots.R line 22"
+
+    -   `suppressWarnings` wrapped around `make_texture_triangle` {ggplot2} code.
+
+    -   Not sure why suppressing warnings. Add comment at closing parentheses. No warnings when Nick ran the function example.
+
+    -   **Miles**: "You can even catch and rethrow with more relevant text if that would be helpful to people"
+
+### Vignettes
+
+Look at `get-started.Rmd` to understand if it's all point and click or if there's code to run:
+
+-   **Installation**: using r-universe (project by ROpenSci), like an alternative to CRAN. Shows author cares about user.
+
+-   See Option 2: RStudio Console
+
+    -   Project structure tree: great and takes time
+
+    -   From annotated screenshots, strong effort to make this easily usable
+
+Back to R code: `create_soils()` in `create_soils.R`
+
+### Build pkg and create soils project
+
+Follow the point and click instructions for install {soils} with RStudio new project wizard.
+
+### Testing
+
+`usethis::use_testthat()`
+
+`usethis::use_test("create-soils")` to create `test-create-soils.R` template to modify.
+
+-   Likes dashes over underscores for file names to make it easier to mouse across when holding `Alt` ([1:07:06 timestamp for demoing this](https://www.youtube.com/live/OttYnXwM4dU?si=vA2_CjRtt5tNQBg5&t=4026)). If using underscores, it jumps to the very end.
+
+``` r
+test_that("create_soils returns appropriate error", {
+  expect_snapshot_error(
+    create_soils()
+  )
+})
+```
+
+Running it once took a snapshot of the error message, which got saved in `tests/testthat/_snaps/create-soils.md`.
+
+Running it again shows the test passed.
+
+Changed `` "`path` is missing." `` → `"{.path path} must be provided."`.
+
+-   Tells user you must provide the path. You need to do this thing.
+
+Run test again. It says the message has changed.
+
+Click `testthat::snapshot_review('create-soils') to interactively review this change.`
+
+Shows the diff, which is what we want. Click `Accept`.
+
+Good for snapshotting errors and outputs!
+
+### Commit, push, PR
+
+Committed each individual change one at a time with descriptive commit messages.
+
+Write commit messages following this template:
+
+-   \[this commit will\]... \* use tests and snapshot testing
+
+-   \[this commit will\]... \* depend on R 4.1.0 since \|\> is used
+
+Then add a summary headline:
+
+-   Tests, snapshots, base pipe:
+
+All together, the commit message:
+
+```         
+Tests, snapshots, base pipe:
+* use tests and snapshot testing
+* depend on R 4.1.0 since |> is used
+```
+
+Credit to Adam Brewer (spelling?) for this commit message template of "This commit will..." to remember what he commit does.
+
+Credit to Miles for idea of using the header and dot points.
+
+Push then submit [PR with suggestions/changes](https://github.com/WA-Department-of-Agriculture/soils/pull/3)!
+

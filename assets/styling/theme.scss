@@ -1,7 +1,7 @@
 /*-- scss:defaults --*/
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Code&family=Domine:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fira+Mono&family=Domine:wght@400;700;900&family=Nunito:wght@400;900&display=swap');
 
 // Colors
 
@@ -104,7 +104,7 @@ body {
 // code
 
 code {
-  font-family: Fira Code, monospace;
+  font-family: Fira Mono, monospace;
 }
 
 pre.sourceCode {
@@ -335,7 +335,7 @@ div.quarto-post .listing-categories .listing-category:hover, .quarto-category:ho
   background-color: $secondary;
 }
 
-// slide iframes
+// Slide iframes
 
 .slides {
   width: 100%;
@@ -343,6 +343,14 @@ div.quarto-post .listing-categories .listing-category:hover, .quarto-category:ho
   aspect-ratio: 16 / 9;
   border-style: solid;
   border-width: 1px;
+}
+
+// Embed iframe
+
+.mastodon-embed {
+  width: 100%;
+  height: 100;
+  overflow: scroll;
 }
 
 // Blog subscribe section

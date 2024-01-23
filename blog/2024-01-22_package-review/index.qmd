@@ -24,7 +24,7 @@ The idea to livestream a R package review came from [**Nick Tierney**](https://n
 
 I've re-watched the session a few times to soak up all the gold nuggets of good practices, tips and tricks, and overall understanding of the package review process. Below, I've included the recording of the session, bullet point summaries of what I learned, what I did well, and what I can improve, and then my unpolished and mostly disorganized notes. 
 
-If you just want to see what changes Nick suggested, see his [pull request](PR with suggestions/changes](https://github.com/WA-Department-of-Agriculture/soils/pull/3).
+If you just want to see what changes Nick suggested, see his [pull request with suggestions/changes](https://github.com/WA-Department-of-Agriculture/soils/pull/3).
 
 Please comment and let me know if you learned something new, or if you see something else I can improve in my package development journey!
 

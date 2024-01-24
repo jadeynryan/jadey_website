@@ -18,7 +18,7 @@ A couple days ago, three ✨**expert**✨ R package developers and reviewers loo
 
 - [Nicholas Tierney](https://fosstodon.org/@njtierney@aus.social)
 - [Miles McBain](https://fosstodon.org/@milesmcbain)
-- [Adam Sparks](https://fosstodon.org/@adamhsparks@rstats.me)
+- [Adam Sparks](https://rstats.me/@adamhsparks)
 
 The idea to livestream a R package review came from [**Nick Tierney**](https://njtierney.com/). Others favorited, boosted, and commented on the [Mastodon post](https://aus.social/@njtierney/111780641044951873), including myself. I've been working on this [{soils} R package](https://github.com/WA-Department-of-Agriculture/soils) and am in the review/revise period of package development. Before I could get second thoughts, I volunteered this package for review. I was quite nervous about putting my work out there for critique, but I'm so happy that I did. And so grateful that Nick, Miles, and Adam all shared their brilliance! 🧠😇
 

@@ -38,3 +38,7 @@ Integrating national climate models and datasets, this intuitive, regionally spe
 ### Slides
 
 <iframe class="slides" src="https://jadeynryan.github.io/2023_cascadia-wacse/"></iframe>
+
+### Recording
+
+{{< video https://youtu.be/Kt_qxEOOlrc?si=cAigx1n0YXuisw04 >}}

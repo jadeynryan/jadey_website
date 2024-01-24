@@ -52,3 +52,7 @@ Learn more about the [Washington Soil Health Initiative State of the Soils Asses
 ### Slides
 
 <iframe class="slides" src="https://jadeynryan.github.io/2023_posit-parameterized-quarto/"></iframe>
+
+### Recording
+
+{{< video https://youtu.be/lbE5uOqfT70?si=GnUILZ6Amoae_aRL >}}

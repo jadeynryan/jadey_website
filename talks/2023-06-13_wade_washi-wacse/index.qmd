@@ -36,3 +36,7 @@ How to get the most of the [Sustainable Farms and Fields](https://www.scc.wa.gov
 ### Slides
 
 <object class="slides" data="https://drive.google.com/file/d/1d_--CNEI3YOwNUwR9_i_sn2zYot_XusN/preview"><p>Oops! Your browser doesn't seem to support embedded PDFs.</p><p><a href="2023_WADE_WaSHI_WaCSE_JR.pdf">Try downloading instead.</a></p></object>
+
+### Recording
+
+{{< video https://youtu.be/PKOQitlLjXI?si=v3tVpDIP3F8xHMtR >}}

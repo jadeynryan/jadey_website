@@ -1,6 +1,6 @@
 ---
-title: "Publish a Quarto website with Netlify"
-description: "Create a Quarto website, connect it to GitHub, deploy & publish it with Netlify."
+title: "Publish a Quarto website with GitHub & Netlify"
+description: "An intermediate guide to creating a Quarto website, connecting it to GitHub, & publishing it with Netlify with continuous integreation."
 date: "2023-11-19"
 image: thumbnail.webp
 image-alt: "My three cats with Quarto, GitHub, and Netlify logos are placed on top of them."

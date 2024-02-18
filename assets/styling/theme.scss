@@ -101,6 +101,13 @@ body {
   background-color: $light;
 }
 
+// navbar
+
+// Put all the icons in a single row in the hamburger menu (thanks Andrew! https://github.com/andrewheiss/ath-quarto/blob/8bad8578379a83f9aaf6cadd3bc75cb227e76f1b/html/ath.scss#L137-L140)
+.navbar-nav.navbar-nav-scroll.ms-auto {
+    flex-direction: row;
+}
+
 // code
 
 code {

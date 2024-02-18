@@ -58,7 +58,7 @@ website:
       - text: The Coding Cats
         icon: bag-heart-fill
         href: shop.qmd
-    tools:
+    right:
       - icon: rss
         aria-label: rss
         href: blog.xml
@@ -69,11 +69,10 @@ website:
         aria-label: LinkedIn
         href: https://www.linkedin.com/in/jadeynryan/
       - icon: mastodon
-        text: Mastodon
+        aria-label: Mastodon
         href: https://fosstodon.org/@jadeynryan
         rel: me
-      - icon: cup-hot-fill
-        aria-label: Ko-Fi
+      - text: "{{< iconify simple-icons kofi size=1.15em title='Support Me' >}}"
         href: https://ko-fi.com/jadeyryan
 
   page-footer:

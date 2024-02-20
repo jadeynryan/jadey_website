@@ -15,7 +15,7 @@ Are you eager to build a website but don't have any web development experience o
 
 # Why Quarto & Netlify? {.unnumbered}
 
-Why use Quarto & Netlify over other website building options like WordPress? While WordPress software is open-source and free, you have to pay for hosting to make your website available online. Additionally, you may need to purchase  premium plugins or themes for additional functionality or style. 
+Why use Quarto & Netlify over other website building options like WordPress? While WordPress software is open-source and free, you have to pay for hosting to make your website available online. Additionally, you may need to purchase premium plugins or themes for additional functionality or style.
 
 Instead, Quarto offers beautiful, free Bootstrap themes and plenty of simple website functionality like blog listings, searches, etc. When you get more comfortable with your website, you'll have more control over the design and layout of your site without being overwhelmed by excessive options of WordPress themes or plugins. Quarto websites can be hosted online with Netlify's completely [free plan](https://www.netlify.com/pricing/).
 
@@ -23,11 +23,13 @@ Check out some example Quarto websites at [qmdclub.com](https://qmdclub.com/) (t
 
 # Install your tools
 
-First things first, let's get your tools set up: RStudio & Quarto. [**RStudio**](https://posit.co/products/open-source/rstudio/) is the desktop application that we'll work in, while [**Quarto**](https://quarto.org/docs/get-started/) is what will build the website. We'll use the Quarto visual editor to write and format the content for our website pages.
+First things first, let's get your tools set up: RStudio & Quarto. [**RStudio**](https://posit.co/products/open-source/rstudio/) is the desktop application that we'll work in, while [**Quarto**](https://quarto.org/docs/get-started/) is what will build the website. We'll use the Quarto visual editor to write and format the content for our website pages. While there's no installation required for Netlify, you will need to [**create a free account**](https://app.netlify.com/signup).
 
-[Download and install R and RStudio Desktop from Posit](https://posit.co/download/rstudio-desktop/). Even though we won't directly use R, we still need to download it so we can use RStudio. Quarto will automatically be installed with RStudio.
+[**Download and install R and RStudio Desktop from Posit**](https://posit.co/download/rstudio-desktop/)**.** Note that [R](https://www.r-project.org/) and [RStudio](https://docs.posit.co/ide/user/) are different things. R is a programming language often used for statistics, data analyses, and data visualizations. RStudio is the integrated development environment (IDE), or desktop application, that has nice point-and-click features. Although we won't directly use R, we still need to download it so we can use RStudio.
 
-RStudio and Quarto are powerful tools that can create a lot more than just websites. However, in this tutorial, I assume you've never used either before. I'll introduce only the components necessary to get started with a simple website.
+Quarto will automatically be installed with RStudio. The version of Quarto installed with RStudio may not be the latest version, so you can *optionally* [install Quarto separately](https://quarto.org/docs/get-started/). Quarto is an open-source publishing system, developed by the same company ([Posit](https://posit.co/)) that develops RStudio so they integrate very nicely.
+
+RStudio and Quarto are powerful tools that can create a lot more than just websites. However, in this tutorial, I assume you've never used either before. I'll introduce only the components necessary to get you started with a simple website.
 
 # Create a Quarto website
 
@@ -52,6 +54,10 @@ We should now be in a new project that has `index.qmd` open in [visual editor mo
 Once the website renders, the bottom right pane will switch from `Files` to `Viewer` and display the website preview. Click the `Show in new window` button to open this preview in your default browser.
 
 ![](img/render.webp){fig-alt="RStudio with boxes around the 'Render Website' button with arrow pointing to the 'Viewer' pane that shows the preview of the website."}
+
+## What just happened?
+
+When we clicked `Render Website`, Quarto turns all of the `.qmd` files and styling sheets into HTML (HyperText Markup Language) source files that serve as the website. The website was rendered into the new folder `_site`. You can even click on any of the `.html` files and view it in your web browser to see how it looks. Every time we render the website, this `_site` folder gets updated.
 
 # Understand the files
 
@@ -78,6 +84,10 @@ Our `Files pane` should include:
 -   Ignore the `.Rproj` file, which is a RStudio project configuration file.
 
 -   `styles.css` is a where you can customize the style of specific elements of your website using [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics). Ignore this until you're ready for more advanced customization. We'll get to styling our simple website in the [Style your website] section.
+
+## What are Quarto documents?
+
+Each `.qmd` has a [YAML](https://en.wikipedia.org/wiki/YAML) (YAML Ain't Markup Language) header for document-specific options and Markdown content. Quarto documents are authored using Markdown, which is a plain text format designed to be easy to write and easy to read. We'll use the visual editor in this tutorial, but you'll likely eventually need Markdown if you want more customization options. Reference the text formatting markdown syntax and output in this [Markdown Basics article](https://quarto.org/docs/authoring/markdown-basics.html). You can also toggle between `Source` and `Visual` to see the underlying Markdown as you're writing your Quarto documents.
 
 # Edit the home page
 
@@ -295,7 +305,7 @@ I previewed the [minty](https://bootswatch.com/minty/), [quartz](https://bootswa
 
 Once you're happy with your website, it's time to publish it so anyone can view it on the live web! We're going to use Netlify because it's *free* and very simple to use with their [drag and drop deployment tool](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
 
-When you rendered your website, maybe you noticed the new folder `_site` appeared in the `Files` pane. We'll drop this entire `_site` folder, containing all the files that make up your website, into the Netlify deployment tool.
+Remember back when we first rendered the website, Quarto created the new `_site` folder? This is what we'll drop into the Netlify deployment tool. `_site` contains all the HTML files, style sheets, images, and other resources that make up the website. You must drop the entire `_site` folder into the Netlify tool. Dropping the contents of the folder will error and Netlify will tell you "Please drop a folder containing an index.html file."
 
 ![](img/site-folder.webp){fig-alt="RStudio 'Files' pane with a box around the '_site' folder and an arrow pointing to another screenshot of the 'Files' pane with all the files in '_site'."}
 
@@ -335,6 +345,16 @@ Now we can see my website is live!
 4.  Go to `Site configuration` to change your site name.
 5.  Congratulations! Your website is live! 🎉
 
+## Buy your own URL
+
+If you don't want the `netlify.app` suffixed to your site name, you'll need to purchase your own domain. Instead of `Site configuration`, go to `Domain management`, and then click `Add a domain`.
+
+![](img/domain-management.webp){fig-alt="Domain management part of Netlify site with option to add a domain."}
+
+Enter whatever custom domain you want. There are a bajillion different extensions -- [domain.com](https://www.domain.com/domains/new-domain-extensions) lists them alphabetically and has a helpful FAQ about domain extensions. `maitaiskye.com` is available for \$13.99 for the first year.
+
+![](img/buy-domain.webp){fig-alt="Add a custom domain to your site page on netlify. It says my-maitaiskye.com is available and costs $13.99 for the first year."}
+
 # Update your website
 
 When you make updates to your website, be sure to `Render Website` under the `Build` pane of RStudio to update the entire `_site` folder.
@@ -349,12 +369,20 @@ Once it says `Published`, go check out your changes!
 
 When you're ready for more advanced customization, check out these resources.
 
+-   [Markdown basics](https://quarto.org/docs/authoring/markdown-basics.html)
 -   [Website navigation](https://quarto.org/docs/websites/website-navigation.html)
 -   [Website tools](https://quarto.org/docs/websites/website-tools.html)
 -   [All Quarto website options](https://quarto.org/docs/reference/projects/websites.html) for `_quarto.yml`
 -   [Themes and custom style sheets](https://quarto.org/docs/output-formats/html-themes.html)
--   My [intermediate guide](https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/) for publishing a Quarto website to Netlify with GitHub continuous integration.
 
 # Wrap up {.unnumbered}
 
 Building a website doesn't have to be daunting, even if you have no technical background. With Quarto and Netlify, you can create and deploy a simple website with minimal pain. Start building your website today and share your creations with the world! Don't forget to share your website in the comments below – I can't wait to see what you create!
+
+If you need additional assistance or prefer to have your website created for you, I'm available for consulting services or can handle the entire website creation process. Feel free to reach out for personalized assistance tailored to your needs!
+
+::: callout-note
+## Acknowledgement
+
+Thank you [Andreas Handel](https://www.andreashandel.com/) for the feedback on the first draft of this tutorial, and for the [idea to create this beginner's guide](https://fosstodon.org/@andreashandel/111915048338377706)!
+:::

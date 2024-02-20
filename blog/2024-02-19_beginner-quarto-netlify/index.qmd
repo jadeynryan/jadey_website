@@ -1,0 +1,360 @@
+---
+title: "A beginner's guide to building a simple website with Quarto & Netlify"
+description: "Learn how to create a simple website without any technical knowledge using Quarto's visual editor and deploy it effortlessly with Netlify's drag and drop tool."
+date: "2024-02-19"
+image: featured.webp
+image-alt: "My three cats laying in bed with the {soils} R package hex sticker placed in the middle."
+categories:
+  - Quarto
+  - Netlify
+number-sections: true
+number-depth: 2
+---
+
+Are you eager to build a website but don't have any web development experience or coding knowledge? Fear not! In this guide, I'll walk you through the process of creating a simple website using the Quarto visual editor and deploying it seamlessly with Netlify's drag and drop tool.
+
+# Why Quarto & Netlify? {.unnumbered}
+
+Why use Quarto & Netlify over other website building options like WordPress? While WordPress software is open-source and free, you have to pay for hosting to make your website available online. Additionally, you may need to purchase  premium plugins or themes for additional functionality or style. 
+
+Instead, Quarto offers beautiful, free Bootstrap themes and plenty of simple website functionality like blog listings, searches, etc. When you get more comfortable with your website, you'll have more control over the design and layout of your site without being overwhelmed by excessive options of WordPress themes or plugins. Quarto websites can be hosted online with Netlify's completely [free plan](https://www.netlify.com/pricing/).
+
+Check out some example Quarto websites at [qmdclub.com](https://qmdclub.com/) (this site is one of the examples 😄).
+
+# Install your tools
+
+First things first, let's get your tools set up: RStudio & Quarto. [**RStudio**](https://posit.co/products/open-source/rstudio/) is the desktop application that we'll work in, while [**Quarto**](https://quarto.org/docs/get-started/) is what will build the website. We'll use the Quarto visual editor to write and format the content for our website pages.
+
+[Download and install R and RStudio Desktop from Posit](https://posit.co/download/rstudio-desktop/). Even though we won't directly use R, we still need to download it so we can use RStudio. Quarto will automatically be installed with RStudio.
+
+RStudio and Quarto are powerful tools that can create a lot more than just websites. However, in this tutorial, I assume you've never used either before. I'll introduce only the components necessary to get started with a simple website.
+
+# Create a Quarto website
+
+Open RStudio, click the `Create a project` button to open the **New Project Wizard**, and then select `New Directory`.
+
+![](img/create-project.webp){fig-alt="RStudio with box around 'New project' button with arrow to the 'New Directory' button in the 'Create Project' step of the 'New Project Wizard'."}
+
+Select `Quarto Website` as the project type.
+
+![](img/project-type.webp){fig-alt="RStudio with box around the 'Quarto Website' in the 'Project Type' step of the 'New Project Wizard'."}
+
+A "directory" is basically the same thing as a computer folder. Choose what you want to name your folder (probably the same as your website name)[^1], browse to where you want this folder to live, check the `Use visual markdown editor` button, and then click `Create Project`.
+
+[^1]: Generally, it's good practice to not include special characters or spaces in the folder or file names. For example, if you want to name your website "My Website!!!", name the folder "my-website". Later, we will change how the website name displays in our configuration files.
+
+![](img/create-website.webp){fig-alt="RStudio with box around 'Directory name', 'Browse', 'Use visual markdown editor', and 'Create Project' in the 'Create Quarto Website' step of the 'New Project Wizard'."}
+
+We should now be in a new project that has `index.qmd` open in [visual editor mode](https://quarto.org/docs/visual-editor/index.html), and some new things in our `Files pane`. We'll get to what these files are in the next [Understand the files] section. But first, let's take a look at what the default website looks like. Open the `Build pane`, and then click the `Render Website` button.
+
+![](img/rstudio.webp){fig-alt="RStudio with boxes around the 'Visual' toggle and formatting toolbar, the 'Build' pane showing the 'Render Website' button, and the 'Files' pane showing all the default project files."}
+
+Once the website renders, the bottom right pane will switch from `Files` to `Viewer` and display the website preview. Click the `Show in new window` button to open this preview in your default browser.
+
+![](img/render.webp){fig-alt="RStudio with boxes around the 'Render Website' button with arrow pointing to the 'Viewer' pane that shows the preview of the website."}
+
+# Understand the files
+
+Cool, now you know RStudio and Quarto are correctly installed and you can render a simple website! Before we start customizing your website, let's take a look at what files came pre-loaded with this default website.
+
+Our `Files pane` should include:
+
+```         
+├── _quarto.yml         # Website configuration file
+├── about.qmd           # About page
+├── index.qmd           # Landing page
+├── my-website.Rproj    # RStudio project config file
+└── styles.css          # CSS style sheet
+```
+
+-   `_quarto.yml` is a special file that configures the website options like the title, which `.qmd` files to include, navigation, styling, etc. *Do not rename this file*. Quarto needs this file to render your website.
+
+-   `.qmd` files are Quarto documents where you'll write your webpage content.
+
+    -   `index.qmd` is the landing/home page of the website*. Do not rename this file.* Netlify needs this file to publish your website.
+
+    -   `about.qmd` is another page on the website. It can be renamed or removed.
+
+-   Ignore the `.Rproj` file, which is a RStudio project configuration file.
+
+-   `styles.css` is a where you can customize the style of specific elements of your website using [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics). Ignore this until you're ready for more advanced customization. We'll get to styling our simple website in the [Style your website] section.
+
+# Edit the home page
+
+Open `index.qmd` and notice the box at the top of the document that has `title: "my-website"` sandwiched between two sets of three dashes `---`. This is called the [YAML header](https://quarto.org/docs/get-started/hello/rstudio.html#yaml-header), which contains the metadata for the document. The only metadata we currently have is the webpage title. Each YAML entry consists of `key: value` pairs. The colon and space are required. Be careful with indentation, it can be quite fussy.
+
+Write all content for the webpage below this YAML. Use the formatting toolbar at the top of the document to format text, create headings, or insert images, lists, and tables.
+
+When working on a single page, I like to check the `Render on Save` option so that the website preview updates every time I save the `.qmd` file. Alternatively, click the `Render` button, which saves the file and updates the preview.
+
+## My turn
+
+![](img/homepage.webp){fig-alt="RStudio with orange boxes around the 'Render on Save' button, 'YAML' header. Green boxes around the document content and preview.."}
+
+## Your turn
+
+1.  Open `index.qmd`.
+2.  Check `Render on Save`.
+3.  Change the webpage title.
+4.  Save the file (`Cmd`/`Ctrl` + `S`).
+5.  Delete the example text and write some of your own.
+6.  Save again.
+
+# Edit the about page
+
+Quarto makes it easy to create a simple, professional about page for a person, organization, or pets 😏. Add the `about:` option in the YAML to use one of the five special templates previewed below ([examples from Quarto docs](https://quarto.org/docs/websites/website-about.html#templates)).
+
+::: panel-tabset
+### jolla
+
+![](https://quarto.org/docs/websites/images/about-jolla.png){.border fig-alt="Screenshot of About page with jolla template. Photo is a centered circle above a heading with the author's name. There is a centered paragraph below the header, a separator line, and then buttons for twitter and github centered at the bottom."}
+
+### trestles
+
+![](https://quarto.org/docs/websites/images/about-trestles.png){.border fig-alt="Screenshot of About page with trestles template. On the left-hand side there is a rectangular photo above the author's name, and two buttons (one for twitter, and one for github below). On the right hand side there is a paragraph of body text followed by headered sections for Education and Experience."}
+
+### solana
+
+![](https://quarto.org/docs/websites/images/about-solana.png){.border fig-alt="Screenshot of About page with solana template. The left-hand side has the name as a main header with buttons for twitter and github below it. Below the buttons there is a paragraph of body text, followed by headered sections for Education and Experience. In the upper right-hand column there is a rectangular image."}
+
+### marquee
+
+![](https://quarto.org/docs/websites/images/about-marquee.png){.border fig-alt="Screenshot of About page with marquee template. A large square image is at the top. Beneath that the author's name is a header, and there is a paragraph of body text, followed by headered sections for Education and Experience. Centered at the bottom of the page are links to Twitter and GitHub with their respective icons next to them."}
+
+### broadside
+
+![](https://quarto.org/docs/websites/images/about-broadside.png){.border fig-alt="Screenshot of About page with broadside template. The left side is a rectangular image. On the right-hand side the author's name is a header, and there is a paragraph of body text, followed by headered sections for Education and Experience. Centered at the bottom of the page are links to Twitter and GitHub with their respective icons next to them."}
+:::
+
+## My turn
+
+I like the `jolla` template. In my `my-website` project folder, I added a new folder called `images` for my pictures. This is optional - just be sure to match the file path.
+
+``` yaml
+---
+title: "Mai, Tai, and Skye"
+image: images/couch-kits.JPG
+about:
+  template: jolla
+  links:
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/piggies.and.kits
+---
+```
+
+![](img/about.webp){fig-alt="RStudio with orange boxes around the YAML header with the 'about' template and green boxes around the page content."}
+
+## Your turn
+
+1.  Open `about.qmd`.
+2.  Check `Render on Save`, and save after each below step to update the preview.
+3.  Update the title to your name or organization.
+4.  Add the `about` option to the YAML. Check out the previews of the [templates](https://quarto.org/docs/websites/website-about.html#templates) and choose which one you like best.
+5.  Add a photo to your project folder or to a subfolder, and then add the file path to that photo to the `image:` option.
+6.  Add any social media or other websites you like to the `links:` option. Optionally, you can use [Bootstrap icons](https://icons.getbootstrap.com/).
+
+::: callout-tip
+If you want to use the special about template as your home page, you can add the `about` YAML option to `index.qmd`. In fact, the `about:` option can be used for any `.qmd` document for your website!
+:::
+
+# Add a new page
+
+Now that you've updated the two pages that came with the default Quarto website project, it's time to add another page!
+
+Click the `New file` button and select `Quarto document`. This will open a dialog box to name your file. After clicking `OK`, a blank `.qmd` file with your chosen name will open.
+
+## My turn
+
+I named my new page `birthdays` because I'm adding pictures from Mai's, Tai's, and Skye's birthday party 🥳.
+
+![](img/new-page.webp){fig-alt="RStudio with boxes around the 'New File' button, 'Quarto Document' button, and the dialog box to name the new '.qmd' file."}
+
+This new page opened completely blank. From the `Insert` menu of the editor toolbar, I selected `YAML Block`, to which I added the page title.
+
+![](img/insert-yaml.webp){fig-alt="RStudio with boxes around the 'Insert' button of the editor toolbar, the 'YAML block' option, and the YAML header in the 'birthdays.qmd'."}
+
+I added headings and images for our family picture and each of our three cats. For more advanced figure layouts, see this [Quarto article](https://quarto.org/docs/authoring/figures.html).
+
+::: panel-tabset
+## Visual
+
+![](img/visual.webp){fig-alt="RStudio with the 'birthdays.qmd' file in Visual editor mode side by side with the website preview of the MTS Birthday page."}
+
+## Source
+
+![](img/source.webp){fig-alt="RStudio with the 'birthdays.qmd' file in editor mode side by side with the website preview of the MTS Birthday page."}
+:::
+
+## Your turn
+
+1.  Create a new Quarto document.
+2.  Add the `YAML Block`.
+3.  Add a page title.
+4.  Add some content to your page.
+5.  Render the page.
+6.  Build and look at the website.
+
+Notice that your new page isn't included on the website! Fix this by adding it to `_quarto.yml`.
+
+# Update `_quarto.yml`
+
+To make sure the new page is included on your website, you must add it to your `_quarto.yml` file.
+
+This is also the place to change how the website title and page links are displayed in the navigation bar.
+
+-   Under `navbar:`
+    -   `left:` means these links will appear on the left side of the navbar. You can also use the `right:` option to show certain links on the right side.
+        -   `href:` must be the filename of the `.qmd`
+        -   `text:` is the link to that page.
+
+## My turn
+
+In `_quarto.yml`, I changed the website title, changed the text for the link to the about page, and added the birthdays page to the navigation bar.
+
+::: panel-tabset
+## Updated
+
+![](img/updated-yml.webp){fig-alt="RStudio with the updated '_quarto.yml' side by side with the website preview."}
+
+``` yaml
+website:
+  title: "MTS -- The Best Kits!"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: birthdays.qmd
+        text: Birthday
+```
+
+## Default
+
+![](img/default-yml.webp){fig-alt="RStudio with the default '_quarto.yml' side by side with the website preview."}
+
+``` yaml
+website:
+  title: "my-website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+```
+:::
+
+## Your turn
+
+1.  Open `_quarto.yml`.
+2.  Change the website title.
+3.  Optionally, update the text for the link to the about page.
+4.  Add a new entry for the new page you added.
+5.  Render.
+
+# Style your website
+
+Now that you've got a few pages set up, it's time to customize the look and feel of your site! Quarto websites can use any of the 25 themes from the [Bootswatch project](https://bootswatch.com/).
+
+In `_quarto.yml`, under the `html:` `theme:` option, replace the default `cosmos` with your theme of choice. Make sure the theme value is all lowercase.
+
+``` yaml
+format:
+  html:
+    theme: minty
+    css: styles.css
+```
+
+If you're ready to do more advanced customization, you can open and edit `styles.css`. See the [Quarto docs on theming](https://quarto.org/docs/output-formats/html-themes.html).
+
+## My turn
+
+I previewed the [minty](https://bootswatch.com/minty/), [quartz](https://bootswatch.com/quartz/), and [solar](https://bootswatch.com/solar/) themes.
+
+::: panel-tabset
+## minty
+
+![](img/minty.webp){fig-alt="RStudio with the theme set to 'minty' in the '_quarto.yml' side by side with the website preview."}
+
+## quartz
+
+![](img/quartz.webp){fig-alt="RStudio with the theme set to 'quartz' in the '_quarto.yml' side by side with the website preview."}
+
+## solar
+
+![](img/solar.webp){fig-alt="RStudio with the theme set to 'solar' in the '_quarto.yml' side by side with the website preview."}
+:::
+
+## Your turn
+
+1.  Go to [Bootswatch project](https://bootswatch.com/) and see which themes you like.
+2.  Open `_quarto.yml`, and try them out. Make sure to re-render to update the preview.
+
+# Publish to Netlify
+
+Once you're happy with your website, it's time to publish it so anyone can view it on the live web! We're going to use Netlify because it's *free* and very simple to use with their [drag and drop deployment tool](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop).
+
+When you rendered your website, maybe you noticed the new folder `_site` appeared in the `Files` pane. We'll drop this entire `_site` folder, containing all the files that make up your website, into the Netlify deployment tool.
+
+![](img/site-folder.webp){fig-alt="RStudio 'Files' pane with a box around the '_site' folder and an arrow pointing to another screenshot of the 'Files' pane with all the files in '_site'."}
+
+After it uploads, we'll look at the live website and change the site name.
+
+## My turn
+
+I already have a Netlify account. So I logged in and opened the `Sites` tab. Then I dragged & dropped my `_site` folder into the `... or deploy manually` box.
+
+![](img/deploy-netlify.webp){fig-alt="Netlify with boxes around the 'Sites' button and the '...or deploy manually' box for the Drag & Drop Deployment tool."}
+
+After the `_site` folder uploaded, a `Deploy success!` message displayed. Notice Netlify generated a random subdomain name[^2]. I'll change this in the next step.
+
+[^2]: This subdomain name is what comes before the `netlify.app` domain for the free tier of Netlify. I changed mine to `maitaiskye`, so the URL is `maitaiskye.netlify.app`.
+
+![](img/deploy-success.webp){fig-alt="Netlify with 'Deploy Success!' screen that shows the the random domain generated after deploying the website."}
+
+I opened the `Site Configuration` tab, and opened the live website by clicking either the link (`https://jade-donut-3a47e4.netlify.app/`) or the preview thumbnail.
+
+The auto-generated name is way too long and irrelevant to what my website is about. I renamed it by going to `Site details` and then `Change site name`.
+
+![](img/site-config.webp){fig-alt="Netlify with boxes around the 'Site configuration' menu button, the live website link and preview, and the 'Site details' & 'Change site name' buttons."}
+
+I changed the site name to `maitaiskye` so the URL for my website is <https://maitaiskye.netlify.app/>. The `netlify.app` part is not optional, unless you buy your own [domain name](https://docs.netlify.com/domains-https/custom-domains/).
+
+![](img/name-website.webp){fig-alt="Netlify 'Change site name' dialog box."}
+
+Now we can see my website is live!
+
+![](img/live-website.webp){fig-alt="Screenshot of the demo website that lives at maitaiskye.netlify.app."}
+
+## Your turn
+
+1.  If you don't yet have a Netlify account, [sign up](https://app.netlify.com/signup) and log in.
+2.  Go to the `Sites` tab to access the drag & drop tool and upload your `_site` folder.
+3.  Open and check out your newly deployed site.
+4.  Go to `Site configuration` to change your site name.
+5.  Congratulations! Your website is live! 🎉
+
+# Update your website
+
+When you make updates to your website, be sure to `Render Website` under the `Build` pane of RStudio to update the entire `_site` folder.
+
+Log in to Netlify, click on your site, open the `Deploys` tab, and upload the `_site` folder.
+
+![](img/update.webp){fig-alt="Netlify with boxes around the 'Deploys' side menu button and the Drag & Drop tool."}
+
+Once it says `Published`, go check out your changes!
+
+# Resources {.unnumbered}
+
+When you're ready for more advanced customization, check out these resources.
+
+-   [Website navigation](https://quarto.org/docs/websites/website-navigation.html)
+-   [Website tools](https://quarto.org/docs/websites/website-tools.html)
+-   [All Quarto website options](https://quarto.org/docs/reference/projects/websites.html) for `_quarto.yml`
+-   [Themes and custom style sheets](https://quarto.org/docs/output-formats/html-themes.html)
+-   My [intermediate guide](https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/) for publishing a Quarto website to Netlify with GitHub continuous integration.
+
+# Wrap up {.unnumbered}
+
+Building a website doesn't have to be daunting, even if you have no technical background. With Quarto and Netlify, you can create and deploy a simple website with minimal pain. Start building your website today and share your creations with the world! Don't forget to share your website in the comments below – I can't wait to see what you create!

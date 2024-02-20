@@ -7,13 +7,19 @@ image-alt: "My three cats laying in bed with the {soils} R package hex sticker p
 categories:
   - Quarto
   - Netlify
+number-sections: true
+number-depth: 2
 ---
 
 Are you eager to build a website but don't have any web development experience or coding knowledge? Fear not! In this guide, I'll walk you through the process of creating a simple website using the Quarto visual editor and deploying it seamlessly with Netlify's drag and drop tool.
 
-Check out some example Quarto websites at [qmdclub.com](https://qmdclub.com/) (this site is one of the examples 😄).
+# Why Quarto & Netlify? {.unnumbered}
 
-This is meant to be a follow-along tutorial. Click on any of the images to see it full screen.
+Why use Quarto & Netlify over other website building options like WordPress? While WordPress software is open-source and free, you have to pay for hosting to make your website available online. Additionally, you may need to purchase  premium plugins or themes for additional functionality or style. 
+
+Instead, Quarto offers beautiful, free Bootstrap themes and plenty of simple website functionality like blog listings, searches, etc. When you get more comfortable with your website, you'll have more control over the design and layout of your site without being overwhelmed by excessive options of WordPress themes or plugins. Quarto websites can be hosted online with Netlify's completely [free plan](https://www.netlify.com/pricing/).
+
+Check out some example Quarto websites at [qmdclub.com](https://qmdclub.com/) (this site is one of the examples 😄).
 
 # Install your tools
 
@@ -62,10 +68,15 @@ Our `Files pane` should include:
 ```
 
 -   `_quarto.yml` is a special file that configures the website options like the title, which `.qmd` files to include, navigation, styling, etc. *Do not rename this file*. Quarto needs this file to render your website.
+
 -   `.qmd` files are Quarto documents where you'll write your webpage content.
+
     -   `index.qmd` is the landing/home page of the website*. Do not rename this file.* Netlify needs this file to publish your website.
+
     -   `about.qmd` is another page on the website. It can be renamed or removed.
+
 -   Ignore the `.Rproj` file, which is a RStudio project configuration file.
+
 -   `styles.css` is a where you can customize the style of specific elements of your website using [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics). Ignore this until you're ready for more advanced customization. We'll get to styling our simple website in the [Style your website] section.
 
 # Edit the home page
@@ -296,7 +307,9 @@ I already have a Netlify account. So I logged in and opened the `Sites` tab. The
 
 ![](img/deploy-netlify.webp){fig-alt="Netlify with boxes around the 'Sites' button and the '...or deploy manually' box for the Drag & Drop Deployment tool."}
 
-After the `_site` folder uploaded, a `Deploy success!` message displayed. Notice Netlify generated a random domain name. I'll change this in the next step.
+After the `_site` folder uploaded, a `Deploy success!` message displayed. Notice Netlify generated a random subdomain name[^2]. I'll change this in the next step.
+
+[^2]: This subdomain name is what comes before the `netlify.app domain` for the free tier of Netlify.
 
 ![](img/deploy-success.webp){fig-alt="Netlify with 'Deploy Success!' screen that shows the the random domain generated after deploying the website."}
 
@@ -332,7 +345,7 @@ Log in to Netlify, click on your site, open the `Deploys` tab, and upload the `_
 
 Once it says `Published`, go check out your changes!
 
-# Resources
+# Resources {.unnumbered}
 
 When you're ready for more advanced customization, check out these resources.
 
@@ -342,6 +355,6 @@ When you're ready for more advanced customization, check out these resources.
 -   [Themes and custom style sheets](https://quarto.org/docs/output-formats/html-themes.html)
 -   My [intermediate guide](https://jadeyryan.com/blog/2023-11-19_publish-quarto-website/) for publishing a Quarto website to Netlify with GitHub continuous integration.
 
-# Wrap up
+# Wrap up {.unnumbered}
 
 Building a website doesn't have to be daunting, even if you have no technical background. With Quarto and Netlify, you can create and deploy a simple website with minimal pain. Start building your website today and share your creations with the world! Don't forget to share your website in the comments below – I can't wait to see what you create!

@@ -3,7 +3,7 @@ title: "A beginner's guide to building a simple website with Quarto & Netlify"
 description: "Learn how to create a simple website without any technical knowledge using Quarto's visual editor and deploy it effortlessly with Netlify's drag and drop tool."
 date: "2024-02-19"
 image: featured.webp
-image-alt: "My three cats laying in bed with the {soils} R package hex sticker placed in the middle."
+image-alt: My three cats when they were wee kittens with Quarto and Netlify logos.
 categories:
   - Quarto
   - Netlify

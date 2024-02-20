@@ -309,7 +309,7 @@ I already have a Netlify account. So I logged in and opened the `Sites` tab. The
 
 After the `_site` folder uploaded, a `Deploy success!` message displayed. Notice Netlify generated a random subdomain name[^2]. I'll change this in the next step.
 
-[^2]: This subdomain name is what comes before the `netlify.app domain` for the free tier of Netlify.
+[^2]: This subdomain name is what comes before the `netlify.app` domain for the free tier of Netlify. I changed mine to `maitaiskye`, so the URL is `maitaiskye.netlify.app`.
 
 ![](img/deploy-success.webp){fig-alt="Netlify with 'Deploy Success!' screen that shows the the random domain generated after deploying the website."}
 

@@ -14,10 +14,6 @@ listing:
   categories: true
   sort: "date desc"
   page-size: 5
-format:
-  html:
-    include-after-body:
-      - ./assets/html/kofi.html
 ---
 
 # Upcoming

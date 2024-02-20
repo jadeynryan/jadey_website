@@ -1,6 +1,6 @@
 ---
-title: "Publish a Quarto website with GitHub & Netlify"
-description: "An intermediate guide to creating a Quarto website, connecting it to GitHub, & publishing it with Netlify with continuous integreation."
+title: Publish a Quarto website with GitHub & Netlify
+description: An intermediate guide to creating a Quarto website, connecting it to GitHub, & publishing it with Netlify with continuous integration.
 date: "2023-11-19"
 image: thumbnail.webp
 image-alt: "My three cats with Quarto, GitHub, and Netlify logos are placed on top of them."
@@ -407,19 +407,19 @@ As we work on our website styling, content, and features, we probably want to pr
 
 The table below (adapted from [Netlify docs](https://docs.netlify.com/site-deploys/overview/)) provides a quick comparison of the differences between branch deploys and deploy previews.
 
-+-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------+
-|                   | Branch deploys                                      | Deploy previews                                                                |
-+===================+=====================================================+================================================================================+
-| **Default setup** | Must setup on Netlify website[^7]                   | No setup needed                                                                |
-+-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------+
-| **URL**           | \<`branch-name`\>\--\<`website`\>.netlify.app       | deploy-preview-\<`PR#`\>\--\<`website`\>.netlify.app                           |
-|                   |                                                     |                                                                                |
-|                   | ex. https://`staging`\--`my-website24`.netlify.app/ | ex. https://deploy-preview-`1`\--`my-website24`.netlify.app/                   |
-+-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------+
-| **Access**        | Deploys section on Netlify                          | Deploys section on Netlify or Netlify bot comment on GitHub pull/merge request |
-+-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------+
-| **Scope**         | Changes from feature branch                         | Changes from pull/merge request                                                |
-+-------------------+-----------------------------------------------------+--------------------------------------------------------------------------------+
++-------------------+----------------------------------------------------+--------------------------------------------------------------------------------+
+|                   | Branch deploys                                     | Deploy previews                                                                |
++===================+====================================================+================================================================================+
+| **Default setup** | Must setup on Netlify website[^7]                  | No setup needed                                                                |
++-------------------+----------------------------------------------------+--------------------------------------------------------------------------------+
+| **URL**           | \<`branch-name`\>--\<`website`\>.netlify.app       | deploy-preview-\<`PR#`\>--\<`website`\>.netlify.app                            |
+|                   |                                                    |                                                                                |
+|                   | ex. https://`staging`--`my-website24`.netlify.app/ | ex. https://deploy-preview-`1`--`my-website24`.netlify.app/                    |
++-------------------+----------------------------------------------------+--------------------------------------------------------------------------------+
+| **Access**        | Deploys section on Netlify                         | Deploys section on Netlify or Netlify bot comment on GitHub pull/merge request |
++-------------------+----------------------------------------------------+--------------------------------------------------------------------------------+
+| **Scope**         | Changes from feature branch                        | Changes from pull/merge request                                                |
++-------------------+----------------------------------------------------+--------------------------------------------------------------------------------+
 
 : {tbl-colwidths="\[10,45,45\]"}
 
@@ -491,7 +491,7 @@ If we have a pull or merge request open, the Netlify bot will include the Lighth
 You can also [manually run](https://developer.chrome.com/docs/lighthouse/overview/#devtools) a Lighthouse report in Chrome DevTools. But that takes away from the magic of the automated audit everytime you deploy your site with Netlify 😉.
 :::
 
-# Workflow  {.unnumbered}
+# Workflow {.unnumbered}
 
 My general workflow for editing my website is:
 
@@ -501,20 +501,20 @@ My general workflow for editing my website is:
 
 3.  Use `Command`+`Shift`+`C` on Mac or `Control`+`Shift`+`C` on Windows to open Chrome DevTools and then `Command`+`Shift`+`M` on Mac or `Control`+`Shift`+`M` on Windows to toggle [device mode](https://developer.chrome.com/docs/devtools/device-mode/) for testing the webpage responsiveness on mobile.
 
-4. When happy with the changes, run `quarto render` in the terminal.
+4.  When happy with the changes, run `quarto render` in the terminal.
 
 5.  Push changes to GitHub (usually in a new branch).
 
 6.  Preview changes on different devices because I don't fully trust Chrome DevTools device mode!
 
-6.  Edit based on Lighthouse audit scores.
+7.  Edit based on Lighthouse audit scores.
 
-7.  Rinse and repeat!
+8.  Rinse and repeat!
 
-# Wrap up  {.unnumbered}
+# Wrap up {.unnumbered}
 
 I hope you found this post helpful for getting your Quarto website configured with Netlify, GitHub, and continuous deployment!
 
-Since this is my first blog post, I'd love feedback on the style, flow, helpfulness, content, etc. Now that I've experienced the massive amount of time and head space writing a blog post can take, I have an even deeper appreciation for all the bloggers out there! Thank you! 
+Since this is my first blog post, I'd love feedback on the style, flow, helpfulness, content, etc. Now that I've experienced the massive amount of time and head space writing a blog post can take, I have an even deeper appreciation for all the bloggers out there! Thank you!
 
 # References {.unnumbered}

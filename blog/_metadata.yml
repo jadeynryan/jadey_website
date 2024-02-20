@@ -11,11 +11,8 @@ citation: true
 fig-align: "left"
 
 # lightbox extension
-# https://github.com/quarto-ext/lightbox
-filters:
-  - lightbox
 lightbox:
-  desc-position: right  # position of description
+  desc-position: bottom  # position of description
   match: auto # give all images lightbox treatment
   effect: zoom # how lightbox opens/closes
   loop: false # doesn't loop to first image in gallery

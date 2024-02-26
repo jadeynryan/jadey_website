@@ -41,7 +41,7 @@ We welcome everyone! However, if you're new to Quarto or functional programming 
 
 ### Slides
 
-<iframe class="slides" src="https://jadeyryan.quarto.pub/rladies-abuja-quarto-params/slides"></iframe>
+<iframe class="slides" src="https://jadeyryan.quarto.pub/rladies-abuja-quarto-params/slides/#/title-slide"></iframe>
 
 ### Recording
 

@@ -16,7 +16,7 @@ categories:
 <span class="listing-btn-group">
 <a href="https://jadeyryan.quarto.pub/rladies-dc-quarto-params/" class="btn" role="button">{{< fa globe >}} Course website</a> 
 <a href="https://jadeyryan.quarto.pub/rladies-dc-quarto-params/slides/" class="btn" role="button">{{< fa display >}} Slides</a> 
-<a href="https://github.com/jadeynryan/parameterized-quarto-workshop" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://github.com/jadeynryan/parameterized-quarto-workshop/releases/tag/rladies-dc-workshop" class="btn" role="button">{{< fa brands github >}} Code</a>
 <a href="https://youtu.be/MKjz_xkMgxY?si=Mw-iHU6c7CKSTLue" class="btn" role="button">{{< fa play-circle >}} Video</a>
 </span>
 

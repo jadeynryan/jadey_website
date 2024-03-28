@@ -124,10 +124,9 @@ pre.sourceCode {
 
 // about section
 
-// remove about separator
+// adjust about separator
 div.quarto-about-jolla .about-sep {
-  height: 0;
-  margin: 0;
+  margin: -1em 0em 1em 0em;
 }
 
 div.quarto-about-jolla .about-link {

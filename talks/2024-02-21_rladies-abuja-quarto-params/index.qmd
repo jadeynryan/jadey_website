@@ -37,7 +37,7 @@ Join our workshop to unlock the power of parameterized reporting with Quarto and
 
 Get a sneak preview of what you'll learn by checking out the [slides](https://jadeyryan.com/talks/2023-09-25_posit_parameterized-quarto/) from my posit::conf(2023) talk.
 
-We welcome everyone! However, if you're new to Quarto or functional programming with {purrr}, take a look at the [pre-work](prework.html#sec-quarto-purrr) for some background videos/tutorials.
+We welcome everyone! However, if you're new to Quarto or functional programming with {purrr}, take a look at the [pre-work](https://jadeyryan.quarto.pub/rladies-abuja-quarto-params/prework.html#sec-quarto-purrr) for some background videos/tutorials.
 
 ### Slides
 

@@ -16,7 +16,7 @@ about:
       href: https://github.com/jadeynryan
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/jadeynryan/
+      href: https://www.linkedin.com/in/jadey-ryan/
     - icon: mastodon
       text: Mastodon
       href: https://fosstodon.org/@jadeynryan
@@ -43,7 +43,7 @@ I'm the data scientist for the [Natural Resources and Agricultural Sciences](htt
 
 My guiding principles in life are **kindness**, **authenticity**, **sustainability**, and **inclusivity**. I finally feel like I've found my happy place in life working in the environmental data science space and connecting with so many amazing folks in the R and open-source community.
 
-I designed [cat & code themed t-shirts](https://www.linkedin.com/posts/jadeynryan_rstats-positconf2023-activity-7108591736444112896-o1SR) to wear as conversation starters at [posit::conf(2023)](https://posit.co/conference/). The positive feedback led me to start a small business: **the coding cats**. I channel creativity and my love for cats and coding into designs for clothing, mugs, and tote bags. Check out my [Etsy shop](https://thecodingcats.etsy.com).
+I designed [cat & code themed t-shirts](https://www.linkedin.com/posts/jadey-ryan_rstats-positconf2023-activity-7108591736444112896-H0gX) to wear as conversation starters at [posit::conf(2023)](https://posit.co/conference/). The positive feedback led me to start a small business: **the coding cats**. I channel creativity and my love for cats and coding into designs for clothing, mugs, and tote bags. Check out my [Etsy shop](https://thecodingcats.etsy.com).
 
 When it comes to work, I love improving the efficiency and reproducibility of our workflows. I'm also in my element when developing decision-support tools with `Quarto` and `Shiny`. In my downtime, I'm happiest hanging out with my husband and our three snowshoe Siamese cats. We love exploring new food spots and the great outdoors.
 

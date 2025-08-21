@@ -68,6 +68,8 @@ website:
       - icon: linkedin
         aria-label: LinkedIn
         href: https://www.linkedin.com/in/jadey-ryan/
+      - text: "{{< iconify simple-icons bluesky >}}"
+        href: https://bsky.app/profile/jadeynryan.bsky.social
       - icon: mastodon
         aria-label: Mastodon
         href: https://fosstodon.org/@jadeynryan
@@ -77,7 +79,7 @@ website:
 
   page-footer:
     border: true
-    left: "&#169; 2023 Jadey Ryan"
+    left: "&#169; 2023-2025 Jadey Ryan"
     center:
       - text: Code of conduct
         href: coc.qmd
@@ -92,7 +94,7 @@ format:
     theme: [flatly, assets/styling/theme.scss]
     toc: true
     toc-depth: 4
-    pagetitle: "Jadey Ryan | {{< meta title >}}"
+    pagetitle: "{{< meta title >}} | Jadey Ryan"
     page-layout: article
     smooth-scroll: true
     link-external-newwindow: true

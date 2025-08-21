@@ -1,0 +1,47 @@
+---
+title: "{soils}"
+description: "Collection of soil health data visualization and reporting tools, including a RStudio project template with everything you need to generate custom HTML and Microsoft Word reports for each participant in your soil health survey."
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+  - name: Molly McIlquham
+    affiliation: WSU  
+  - name: Kwabena A Sarpong
+    affiliation: WSU
+  - name: Leslie M Michel
+    affiliation: WSDA
+  - name: Teal S Potter
+    affiliation: WSU
+  - name: Deirdre Griffin LaHue
+    affiliation: WSU
+  - name: Dani Gelardi
+    affiliation: WSDA
+date: "2024-03-01"
+image: "https://github.com/WA-Department-of-Agriculture/soils/blob/main/man/figures/logo.png?raw=true"
+image-alt: "soils R package hex logo"
+categories:
+  - R package
+  - Quarto
+---
+
+<span class="listing-btn-group">
+<a href="https://wa-department-of-agriculture.github.io/soils/" class="btn" role="button">{{< fa box >}} {pkgdown} site</a> 
+<a href="https://github.com/WA-Department-of-Agriculture/soils/" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://washingtonsoilhealthinitiative.com/2024/03/soils-an-r-package-for-soil-health-reporting/" class="btn" role="button">{{< fa pencil >}} Blog Post</a>
+<a href="https://youtu.be/_8m7fTjSEOk?si=9y33OEPdceQLQ-IB" class="btn" role="button">{{< fa play-circle >}} Webinar</a>
+</span>
+
+Introducing {soils}: an R package for all your soil health data
+visualization and reporting needs. {soils} provides an RStudio project
+template to generate customized, interactive soil health reports. These
+reports include plots and tables to show how the participant’s results
+compare to simple averages of results from samples of the same crop,
+same county, and across the entire project. Any scientist leading a soil
+health survey can use {soils} to create custom reports for all survey
+participants. Democratize your data by giving back to the farmers and
+land managers who contributed soil samples to your survey project. Use
+these reports to empower each participant to explore and better
+understand their data. 
+
+![](https://github.com/WA-Department-of-Agriculture/soils/blob/main/man/figures/logo.png?raw=true){.img-center width=15em fig-alt="soils logo"}
+

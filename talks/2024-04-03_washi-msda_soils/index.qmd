@@ -1,0 +1,52 @@
+---
+title: "{soils}: an R package for soil health reporting"
+description: "1-hour talk on the {soils} R package"
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+  - name: Molly McIlquham
+    affiliation: WSU  
+  - name: Kwabena A Sarpong
+    affiliation: WSU
+  - name: Leslie M Michel
+    affiliation: WSDA
+  - name: Teal S Potter
+    affiliation: WSU
+  - name: Deirdre Griffin LaHue
+    affiliation: WSU
+  - name: Dani Gelardi
+    affiliation: WSDA
+date: "2024-04-03"
+image: featured.webp
+image-alt: "Title slide of {soils}: an R package for soil health reporting"
+categories:
+  - R
+  - Quarto
+  - parameterized reports
+---
+
+<span class="listing-btn-group">
+<a href="2024_washi-msda-soils-jadey-ryan.pdf" class="btn" role="button">{{< fa file-pdf >}} Slides</a> 
+<a href="https://youtu.be/kQn82pa04jQ?si=Ksvdp0Hdgs1crOD0" class="btn" role="button">{{< fa play-circle >}} Video</a>
+</span>
+
+### Details
+
+👥 [Washington Soil Health Initiative](https://washingtonsoilhealthinitiative.com) Making Soils Data Actionable Series   
+📆 April 03, 2024 // 12:00 pm - 1:00 pm PT  
+🏨 Virtual  
+🆓 **FREE** with [registration](https://washingtonsoilhealthinitiative.com/making-soils-data-actionable-webinar-2024/)  
+
+### Description
+
+This webinar is a demo of the {soils} R package, designed for comprehensive soil health data visualization and reporting. See how we use R and Quarto to create customized, interactive reports to empower each participant in the State of the Soils Assessment to explore and understand their soil data. The {soils} package can be found [here](https://wa-department-of-agriculture.github.io/soils/).
+
+![](flyer.jpeg)
+
+### Slides
+
+<object class="slides" data="https://drive.google.com/file/d/1hGAoo8YWUYRmfx8d1p29iEcD5mxR5Duj/preview"><p>Oops! Your browser doesn't seem to support embedded PDFs.</p><p><a href="2021_AWRA_CDM_Mixture_RA_JR.pdf">Try downloading instead.</a></p></object>
+
+### Recording
+
+{{< video https://youtu.be/_8m7fTjSEOk?si=C0y4OBDVLgz3pl_K >}}

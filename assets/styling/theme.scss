@@ -298,6 +298,18 @@ div.cookie-consent-footer {
 
 // listing buttons
 
+div.quarto-post .listing-categories .listing-category {
+  text-transform: lowercase;
+}
+
+.quarto-title .quarto-categories .quarto-category {
+  text-transform: lowercase;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+  text-transform: lowercase;
+}
+
 div.quarto-post .listing-categories .listing-category, .quarto-category, .btn {
   opacity: 0.8 !important;
   color: $secondary;
@@ -305,6 +317,7 @@ div.quarto-post .listing-categories .listing-category, .quarto-category, .btn {
   text-align: center;
   border-style: solid;
   text-decoration: none;
+  text-transform: lowercase;
   transition-delay: 0s;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;

@@ -1,0 +1,22 @@
+---
+title: "Automate file management in R with the {fs} package"
+description: "A guest post on R for the Rest of Us's blog about automating file management with the {fs} package."
+date: "2025-01-09"
+image: featured.webp
+image-alt: My three cats with the {fs} R package logo
+categories:
+  - fs
+  - File management
+toc: false
+citation: false
+---
+
+**
+Read the post on the [R for the Rest of Us
+blog](https://rfortherestofus.com/2025/01/fs-file-management/)!**
+
+[![](screenshot.webp)](https://rfortherestofus.com/2025/01/fs-file-management/){fig-alt="Screenshot of the 'Use functions to easily repeat this process' section of the blog post."}
+
+### Accompanying video tutorial
+
+{{< video https://youtu.be/aeIuenml0Ic >}}

@@ -11,9 +11,9 @@ citation: false
 comments:
     giscus:
       repo: jadeynryan/jadey-website-giscus
-      repo-id: R_kgDOKisUNQ
+      repo-id: "${GISCUS_REPO_ID}"
       category: Announcements
-      category-id: DIC_kwDOKisUNc4CaSRD
+      category-id: "${GISCUS_CATEGORY_ID}"
       mapping: pathname
       reactions-enabled: true
       loading: lazy

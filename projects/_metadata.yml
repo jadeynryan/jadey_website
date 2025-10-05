@@ -8,12 +8,13 @@ execute:
 
 citation: false
 
+# giscus comments https://giscus.app/
 comments:
     giscus:
       repo: jadeynryan/jadey-website-giscus
-      repo-id: "${GISCUS_REPO_ID}"
+      repo-id: "process.env.GISCUS_REPO_ID"
       category: Announcements
-      category-id: "${GISCUS_CATEGORY_ID}"
+      category-id: "process.env.GISCUS_CATEGORY_ID"
       mapping: pathname
       reactions-enabled: true
       loading: lazy

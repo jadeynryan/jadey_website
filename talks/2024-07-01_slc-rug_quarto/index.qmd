@@ -1,0 +1,40 @@
+---
+title: "Reproducible Reports and Presentations with Quarto: SLC RUG"
+description: "1-hour talk on reproducible reports & presentations with Quarto"
+author: 
+  - name: Jadey Ryan
+date: "2024-07-01"
+image: featured.webp
+image-alt: "Slide from Reproducible Reports and Presentations with Quarto: SLC RUG showing a flow diagram of using Quarto to update reports and presentations after a data update"
+categories:
+  - R
+  - Quarto
+  - parameterized reports
+---
+
+<span class="listing-btn-group">
+<a href="https://jadeyryan.quarto.pub/slc-rug-quarto/#/title-slide" class="btn" role="button">{{< fa display >}} Slides</a> 
+<a href="https://github.com/jadeynryan/slc-rug-quarto" class="btn" role="button">{{< fa brands github >}} Code</a>
+<a href="https://www.youtube.com/watch?v=EfxafXKlEQI" class="btn" role="button">{{< fa play-circle >}} Video</a>
+</span>
+
+### Details
+
+👥 [Salt Lake City R Users Group](https://www.meetup.com/slc-rug/)  
+📆 July 01, 2024 // 12:00 pm - 1:00 pm ET  
+🏨 Virtual  
+🆓 **FREE** with [registration](https://www.meetup.com/slc-rug/events/300325216/)  
+
+### Description
+
+We all have analyzed data and created visualizations for a report the time-consuming and error-prone way. Likely we’ve also had to present that content with a slide deck. After all that painstaking labor and formatting, have you ever had to re-create the report and slides after an update to the data? Or maybe, you've had to generate variations of these materials for different audiences or subsets of the data?
+
+Use Quarto to improve your efficiency, reproducibility, and sanity by streamlining the process of generating reports and slides. Learn how to reuse content and code, use parameters for different variations, and consistently style your publications.
+
+### Slides
+
+<iframe class="slides" src="https://jadeyryan.quarto.pub/slc-rug-quarto/#/title-slide"></iframe>
+
+### Recording
+
+{{< video https://www.youtube.com/watch?v=EfxafXKlEQI >}}

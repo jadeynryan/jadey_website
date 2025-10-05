@@ -1,0 +1,36 @@
+---
+title: "Dirt Data Reports"
+description: "A Shiny app to generate customized soil health reports for your soil sampling project."
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+  - name: Tanya Shapiro
+    affiliation: IndieVisual LLC
+  - name: Molly McIlquham
+    affiliation: WSU  
+  - name: Leslie M Michel
+    affiliation: WSDA
+  - name: Teal S Potter
+    affiliation: WSU
+  - name: Deirdre Griffin LaHue
+    affiliation: WSU
+  - name: Dani Gelardi
+    affiliation: WSDA
+date: "2025-09-01"
+image: "https://github.com/WA-Department-of-Agriculture/dirt-data-reports/blob/main/images/dirt-data-reports.png?raw=true"
+image-alt: "Dirt Data Reports landing page"
+categories:
+  - R package
+  - Shiny app
+  - Quarto
+---
+
+<span class="listing-btn-group">
+<a href="https://wsda.shinyapps.io/dirt-data-reports/" class="btn" role="button">{{< fa laptop >}} App</a> 
+<a href="https://github.com/WA-Department-of-Agriculture/dirt-data-reports" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+**Dirt Data Reports** is a web-based tool that makes it easy for anyone to upload their soil sampling data, enter project-specific information, and generate customized, research-based soil health reports to make farmers’ soil health data accessible and actionable. 
+
+![](https://github.com/WA-Department-of-Agriculture/dirt-data-reports/blob/main/images/dirt-data-reports.png?raw=true){.img-center fig-alt="Dirt Data Reports landing page"}
+

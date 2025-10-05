@@ -1,0 +1,16 @@
+---
+title: "Automating Quarto reports with parameters"
+description: "A guest post on Posit's blog about automating reports using Quarto and parameters."
+date: "2024-08-20"
+image: featured.webp
+image-alt: Diagram of 7 Steps to Automate Reports
+categories:
+  - Quarto
+  - Parameterized reports
+citation: false
+---
+
+**Read the post on the [Posit
+blog](https://posit.co/blog/parameterized-quarto/)!**
+
+[![](parameters-quarto.webp)](https://posit.co/blog/parameterized-quarto/)

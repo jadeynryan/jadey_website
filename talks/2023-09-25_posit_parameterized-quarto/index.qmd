@@ -35,9 +35,9 @@ categories:
 
 ### Details
 
-📆 September 25, 2023 // 5:30 pm - 5:40 pm CDT 
+👥 [posit::conf(2023)](https://posit.co/conference/)  
+📆 September 25, 2023 // 5:30 pm - 5:40 pm CDT  
 🏨 Chicago, IL  
-🌠 [posit::conf(2023)](https://posit.co/conference/)
 
 ### Abstract
 

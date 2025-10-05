@@ -17,6 +17,8 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/jadey-ryan/
+    - text: "{{< iconify simple-icons bluesky >}} Bluesky"
+      href: https://bsky.app/profile/jadeynryan.bsky.social
     - icon: mastodon
       text: Mastodon
       href: https://fosstodon.org/@jadeynryan

@@ -1,5 +1,5 @@
 ---
-title: "orcas"
+title: "{orcas}"
 description: "My first personal project to learn web scraping with {rvest} and mapping with {leaflet}"
 author: Jadey Ryan
 date: "2023-04-20"

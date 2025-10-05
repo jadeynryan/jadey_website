@@ -1,0 +1,21 @@
+---
+title: "Create your own custom {ggplot2} theme"
+description: "A guest post on R for the Rest of Us's blog about creating a custom {ggplot2} theme function."
+date: "2025-04-03"
+image: featured.webp
+image-alt: Marked up screenshot of a New York Times plot that was inspiration for the custom theme 
+categories:
+  - ggplot2
+  - Data visualization
+toc: false
+citation: false
+---
+
+**Read the post on the [R for the Rest of Us
+blog](https://rfortherestofus.com/2025/04/ggplot2-theme/)!**
+
+[![](screenshot.webp)](https://rfortherestofus.com/2025/04/ggplot2-theme/){fig-alt="Screenshot of the blog post section 'Wrap it in a function' with some of the example code showing."}
+
+### Accompanying video tutorial
+
+{{< video https://youtu.be/I9DEq4zDCb4 >}}

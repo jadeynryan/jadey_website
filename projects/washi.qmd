@@ -1,5 +1,5 @@
 ---
-title: "washi"
+title: "{washi}"
 description: "Palette and themes for Washington Soil Health Initiative branding"
 author: 
   - name: Jadey Ryan

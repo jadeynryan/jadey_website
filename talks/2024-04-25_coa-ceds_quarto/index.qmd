@@ -1,0 +1,43 @@
+---
+title: "Reproducible Reporting with Quarto"
+description: "3-hour code-along workshop introducing Quarto & parameterized reports"
+author: 
+  - name: Jadey Ryan
+date: "2024-04-25"
+image: featured.webp
+image-alt: "Poster for Reproducible Reporting with Quarto, presented by Jadey Ryan and hosted by the College of the Atlantic"
+categories:
+  - R
+  - Quarto
+  - parameterized reports
+  - workshop
+---
+
+<span class="listing-btn-group">
+<a href="https://jadeyryan.quarto.pub/ceds-quarto-workshop/" class="btn" role="button">{{< fa globe >}} Course website</a> 
+<a href="https://jadeyryan.quarto.pub/ceds-quarto-workshop/slides/slides.html#/title-slide" class="btn" role="button">{{< fa display >}} Slides</a> 
+<a href="https://github.com/jadeynryan/parameterized-quarto-workshop/tree/coa-ceds" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+### Details
+
+👥 [Community Engaged Data Science Course at the College of the Atlantic](https://coa-community-data-science.netlify.app/) and [Maine R Users Group](https://www.meetup.com/maine-r-users-group)     
+📆 April 25, 2024 // 1:00 pm - 4:00 pm ET\
+🏫 Hybrid // College of the Atlantic\
+🆓 **FREE** with
+[registration](https://www.meetup.com/maine-r-users-group/events/300459430/)\
+
+### Description
+
+Join this interactive workshop to learn what Quarto is and its impact on
+data communication and sharing. In this session, we will 1) explore how
+Quarto seamlessly integrates code and text to create reproducible
+reports and presentations; 2) dive into real-world applications at the
+Washington State Department of Agriculture; and 3) learn and practice
+Quarto functionality through demonstrations and hands-on exercises
+covering static and dynamic output formats, markdown syntax, code chunk
+options, output theming, and parameters for document variations.
+
+### Slides
+
+<iframe class="slides" src="https://jadeyryan.quarto.pub/ceds-quarto-workshop/slides/slides.html#/title-slide"></iframe>

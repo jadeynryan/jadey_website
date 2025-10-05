@@ -22,11 +22,10 @@ categories:
 
 ### Details
 
+👥 [R-Ladies Washington D.C.](https://www.meetup.com/rladies-dc/)  
 📆 January 18, 2024 // 6:30 pm - 8:30 pm EDT  
 🏨 Virtual  
 🆓 **FREE** with [registration](https://www.meetup.com/rladies-dc/events/297344107/)  
-🏡 [Workshop website](https://jadeyryan.quarto.pub/rladies-dc-quarto-params/)  
-🔖 [Source tag](https://github.com/jadeynryan/parameterized-quarto-workshop/releases/tag/rladies-dc-workshop)
 
 ### Abstract
 

@@ -10,13 +10,13 @@ categories:
   - water quality
 ---
 
-<a href="2021_SETAC_CDM_MixtureRA.pdf" class="btn" role="button" target="_blank">{{< fa display >}} Slides<a>
+<a href="2021_SETAC_CDM_MixtureRA.pdf" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Slides<a>
 
 ### Details
 
+👥 [Society of Environmental Toxicology and Chemistry (SETAC)](https://www.setac.org/) North America 42nd Annual Meeting   
 📆 November 14, 2021 // 12-minute recording  
 🏨 Virtual  
-🌠 [Society of Environmental Toxicology and Chemistry (SETAC)](https://www.setac.org/) North America 42nd Annual Meeting
 
 ### Abstract
 

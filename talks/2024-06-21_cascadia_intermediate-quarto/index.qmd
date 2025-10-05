@@ -1,0 +1,47 @@
+---
+title: "Intermediate Quarto: Parameterized Reports: Cascadia R Conf Workshop"
+description: "2.5-hour code-along workshop on parameterizing reports and other more intermediate features of Quarto"
+author: 
+  - name: Jadey Ryan
+date: "2024-06-21"
+image: featured.webp
+image-alt: "Welcome slide for Intermediate Quarto: Parameterized Reports: Cascadia R Conf Workshop"
+categories:
+  - R
+  - Quarto
+  - parameterized reports
+  - workshop
+---
+
+<span class="listing-btn-group">
+<a href="https://jadeyryan.quarto.pub/cascadia-quarto/" class="btn" role="button">{{< fa globe >}} Course website</a> 
+<a href="https://github.com/jadeynryan/parameterized-quarto-workshop/tree/cascadia" class="btn" role="button">{{< fa brands github >}} Code</a>
+</span>
+
+### Details
+
+👥 [Cascadia R Conf](https://cascadiarconf.com/)\
+📆 June 21, 2024 // 1:30 pm - 4:30 pm PT\
+🏫 University of Washington, South Lake Union, Building C\
+🧾 [EventBrite
+registration](https://www.eventbrite.com/e/cascadia-r-conf-2024-tickets-851137203287)\
+
+
+### Description
+
+Charlotte Wickham's [Intro to Quarto workshop](https://charlotte.quarto.pub/cascadia/)
+takes you through the basics of authoring a reproducible report using
+Quarto. This workshop builds on those concepts and teaches you how to
+level up your reproducible reports by using parameters, conditional
+content, conditional code execution, and custom styling sheets for HTML
+and Microsoft Word formats. Additionally, you will learn how to render
+all variations of a parameterized report at once using `quarto` and
+`purrr`.
+
+### Slides
+
+::: {.callout-note}
+There are 6 sets of slides for this workshop. Please see the [workshop website](https://jadeyryan.quarto.pub/cascadia-quarto) for all slides.
+:::
+
+<iframe class="slides" src="https://jadeyryan.quarto.pub/cascadia-quarto/1-welcome/1-welcome.html#/title-slide"></iframe>

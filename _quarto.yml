@@ -29,7 +29,7 @@ website:
     # image-alt: "Cat with tail shaped as the letter J next to last name initial R"
   page-navigation: true
   google-analytics:
-    tracking-id: {{ GOOGLE_ANALYTICS_ID }}
+    tracking-id: "G-LEVV3VZT0E"
     anonymize-ip: true
   cookie-consent:
     type: express

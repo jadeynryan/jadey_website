@@ -1,0 +1,38 @@
+---
+title: "Efficient File Management in R with {fs}"
+description: "1.5-hour talk on using the {fs} R package to efficiently manage files and directories"
+author: 
+  - name: Jadey Ryan
+date: "2025-10-29"
+image: featured.webp
+image-alt: "Title slide of presentation Efficient File Management in R with {fs} with Jadey's cat with witch hat joined by heart with fs package hex logo"
+categories:
+  - R
+  - fs
+  - File management
+---
+
+<span class="listing-btn-group">
+<a href="https://jadeyryan.quarto.pub/fs-rladies-sl/#/title-slide" class="btn" role="button">{{< fa display >}} Slides</a> 
+<a href="https://github.com/jadeynryan/fs-rladies-sl" class="btn" role="button">{{< fa brands github >}} Code</a>
+<!-- <a href="https://www.youtube.com/watch?v=EfxafXKlEQI" class="btn" role="button">{{< fa play-circle >}} Video</a> -->
+</span>
+
+### Details
+
+👥 [R-Ladies St. Louis](https://www.meetup.com/rladies-st-louis/events/310963868/attendees/)  
+📆 October 29, 2025 // 6:00 pm - 7:30 pm CT  
+🏨 Virtual  
+🆓 **FREE** with [registration](https://www.meetup.com/rladies-st-louis/events/310963868/)  
+
+### Description
+
+Join us for a hands-on workshop using the {fs} package to easily bring order to messy file systems. Through practical examples, you’ll learn to automate common tasks like creating, renaming, moving, and deleting files and directories. Together, we’ll transform a cluttered folder filled with mixed-case filenames and inconsistent delimiters into a clean, organized structure. By the end, you’ll have practical, reusable tools to streamline file management in your own projects.
+
+<!-- ### Slides -->
+
+<!-- <iframe class="slides" src="https://jadeyryan.quarto.pub/fs-rladies-sl/#/title-slide"></iframe> -->
+
+<!-- ### Recording -->
+
+<!-- {{< video https://www.youtube.com/watch?v=EfxafXKlEQI >}} -->

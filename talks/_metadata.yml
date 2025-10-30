@@ -8,6 +8,8 @@ execute:
 
 citation: true
 
+published-title: "Presented"
+
 # giscus comments https://giscus.app/
 comments:
     giscus:

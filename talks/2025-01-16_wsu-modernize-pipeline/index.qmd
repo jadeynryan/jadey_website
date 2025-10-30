@@ -1,0 +1,37 @@
+---
+title: "Modernizing data pipelines for accessible and actionable insights"
+description: "How the Washington Soil Initiative has modernized the data pipeline with R and ArcGIS"
+author: 
+  - name: Jadey Ryan
+    affiliation: WSDA
+date: "2025-01-16"
+image: featured.webp
+image-alt: "Title slide that reads: Modernizing data pipelines for accessible and actionable insights Jadey Ryan, Data Scientist, WSDA. WSU NWREC Lunch & Learn. January 16, 2025. Logos of Washington State Department of Agriculture, Washington State University and Washington Soil Health Initiative"
+slug: "2025-wsu-modernize-pipeline"
+categories:
+  - R
+  - ArcGIS
+---
+
+<span class="listing-btn-group">
+<a href="2025_wsu-modernize-data-pipelines-jadey-ryan.pdf" class="btn" role="button" target="_blank">{{< fa file-pdf >}} Slides</a> 
+<a href="https://youtu.be/Fr5LnzZ7hIw?si=w8dIQ_q9NkcGIWSd" class="btn" role="button">{{< fa play-circle >}} Recording</a>
+</span>
+
+### Details
+
+👥 [Northwestern Washington Research and Extension Center Mount Vernon, Washington State University](https://mtvernon.wsu.edu/)
+📆 January 16, 2025 // 12:00 pm - 1:00 pm PT  
+🏨 Virtual  
+
+### Abstract
+
+Modern technology is revolutionizing how soils data are collected, managed, and presented. Jadey will share how she uses R and ArcGIS to build efficient workflows that prioritize data quality and privacy. From sample collection to data management and the development of decision-support tools, these technologies enable reproducible analyses and interactive reports, making complex soils data accessible and actionable for farmers and landowners.
+
+### Slides
+
+<object class="slides" data="https://drive.google.com/file/d/1390dY0z92cIiTosHsRnGASuzNU29xeYy/preview"><p>Oops! Your browser doesn't seem to support embedded PDFs.</p><p><a href="2025_wsu-modernize-data-pipelines-jadey-ryan.pdf">Try downloading instead.</a></p></object>
+
+### Recording
+
+{{< video https://youtu.be/Fr5LnzZ7hIw?si=w8dIQ_q9NkcGIWSd >}}

@@ -15,7 +15,7 @@ categories:
 <span class="listing-btn-group">
 <a href="https://jadeyryan.quarto.pub/fs-rladies-sl/#/title-slide" class="btn" role="button">{{< fa display >}} Slides</a> 
 <a href="https://github.com/jadeynryan/fs-rladies-sl" class="btn" role="button">{{< fa brands github >}} Code</a>
-<!-- <a href="https://www.youtube.com/watch?v=EfxafXKlEQI" class="btn" role="button">{{< fa play-circle >}} Video</a> -->
+<a href="https://youtu.be/X4i-yOBtn1s?si=H2RDVRsN0ZfthZ5v" class="btn" role="button">{{< fa play-circle >}} Video</a>
 </span>
 
 ### Details
@@ -29,10 +29,10 @@ categories:
 
 Join us for a hands-on workshop using the {fs} package to easily bring order to messy file systems. Through practical examples, you’ll learn to automate common tasks like creating, renaming, moving, and deleting files and directories. Together, we’ll transform a cluttered folder filled with mixed-case filenames and inconsistent delimiters into a clean, organized structure. By the end, you’ll have practical, reusable tools to streamline file management in your own projects.
 
-<!-- ### Slides -->
+### Slides
 
-<!-- <iframe class="slides" src="https://jadeyryan.quarto.pub/fs-rladies-sl/#/title-slide"></iframe> -->
+<iframe class="slides" src="https://jadeyryan.quarto.pub/fs-rladies-sl/#/title-slide"></iframe>
 
-<!-- ### Recording -->
+### Recording
 
-<!-- {{< video https://www.youtube.com/watch?v=EfxafXKlEQI >}} -->
+{{< video https://youtu.be/X4i-yOBtn1s?si=H2RDVRsN0ZfthZ5v >}}
